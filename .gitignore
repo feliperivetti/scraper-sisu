@@ -18,3 +18,6 @@ env/
 
 # Abre uma exceção para o arquivo de mapeamento de cursos
 !data/cursos.json
+
+# Abre uma exceção para o arquivo de requisitos
+!requirements.txt
