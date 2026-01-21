@@ -1,0 +1,37 @@
+name: SISU Daily Sync
+
+on:
+  schedule:
+    # Roda todos os dias às 03:30 da manhã (Horário de Brasília)
+    - cron: '30 6 * * *'
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      - name: Run sync script
+        run: python src/cron_sync.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # MUDANÇA AQUI: Adiciona a pasta data inteira e suas subpastas
+          git add data/
+          git commit -m "Auto-sync: Atualização diária das notas de corte [skip ci]" || echo "Nenhuma mudança para salvar"
+          git push
