@@ -1,0 +1,20 @@
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+
+# Ambiente Virtual
+venv/
+.venv/
+env/
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# --- RELATÓRIOS E TEMPORÁRIOS ---
+# Ignora relatórios que possam ser gerados na raiz ou em src
+*.txt
+*.json
+
+# Abre uma exceção para o arquivo de mapeamento de cursos
+!data/cursos.json
