@@ -31,6 +31,7 @@ def render_sidebar():
     ja_atualizado = False
     
     if os.path.exists(csv_path):
+        # Lê apenas o header para verificar se a coluna do dia já existe
         df_check = pd.read_csv(csv_path, nrows=0)
         if coluna_hoje in df_check.columns:
             ja_atualizado = True
@@ -43,7 +44,7 @@ def render_sidebar():
     else:
         recarregar = True
 
-    if st.sidebar.button("🔄 Sincronizar com MEC", use_container_width=True):
+    if st.sidebar.button("🔄 Sincronizar com MEC", width='stretch'):
         if ja_atualizado and not recarregar:
             st.sidebar.info("Os dados já estão atualizados.")
         else:
@@ -69,28 +70,54 @@ def main():
         ufs = st.multiselect("Filtrar por UF", sorted(df['uf'].unique()))
         df_view = df[df['uf'].isin(ufs)] if ufs else df
         
-        st.dataframe(df_view, use_container_width=True)
+        # Exibição da tabela com destaque para as notas
+        st.dataframe(df_view, width='stretch')
 
-        # Gráfico Plotly
+        # Gráfico Plotly Profissional
         if cols_nota:
             st.divider()
-            st.subheader("📈 Evolução das 5 Menores Notas")
+            st.subheader("📈 Evolução das 5 Menores Notas de Corte")
+            st.caption("Nota: Identificadores combinam Instituição e Cidade para diferenciar campi.")
+
+            # 1. Seleciona as 5 menores faculdades (baseado no último dia de nota)
+            # Usamos .copy() para evitar o SettingWithCopyWarning ao criar a nova coluna
+            top_df = df_view.nsmallest(5, cols_nota[-1]).copy()
             
-            # Seleciona top 5 menores (baseado no último dia)
-            top_df = df_view.nsmallest(5, cols_nota[-1])
-            df_plot = top_df.melt(id_vars=['universidade'], value_vars=cols_nota, var_name='Data', value_name='Nota')
+            # 2. CORREÇÃO: Cria identificador único para evitar bug com IES iguais em cidades diferentes
+            top_df['Campus'] = top_df['universidade'] + " (" + top_df['cidade'] + ")"
+            
+            # 3. Transforma os dados para o formato 'long' exigido pelo Plotly
+            df_plot = top_df.melt(
+                id_vars=['Campus'], 
+                value_vars=cols_nota, 
+                var_name='Data', 
+                value_name='Nota'
+            )
+            
+            # Formata a legenda da data para ficar mais limpa (nota_21_01 -> 21/01)
             df_plot['Data'] = df_plot['Data'].str.replace('nota_', '').str.replace('_', '/')
 
-            fig = px.line(df_plot, x='Data', y='Nota', color='universidade', markers=True)
+            # 4. Gera o gráfico de linha
+            fig = px.line(
+                df_plot, 
+                x='Data', 
+                y='Nota', 
+                color='Campus', # Diferencia UEMG (Passos) de UEMG (Ituiutaba)
+                markers=True,
+                labels={"Nota": "Nota de Corte", "Data": "Dia da Consulta"},
+                template="plotly_white"
+            )
             
-            # Ajuste do Eixo Y para o intervalo 650-850 ou conforme os dados
-            min_val = df_plot['Nota'].min()
-            max_val = df_plot['Nota'].max()
-            fig.update_layout(yaxis=dict(range=[min_val - 10, max_val + 10]))
+            # 5. AJUSTE DO EIXO Y: Foca no intervalo real (650 a 850) em vez de começar do zero
+            notas_validas = df_plot['Nota'].dropna()
+            if not notas_validas.empty:
+                min_y = float(notas_validas.min()) - 5
+                max_y = float(notas_validas.max()) + 5
+                fig.update_layout(yaxis=dict(range=[min_y, max_y]))
             
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
     else:
-        st.info("Nenhum dado local encontrado. Selecione um curso e clique em 'Sincronizar'.")
+        st.info("Nenhum dado local encontrado na pasta '/data'. Selecione um curso e clique em 'Sincronizar'.")
 
 if __name__ == "__main__":
     main()
