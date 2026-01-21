@@ -29,20 +29,32 @@ def run_batch_sync():
         try:
             print(f"⏳ Sincronizando curso ID: {course_id}...")
             
-            # The controller handles logic, we only pass the UI update callback
-            controller.process_all(
-                course_id, 
-                lambda p: print(f"Progresso: {p*100:.1f}%", end="\r")
-            )
+            # State variable to track 10% increments
+            last_milestone = -1
+
+            def progress_logger(p):
+                """Callback to log progress at every 10% milestone."""
+                nonlocal last_milestone
+                # Convert 0.0-1.0 to 0-10 scale
+                current_step = int(p * 10)
+                
+                # Only print if we moved to a new 10% bracket
+                if current_step > last_milestone:
+                    percentage = current_step * 10
+                    print(f"  > Progresso curso {course_id}: {percentage}%", flush=True)
+                    last_milestone = current_step
+
+            # Execute processing with the discrete logger
+            controller.process_all(course_id, progress_logger)
             
-            print(f"\n✅ Curso {course_id} finalizado com sucesso.")
+            print(f"✅ Curso {course_id} finalizado com sucesso.")
             
-            # Safety sleep to respect MEC's API limits and avoid IP flagging
-            time.sleep(5) 
+            # Safety sleep to respect MEC's API limits
+            time.sleep(1.5) 
             
         except Exception as e:
             print(f"\n❌ Erro crítico ao sincronizar curso {course_id}: {e}")
-            continue # Continue to the next course even if one fails
+            continue 
 
     print("-" * 50)
     print("🏁 Sincronização em lote concluída!")

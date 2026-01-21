@@ -40,7 +40,7 @@ def render_sidebar(repository: SisuRepository):
     st.sidebar.divider()
     
     # Botão de sincronização
-    if st.sidebar.button("🔄 Sincronizar com MEC", use_container_width=True):
+    if st.sidebar.button("🔄 Sincronizar com MEC", width='stretch'):
         if is_updated and not st.sidebar.checkbox("Forçar atualização?", value=False):
             st.sidebar.info("Dados já atualizados hoje.")
         else:
@@ -72,7 +72,7 @@ def main():
         else:
             df_view = df
         
-        st.dataframe(df_view, use_container_width=True)
+        st.dataframe(df_view, width='stretch')
 
         # Gráfico de Evolução (Focado nas 5 menores notas)
         if score_cols:
@@ -108,7 +108,7 @@ def main():
             if not scores.empty:
                 fig.update_layout(yaxis=dict(range=[scores.min() - 5, scores.max() + 5]))
             
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
     else:
         st.info("Nenhum histórico encontrado para este curso em 'data/history/'. Clique em 'Sincronizar'.")
 
