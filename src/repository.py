@@ -2,6 +2,7 @@ import json
 import csv
 import os
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from typing import List, Dict
 from models import SisuVacancy
 
@@ -9,10 +10,13 @@ from models import SisuVacancy
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DATA_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "data"))
 
-# Subdirectory definitions for organization (exported for use in cron_sync/app.py)
+# Subdirectory definitions for organization
 MAPPINGS_DIR = os.path.join(ROOT_DATA_DIR, "mappings")
 HISTORY_DIR = os.path.join(ROOT_DATA_DIR, "history")
 REPORTS_DIR = os.path.join(ROOT_DATA_DIR, "reports")
+
+# Brazil Timezone for consistent scheduling and logging
+BR_TZ = ZoneInfo("America/Sao_Paulo")
 
 class SisuRepository:
     def __init__(self):
@@ -40,12 +44,13 @@ class SisuRepository:
             return {}
 
     def save_txt_report(self, vacancies: List[SisuVacancy], course_id: str):
-        """Generates a formatted TXT report for quick consultation in the reports folder."""
+        """Generates a formatted TXT report using Brazil Timezone."""
         file_path = os.path.join(REPORTS_DIR, f"report_course_{course_id}.txt")
+        now_br = datetime.now(BR_TZ)
         
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(f"📊 SISU REPORT - COURSE ID {course_id}\n")
-            f.write(f"Sync Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"Sync Date: {now_br.strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write("-" * 65 + "\n")
             f.write(f"{'UNI':<10} | {'CITY':<30} | {'UF':<3} | {'SCORE'}\n")
             f.write("-" * 65 + "\n")
@@ -58,11 +63,11 @@ class SisuRepository:
 
     def save_daily_csv(self, vacancies: List[SisuVacancy], course_id: str):
         """
-        Manages incremental historical data in CSV format within the history folder.
-        Appends new daily columns without overwriting previous data.
+        Manages incremental historical data in CSV format.
+        Uses Brazil Timezone to define the daily column name to prevent timezone offsets.
         """
         file_path = os.path.join(HISTORY_DIR, f"historico_sisu_curso_{course_id}.csv")
-        today_column = f"nota_{datetime.now().strftime('%d_%m')}"
+        today_column = f"nota_{datetime.now(BR_TZ).strftime('%d_%m')}"
         
         history = {}
         headers = ["co_oferta", "curso", "universidade", "cidade", "uf"]
@@ -75,7 +80,7 @@ class SisuRepository:
                 for row in reader:
                     history[row['co_oferta']] = row
 
-        # 2. Add today's column if it's a new date
+        # 2. Add today's column if it's a new date (based on BR time)
         if today_column not in headers:
             headers.append(today_column)
 
