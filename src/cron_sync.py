@@ -1,12 +1,14 @@
 import time
-from repository import SisuRepository
+import os
+import csv
+from repository import SisuRepository, HISTORY_DIR
 from providers.official_api import OfficialApiProvider
 from controller import SisuController
 
 def run_batch_sync():
     """
-    Automates the synchronization of the top 17 SISU courses 
-    to build a robust historical dataset.
+    Automates the synchronization of the top 17 SISU courses.
+    Includes a check to skip courses already updated today.
     """
     # Mapping of the most relevant Course IDs (co_curso)
     top_courses_ids = [
@@ -21,35 +23,48 @@ def run_batch_sync():
     provider = OfficialApiProvider()
     controller = SisuController(provider, repository)
     
+    # Calculate today's column name to check for existing data
+    today_column = f"nota_{time.strftime('%d_%m')}"
+    
     print(f"🚀 Iniciando sincronização em lote de {len(top_courses_ids)} cursos...")
     print(f"📅 Data/Hora: {time.strftime('%d/%m/%Y %H:%M:%S')}")
+    print(f"🔍 Coluna do dia: {today_column}")
     print("-" * 50)
     
     for course_id in top_courses_ids:
         try:
+            # 1. Pre-sync check: skip if data for today already exists
+            file_path = os.path.join(HISTORY_DIR, f"historico_sisu_curso_{course_id}.csv")
+            
+            if os.path.exists(file_path):
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    reader = csv.reader(f)
+                    header = next(reader, [])
+                    if today_column in header:
+                        print(f"⏭️ Curso {course_id} já atualizado hoje. Pulando...")
+                        continue
+
             print(f"⏳ Sincronizando curso ID: {course_id}...")
             
-            # State variable to track 10% increments
+            # 2. Setup the discrete logger (prints every 10%)
             last_milestone = -1
 
             def progress_logger(p):
                 """Callback to log progress at every 10% milestone."""
                 nonlocal last_milestone
-                # Convert 0.0-1.0 to 0-10 scale
                 current_step = int(p * 10)
                 
-                # Only print if we moved to a new 10% bracket
                 if current_step > last_milestone:
                     percentage = current_step * 10
                     print(f"  > Progresso curso {course_id}: {percentage}%", flush=True)
                     last_milestone = current_step
 
-            # Execute processing with the discrete logger
+            # 3. Execute parallel processing via Controller
             controller.process_all(course_id, progress_logger)
             
             print(f"✅ Curso {course_id} finalizado com sucesso.")
             
-            # Safety sleep to respect MEC's API limits
+            # Short sleep between courses to let the session rest
             time.sleep(1.5) 
             
         except Exception as e:
