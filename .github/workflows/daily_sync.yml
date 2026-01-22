@@ -2,8 +2,8 @@ name: SISU Daily Sync
 
 on:
   schedule:
-    # Roda todos os dias às 04:30 da manhã (Horário de Brasília)
-    - cron: '30 7 * * *'
+    # Roda todos os dias às 05:30 da manhã (Horário de Brasília)
+    - cron: '30 8 * * *'
   workflow_dispatch: 
 
 jobs:
