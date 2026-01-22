@@ -39,6 +39,23 @@ class SisuRepository:
             print(f"Erro ao carregar mapeamento de cursos: {e}")
             return {}
 
+    def save_txt_report(self, vacancies: List[SisuVacancy], co_curso: str):
+        """Gera um relatório formatado em TXT para consulta rápida na pasta reports."""
+        file_path = os.path.join(REPORTS_DIR, f"report_curso_{co_curso}.txt")
+        
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(f"📊 RELATÓRIO SISU - CURSO {co_curso}\n")
+            f.write(f"Sincronizado em: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n")
+            f.write("-" * 65 + "\n")
+            f.write(f"{'IES':<10} | {'CIDADE':<30} | {'UF':<3} | {'NOTA'}\n")
+            f.write("-" * 65 + "\n")
+            
+            for v in vacancies:
+                score = f"{v.nu_nota_corte:.2f}" if v.nu_nota_corte else "N/A"
+                f.write(f"{v.sg_ies:<10} | {v.no_municipio_campus[:30]:<30} | {v.sg_uf_campus:<3} | {score}\n")
+        
+        return file_path
+
     def save_daily_csv(self, vacancies: List[SisuVacancy], co_curso: str):
         """
         Gerencia o histórico incremental em CSV dentro da pasta history.
