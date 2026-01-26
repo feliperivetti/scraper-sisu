@@ -1,116 +1,173 @@
 import streamlit as st
 import pandas as pd
-import os
-from datetime import datetime
 import plotly.express as px
+from repository import SisuRepository
+from providers.fredao_provider import FredaoProvider
 
-# Importamos o HISTORY_DIR que definimos no Repository
-from repository import SisuRepository, HISTORY_DIR
-from providers.official_api import OfficialApiProvider
-from controller import SisuController
+# --- UI CONFIGURATION ---
+st.set_page_config(page_title="SISU Analytics Pro", layout="wide", page_icon="📊")
 
-st.set_page_config(page_title="SISU Analytica Pro", layout="wide", page_icon="📊")
-
-def render_sidebar(repository: SisuRepository):
-    st.sidebar.header("🎯 Configurações")
+def get_unified_data(selected_ids, selected_names_map, repository, provider):
+    """
+    Hybrid data fetcher:
+    1. Fetches priority data from the local SQLite (Top 17 courses).
+    2. Fetches missing courses on-demand from the Specialist API.
+    3. Normalizes strings and deduplicates entries prioritizing verified data.
+    """
+    # 1. Database retrieval
+    df_db = repository.get_history_dataframe(selected_ids)
     
-    # O repository já sabe que o cursos.json está em data/mappings/
-    mapping = repository.load_courses_mapping()
+    if not df_db.empty:
+        # Map IDs to names and normalize strings to prevent row splitting
+        df_db['curso'] = df_db['course_id'].map(selected_names_map)
+        df_db['universidade'] = df_db['universidade'].str.upper().str.strip()
+        df_db['cidade'] = df_db['cidade'].str.upper().str.strip()
     
-    if mapping:
-        names = list(mapping.keys())
-        default_idx = names.index("PSICOLOGIA") if "PSICOLOGIA" in names else 0
-        selected = st.sidebar.selectbox("Selecione o Curso", options=names, index=default_idx)
-        course_id = mapping[selected]
-    else:
-        st.sidebar.warning("Mapeamento de cursos não encontrado em 'data/mappings/'.")
-        course_id = st.sidebar.text_input("ID do Curso", "63")
-
-    # ATUALIZAÇÃO: Agora aponta para a subpasta 'history'
-    csv_path = os.path.join(HISTORY_DIR, f"historico_sisu_curso_{course_id}.csv")
-    today_col = f"nota_{datetime.now().strftime('%d_%m')}"
+    found_ids = df_db['course_id'].unique().tolist() if not df_db.empty else []
+    missing_ids = [str(cid).strip() for cid in selected_ids if str(cid).strip() not in found_ids]
     
-    is_updated = False
-    if os.path.exists(csv_path):
-        # Verifica se a coluna de hoje já existe no CSV de histórico
-        df_check = pd.read_csv(csv_path, nrows=0)
-        if today_col in df_check.columns:
-            is_updated = True
-
-    st.sidebar.divider()
-    
-    # Botão de sincronização
-    if st.sidebar.button("🔄 Sincronizar com MEC", width='stretch'):
-        if is_updated and not st.sidebar.checkbox("Forçar atualização?", value=False):
-            st.sidebar.info("Dados já atualizados hoje.")
-        else:
-            provider = OfficialApiProvider()
-            ctrl = SisuController(provider, repository)
-            bar = st.progress(0)
-            with st.spinner("Buscando dados no MEC..."):
-                ctrl.process_all(course_id, lambda p: bar.progress(p))
-            st.rerun()
+    # 2. Live Fallback for on-demand courses
+    live_results = []
+    if missing_ids:
+        raw_mapping = repository.load_full_mapping()
+        for cid in missing_ids:
+            specialist_id = None
+            course_name = selected_names_map.get(cid, "Desconhecido")
             
-    return course_id, csv_path
+            for letter in raw_mapping:
+                for item in raw_mapping[letter]:
+                    if str(item.get('co_curso')) == cid:
+                        specialist_id = item.get('fredao_id')
+                        break
+            
+            if specialist_id:
+                with st.spinner(f"🛰️ Buscando dados ao vivo para {course_name}..."):
+                    rows = provider.get_full_history_data(specialist_id)
+                    if rows:
+                        for r in rows:
+                            for i in range(1, 5):
+                                day_key, date_str = f"PARCIAL_DIA{i}", f"{19+i}/01"
+                                score = r.get(day_key)
+                                if score:
+                                    live_results.append({
+                                        'curso': course_name.upper().strip(),
+                                        'universidade': str(r.get('SIGLA')).upper().strip(),
+                                        'cidade': str(r.get('MUNICIPIO_CAMPUS')).upper().strip(),
+                                        'uf': str(r.get('SG_UF_CAMPUS')).upper().strip(),
+                                        'date': date_str,
+                                        'score': float(score),
+                                        'fonte': 'LIVE_API',
+                                        'course_id': cid
+                                    })
+    
+    # 3. Combine and Deduplicate (Specialist > MEC)
+    df_live = pd.DataFrame(live_results)
+    final_df = pd.concat([df_db, df_live], ignore_index=True) if not df_db.empty or not df_live.empty else pd.DataFrame()
+    
+    if not final_df.empty:
+        # Final safety normalization for grouping
+        final_df['universidade'] = final_df['universidade'].str.upper().str.strip()
+        final_df['cidade'] = final_df['cidade'].str.upper().str.strip()
+        
+        # Deduplicate prioritizing Specialist data to fix official bugs
+        final_df = final_df.sort_values('fonte', ascending=False)
+        final_df = final_df.drop_duplicates(
+            subset=['course_id', 'universidade', 'cidade', 'date'], 
+            keep='first'
+        )
+    return final_df
 
 def main():
-    st.title("📊 SISU Aggregator & Analytica")
+    # --- HEADER ---
+    st.title("📊 SISU Aggregator & Analytics")
+    st.caption("Estratégia Híbrida: SQLite (Top 17) + API Fredão (Sob Demanda)")
+
+    repo = SisuRepository()
+    fredao = FredaoProvider()
     
-    repository = SisuRepository()
-    course_id, csv_path = render_sidebar(repository)
+    # --- SIDEBAR & SELECTION ---
+    st.sidebar.header("🎯 Configurações")
+    mapping = repo.load_courses_mapping()
+    reverse_mapping = {v: k for k, v in mapping.items()} 
+    
+    selected_names = st.sidebar.multiselect(
+        "Selecione os Cursos", 
+        options=list(mapping.keys()), 
+        default=["PSICOLOGIA"] if "PSICOLOGIA" in mapping else None
+    )
+    selected_ids = [mapping[name] for name in selected_names]
 
-    if os.path.exists(csv_path):
-        df = pd.read_csv(csv_path)
-        score_cols = [c for c in df.columns if c.startswith('nota_')]
-        
-        st.subheader("📋 Tabela de Notas de Corte")
-        
-        # Filtro de UF (Estado)
-        if 'uf' in df.columns:
-            ufs = st.multiselect("Filtrar por UF", sorted(df['uf'].unique()))
-            df_view = df[df['uf'].isin(ufs)] if ufs else df
-        else:
-            df_view = df
-        
-        st.dataframe(df_view, width='stretch')
+    if not selected_ids:
+        st.info("👋 Por favor, selecione um curso na barra lateral para começar.")
+        return
 
-        # Gráfico de Evolução (Focado nas 5 menores notas)
-        if score_cols:
-            st.divider()
-            st.subheader("📈 Evolução das 5 Menores Notas")
-            
-            # Pega as 5 menores faculdades baseadas na última nota coletada
-            top_df = df_view.nsmallest(5, score_cols[-1]).copy()
-            top_df['Campus'] = top_df['universidade'] + " (" + top_df['cidade'] + ")"
-            
-            # Transforma os dados para o formato longo (exigido pelo Plotly)
-            df_plot = top_df.melt(
-                id_vars=['Campus'], value_vars=score_cols, 
-                var_name='Date', value_name='Score'
-            )
-            # Limpa a legenda da data (nota_21_01 -> 21/01)
-            df_plot['Date'] = df_plot['Date'].str.replace('nota_', '').str.replace('_', '/')
+    # Data Retrieval
+    df = get_unified_data(selected_ids, reverse_mapping, repo, fredao)
 
-            # Gráfico com legenda no rodapé para melhor visualização mobile
+    if not df.empty:
+        # Define strict SiSU 2026 dates (Jan 20-23)
+        valid_dates = ['20/01', '21/01', '22/01', '23/01']
+        df = df[df['date'].isin(valid_dates)]
+
+        # --- FILTERS ---
+        st.sidebar.divider()
+        ufs = st.sidebar.multiselect("Filtrar por UF", sorted(df['uf'].unique()))
+        if ufs:
+            df = df[df['uf'].isin(ufs)]
+
+        # --- VIEW 1: COMPARISON TABLE ---
+        st.subheader("📋 Tabela Comparativa de Notas")
+        df_table = df.pivot_table(
+            index=['curso', 'universidade', 'cidade', 'uf'], 
+            columns='date', 
+            values='score'
+        ).reset_index()
+        st.dataframe(df_table.fillna("-"), width='stretch')
+
+        # --- VIEW 2: EVOLUTION CHART ---
+        st.divider()
+        st.subheader("📈 Evolução Temporal")
+
+        # FIX: Include 'cidade' in the composite key to prevent overlapping lines/markers
+        # New pattern: Institution (City) - Course
+        
+        df['Legenda'] = df['universidade'] + " (" + df['cidade'] + ") - " + df['curso']
+        
+        # Determine Top 5 based on latest available score
+        latest_date = df['date'].max()
+        top_entries = df[df['date'] == latest_date].nsmallest(5, 'score')['Legenda'].tolist()
+        
+        # Filter and ensure strict chronological sorting for line drawing
+        df_plot = df[df['Legenda'].isin(top_entries)].sort_values(['Legenda', 'date'])
+
+        if not df_plot.empty:
             fig = px.line(
-                df_plot, x='Date', y='Score', color='Campus', markers=True,
-                labels={"Score": "Nota", "Date": "Dia"},
-                template="plotly_white"
+                df_plot, 
+                x='date', 
+                y='score', 
+                color='Legenda', 
+                hover_data=['fonte'], 
+                markers=True,
+                labels={"score": "Nota de Corte", "date": "Dia", "Legenda": "Opção"},
+                template="plotly_dark"
             )
             
+            # FORCE CATEGORICAL AXIS: Limits the view strictly to Jan 20-23
+            fig.update_xaxes(type='category', categoryorder='array', categoryarray=valid_dates)
+            
+            # Focus the Y-axis range and adjust layout
+            y_min, y_max = df_plot['score'].min() - 10, df_plot['score'].max() + 10
             fig.update_layout(
-                legend=dict(orientation="h", yanchor="bottom", y=-0.5, xanchor="center", x=0.5),
+                yaxis=dict(range=[y_min, y_max]),
+                legend=dict(orientation="h", y=-0.2, xanchor="center", x=0.5, title=None),
                 margin=dict(l=10, r=10, t=40, b=10)
             )
-
-            # Ajuste dinâmico do eixo Y para focar no intervalo das notas
-            scores = pd.to_numeric(df_plot['Score'], errors='coerce').dropna()
-            if not scores.empty:
-                fig.update_layout(yaxis=dict(range=[scores.min() - 5, scores.max() + 5]))
             
             st.plotly_chart(fig, width='stretch')
+        else:
+            st.info("Dados insuficientes para gerar o gráfico de evolução.")
     else:
-        st.info("Nenhum histórico encontrado para este curso em 'data/history/'. Clique em 'Sincronizar'.")
+        st.error("Erro: Nenhum dado encontrado. Verifique se o Backfill foi realizado corretamente.")
 
 if __name__ == "__main__":
     main()

@@ -2,2692 +2,3354 @@
     "A": [
         {
             "co_curso": 4281,
-            "no_curso": "ABI - ARTES C\u00caNICAS"
+            "no_curso": "ABI - ARTES CÊNICAS",
+            "fredao_id": "ABI - ARTES CÊNICAS"
         },
         {
             "co_curso": 4340,
-            "no_curso": "ABI - ARTES VISUAIS"
+            "no_curso": "ABI - ARTES VISUAIS",
+            "fredao_id": "ABI - ARTES VISUAIS"
         },
         {
             "co_curso": 4284,
-            "no_curso": "ABI - CI\u00caNCIAS BIOL\u00d3GICAS"
+            "no_curso": "ABI - CIÊNCIAS BIOLÓGICAS",
+            "fredao_id": "ABI - CIÊNCIAS BIOLÓGICAS"
         },
         {
             "co_curso": 5853,
-            "no_curso": "ABI - CI\u00caNCIAS DA NATUREZA E MATEM\u00c1TICA"
+            "no_curso": "ABI - CIÊNCIAS DA NATUREZA E MATEMÁTICA",
+            "fredao_id": "ABI - CIÊNCIAS DA NATUREZA E MATEMÁTICA"
         },
         {
             "co_curso": 5538,
-            "no_curso": "ABI - CI\u00caNCIAS DA NATUREZA: CI\u00caNCIAS E BIOLOGIA, CI\u00caNCIAS E F\u00cdSICA OU CI\u00caNCIAS E QU\u00cdMICA"
+            "no_curso": "ABI - CIÊNCIAS DA NATUREZA: CIÊNCIAS E BIOLOGIA, CIÊNCIAS E FÍSICA OU CIÊNCIAS E QUÍMICA",
+            "fredao_id": "ABI - CIÊNCIAS DA NATUREZA: CIÊNCIAS E BIOLOGIA, CIÊNCIAS E FÍSICA OU CIÊNCIAS E QUÍMICA"
         },
         {
             "co_curso": 4417,
-            "no_curso": "ABI - CI\u00caNCIAS EXATAS"
+            "no_curso": "ABI - CIÊNCIAS EXATAS",
+            "fredao_id": "ABI - CIÊNCIAS EXATAS"
         },
         {
             "co_curso": 4286,
-            "no_curso": "ABI - CI\u00caNCIAS SOCIAIS"
+            "no_curso": "ABI - CIÊNCIAS SOCIAIS",
+            "fredao_id": "ABI - CIêNCIAS SOCIAIS"
         },
         {
             "co_curso": 4331,
-            "no_curso": "ABI - CI\u00eaNCIAS SOCIAIS"
+            "no_curso": "ABI - CIêNCIAS SOCIAIS",
+            "fredao_id": "ABI - CIêNCIAS SOCIAIS"
         },
         {
             "co_curso": 4287,
-            "no_curso": "ABI - DAN\u00c7A"
+            "no_curso": "ABI - DANÇA",
+            "fredao_id": "ABI - DANÇA"
         },
         {
             "co_curso": 4285,
-            "no_curso": "ABI - EDUCA\u00c7\u00c3O F\u00cdSICA"
+            "no_curso": "ABI - EDUCAÇÃO FÍSICA",
+            "fredao_id": "ABI - EDUCAÇÃO FÍSICA"
         },
         {
             "co_curso": 4289,
-            "no_curso": "ABI - ENFERMAGEM"
+            "no_curso": "ABI - ENFERMAGEM",
+            "fredao_id": "ABI - ENFERMAGEM"
         },
         {
             "co_curso": 4274,
-            "no_curso": "ABI - ENGENHARIA"
+            "no_curso": "ABI - ENGENHARIA",
+            "fredao_id": "ABI - ENGENHARIA"
         },
         {
             "co_curso": 4277,
-            "no_curso": "ABI - FILOSOFIA"
+            "no_curso": "ABI - FILOSOFIA",
+            "fredao_id": "ABI - FILOSOFIA"
         },
         {
             "co_curso": 4278,
-            "no_curso": "ABI - F\u00edSICA"
+            "no_curso": "ABI - FíSICA",
+            "fredao_id": "ABI - FíSICA"
         },
         {
             "co_curso": 4290,
-            "no_curso": "ABI - F\u00cdSICA"
+            "no_curso": "ABI - FÍSICA",
+            "fredao_id": "ABI - FíSICA"
         },
         {
             "co_curso": 5721,
-            "no_curso": "ABI - F\u00cdSICA\/ENGENHARIA F\u00cdSICA"
+            "no_curso": "ABI - FÍSICA/ENGENHARIA FÍSICA",
+            "fredao_id": "ABI - FÍSICA/ENGENHARIA FÍSICA"
         },
         {
             "co_curso": 4288,
-            "no_curso": "ABI - GEOGRAFIA"
+            "no_curso": "ABI - GEOGRAFIA",
+            "fredao_id": "ABI - GEOGRAFIA"
         },
         {
             "co_curso": 4280,
-            "no_curso": "ABI - HIST\u00d3RIA"
+            "no_curso": "ABI - HISTÓRIA",
+            "fredao_id": "ABI - HISTÓRIA"
         },
         {
             "co_curso": 4279,
-            "no_curso": "ABI - LETRAS"
+            "no_curso": "ABI - LETRAS",
+            "fredao_id": "ABI - LETRAS"
         },
         {
             "co_curso": 4842,
-            "no_curso": "ABI - LETRAS - L\u00cdNGUA PORTUGUESA"
+            "no_curso": "ABI - LETRAS - LÍNGUA PORTUGUESA",
+            "fredao_id": "ABI - LETRAS - LÍNGUA PORTUGUESA"
         },
         {
             "co_curso": 4423,
-            "no_curso": "ABI - LETRAS - PORTUGU\u00caS - ESPANHOL"
+            "no_curso": "ABI - LETRAS - PORTUGUÊS - ESPANHOL",
+            "fredao_id": "ABI - LETRAS - PORTUGUÊS - ESPANHOL"
         },
         {
             "co_curso": 4424,
-            "no_curso": "ABI - LETRAS - PORTUGU\u00caS - FRANCES"
+            "no_curso": "ABI - LETRAS - PORTUGUÊS - FRANCES",
+            "fredao_id": "ABI - LETRAS - PORTUGUÊS - FRANCES"
         },
         {
             "co_curso": 4427,
-            "no_curso": "ABI - LETRAS - PORTUGU\u00caS - INGLES"
+            "no_curso": "ABI - LETRAS - PORTUGUÊS - INGLES",
+            "fredao_id": "ABI - LETRAS - PORTUGUÊS - INGLES"
         },
         {
             "co_curso": 4301,
-            "no_curso": "ABI - LETRAS ALEM\u00c3O"
+            "no_curso": "ABI - LETRAS ALEMÃO",
+            "fredao_id": "ABI - LETRAS ALEMÃO"
         },
         {
             "co_curso": 4302,
-            "no_curso": "ABI - LETRAS ESPANHOL"
+            "no_curso": "ABI - LETRAS ESPANHOL",
+            "fredao_id": "ABI - LETRAS ESPANHOL"
         },
         {
             "co_curso": 4303,
-            "no_curso": "ABI - LETRAS FRANC\u00caS"
+            "no_curso": "ABI - LETRAS FRANCÊS",
+            "fredao_id": "ABI - LETRAS FRANCÊS"
         },
         {
             "co_curso": 4304,
-            "no_curso": "ABI - LETRAS INGL\u00caS"
+            "no_curso": "ABI - LETRAS INGLÊS",
+            "fredao_id": "ABI - LETRAS INGLÊS"
         },
         {
             "co_curso": 4305,
-            "no_curso": "ABI - LETRAS ITALIANO"
+            "no_curso": "ABI - LETRAS ITALIANO",
+            "fredao_id": "ABI - LETRAS ITALIANO"
         },
         {
             "co_curso": 4306,
-            "no_curso": "ABI - LETRAS L\u00cdNGUA PORTUGUESA"
+            "no_curso": "ABI - LETRAS LÍNGUA PORTUGUESA",
+            "fredao_id": "ABI - LETRAS LÍNGUA PORTUGUESA"
         },
         {
             "co_curso": 4598,
-            "no_curso": "ABI - LETRAS PORTUGU\u00caS"
+            "no_curso": "ABI - LETRAS PORTUGUÊS",
+            "fredao_id": "ABI - LETRAS PORTUGUÊS"
         },
         {
             "co_curso": 4837,
-            "no_curso": "ABI - LETRAS VERN\u00c1CULAS"
+            "no_curso": "ABI - LETRAS VERNÁCULAS",
+            "fredao_id": "ABI - LETRAS VERNÁCULAS"
         },
         {
             "co_curso": 4838,
-            "no_curso": "ABI - LETRAS VERN\u00c1CULAS E L\u00cdNGUA ESTRANGEIRA MODERNA"
+            "no_curso": "ABI - LETRAS VERNÁCULAS E LÍNGUA ESTRANGEIRA MODERNA",
+            "fredao_id": "ABI - LETRAS VERNÁCULAS E LÍNGUA ESTRANGEIRA MODERNA"
         },
         {
             "co_curso": 4839,
-            "no_curso": "ABI - L\u00cdNGUA ESTRANGEIRA MODERNA OU CL\u00c1SSICA"
+            "no_curso": "ABI - LÍNGUA ESTRANGEIRA MODERNA OU CLÁSSICA",
+            "fredao_id": "ABI - LÍNGUA ESTRANGEIRA MODERNA OU CLÁSSICA"
         },
         {
             "co_curso": 4276,
-            "no_curso": "ABI - MATEM\u00c1TICA"
+            "no_curso": "ABI - MATEMÁTICA",
+            "fredao_id": "ABI - MATEMÁTICA"
         },
         {
             "co_curso": 4350,
-            "no_curso": "ABI - M\u00daSICA"
+            "no_curso": "ABI - MÚSICA",
+            "fredao_id": "ABI - MÚSICA"
         },
         {
             "co_curso": 4275,
-            "no_curso": "ABI - QU\u00edMICA"
+            "no_curso": "ABI - QUíMICA",
+            "fredao_id": "ABI - QUíMICA"
         },
         {
             "co_curso": 4307,
-            "no_curso": "ABI - TEATRO"
+            "no_curso": "ABI - TEATRO",
+            "fredao_id": "ABI - TEATRO"
         },
         {
             "co_curso": 1,
-            "no_curso": "ADMINISTRA\u00c7\u00c3O"
+            "no_curso": "ADMINISTRAÇÃO",
+            "fredao_id": "ADMINISTRAÇÃO"
         },
         {
             "co_curso": 2492,
-            "no_curso": "ADMINISTRA\u00c7\u00c3O DE EMPRESAS"
+            "no_curso": "ADMINISTRAÇÃO DE EMPRESAS",
+            "fredao_id": "ADMINISTRAÇÃO DE EMPRESAS"
         },
         {
             "co_curso": 2488,
-            "no_curso": "ADMINISTRA\u00c7\u00c3O EM SISTEMAS E SERVI\u00c7OS DE SA\u00daDE"
+            "no_curso": "ADMINISTRAÇÃO EM SISTEMAS E SERVIÇOS DE SAÚDE",
+            "fredao_id": "ADMINISTRAÇÃO EM SISTEMAS E SERVIÇOS DE SAÚDE"
         },
         {
             "co_curso": 2469,
-            "no_curso": "ADMINISTRA\u00c7\u00c3O P\u00daBLICA"
+            "no_curso": "ADMINISTRAÇÃO PÚBLICA",
+            "fredao_id": "ADMINISTRAÇÃO PÚBLICA"
         },
         {
             "co_curso": 5533,
-            "no_curso": "ADMINISTRA\u00c7\u00c3O P\u00daBLICA E GEST\u00c3O SOCIAL"
+            "no_curso": "ADMINISTRAÇÃO PÚBLICA E GESTÃO SOCIAL",
+            "fredao_id": "ADMINISTRAÇÃO PÚBLICA E GESTÃO SOCIAL"
         },
         {
             "co_curso": 4940,
-            "no_curso": "ADMINISTRA\u00c7\u00c3O P\u00daBLICA E POL\u00cdTICAS P\u00daBLICAS"
+            "no_curso": "ADMINISTRAÇÃO PÚBLICA E POLÍTICAS PÚBLICAS",
+            "fredao_id": "ADMINISTRAÇÃO PÚBLICA E POLÍTICAS PÚBLICAS"
         },
         {
             "co_curso": 4939,
-            "no_curso": "ADMINISTRA\u00c7\u00c3O P\u00daBLICA E SOCIAL"
+            "no_curso": "ADMINISTRAÇÃO PÚBLICA E SOCIAL",
+            "fredao_id": "ADMINISTRAÇÃO PÚBLICA E SOCIAL"
         },
         {
             "co_curso": 6024,
-            "no_curso": "ADMINISTRA\u00c7\u00c3O: AGRONEG\u00d3CIO"
+            "no_curso": "ADMINISTRAÇÃO: AGRONEGÓCIO",
+            "fredao_id": "ADMINISTRAÇÃO: AGRONEGÓCIO"
         },
         {
             "co_curso": 5284,
-            "no_curso": "AGROCOMPUTA\u00c7\u00c3O"
+            "no_curso": "AGROCOMPUTAÇÃO",
+            "fredao_id": "AGROCOMPUTAÇÃO"
         },
         {
             "co_curso": 235,
-            "no_curso": "AGROECOLOGIA"
+            "no_curso": "AGROECOLOGIA",
+            "fredao_id": "AGROECOLOGIA"
         },
         {
             "co_curso": 137,
-            "no_curso": "AGROIND\u00daSTRIA"
+            "no_curso": "AGROINDÚSTRIA",
+            "fredao_id": "AGROINDÚSTRIA"
         },
         {
             "co_curso": 138,
-            "no_curso": "AGRONEG\u00d3CIO"
+            "no_curso": "AGRONEGÓCIO",
+            "fredao_id": "AGRONEGÓCIO"
         },
         {
             "co_curso": 3,
-            "no_curso": "AGRONOMIA"
+            "no_curso": "AGRONOMIA",
+            "fredao_id": "AGRONOMIA"
         },
         {
             "co_curso": 184,
-            "no_curso": "ALIMENTOS"
+            "no_curso": "ALIMENTOS",
+            "fredao_id": "ALIMENTOS"
         },
         {
             "co_curso": 211,
-            "no_curso": "AN\u00c1LISE E DESENVOLVIMENTO DE SISTEMAS"
+            "no_curso": "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+            "fredao_id": "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
         },
         {
             "co_curso": 5002,
-            "no_curso": "ANIMA\u00c7\u00c3O"
+            "no_curso": "ANIMAÇÃO",
+            "fredao_id": "ANIMAÇÃO"
         },
         {
             "co_curso": 13,
-            "no_curso": "ANTROPOLOGIA"
+            "no_curso": "ANTROPOLOGIA",
+            "fredao_id": "ANTROPOLOGIA"
         },
         {
             "co_curso": 4632,
-            "no_curso": "ANTROPOLOGIA - DIVERSIDADE CULTURAL LATINO-AMERICANA"
+            "no_curso": "ANTROPOLOGIA - DIVERSIDADE CULTURAL LATINO-AMERICANA",
+            "fredao_id": null
         },
         {
             "co_curso": 5815,
-            "no_curso": "ANTROPOLOGIA E ARQUEOLOGIA"
+            "no_curso": "ANTROPOLOGIA E ARQUEOLOGIA",
+            "fredao_id": "ANTROPOLOGIA E ARQUEOLOGIA"
         },
         {
             "co_curso": 2679,
-            "no_curso": "AQUACULTURA"
+            "no_curso": "AQUACULTURA",
+            "fredao_id": "AQUACULTURA"
         },
         {
             "co_curso": 139,
-            "no_curso": "AQUICULTURA"
+            "no_curso": "AQUICULTURA",
+            "fredao_id": "AQUICULTURA"
         },
         {
             "co_curso": 65,
-            "no_curso": "ARQUEOLOGIA"
+            "no_curso": "ARQUEOLOGIA",
+            "fredao_id": "ARQUEOLOGIA"
         },
         {
             "co_curso": 2363,
-            "no_curso": "ARQUEOLOGIA E PRESERVA\u00c7\u00c3O PATRIMONIAL"
+            "no_curso": "ARQUEOLOGIA E PRESERVAÇÃO PATRIMONIAL",
+            "fredao_id": null
         },
         {
             "co_curso": 4636,
-            "no_curso": "ARQUITETURA E URBANISMO"
+            "no_curso": "ARQUITETURA E URBANISMO",
+            "fredao_id": "ARQUITETURA E URBANISMO"
         },
         {
             "co_curso": 6,
-            "no_curso": "ARQUIVOLOGIA"
+            "no_curso": "ARQUIVOLOGIA",
+            "fredao_id": "ARQUIVOLOGIA"
         },
         {
             "co_curso": 4748,
-            "no_curso": "ARTE"
+            "no_curso": "ARTE",
+            "fredao_id": "ARTE"
         },
         {
             "co_curso": 2676,
-            "no_curso": "ARTE E M\u00cdDIA"
+            "no_curso": "ARTE E MÍDIA",
+            "fredao_id": "ARTE E MÍDIA"
         },
         {
             "co_curso": 2239,
-            "no_curso": "ARTES"
+            "no_curso": "ARTES",
+            "fredao_id": "ARTES"
         },
         {
             "co_curso": 2365,
-            "no_curso": "ARTES APLICADAS"
+            "no_curso": "ARTES APLICADAS",
+            "fredao_id": "ARTES APLICADAS"
         },
         {
             "co_curso": 90,
-            "no_curso": "ARTES C\u00caNICAS"
+            "no_curso": "ARTES CÊNICAS",
+            "fredao_id": "ARTES CÊNICAS"
         },
         {
             "co_curso": 5235,
-            "no_curso": "ARTES C\u00caNICAS - CENOGRAFIA"
+            "no_curso": "ARTES CÊNICAS - CENOGRAFIA",
+            "fredao_id": "ARTES CÊNICAS - CENOGRAFIA"
         },
         {
             "co_curso": 5234,
-            "no_curso": "ARTES C\u00caNICAS - DIRE\u00c7\u00c3O TEATRAL"
+            "no_curso": "ARTES CÊNICAS - DIREÇÃO TEATRAL",
+            "fredao_id": "ARTES CÊNICAS - DIREÇÃO TEATRAL"
         },
         {
             "co_curso": 5236,
-            "no_curso": "ARTES C\u00caNICAS - INDUMENT\u00c1RIA"
+            "no_curso": "ARTES CÊNICAS - INDUMENTÁRIA",
+            "fredao_id": "ARTES CÊNICAS - INDUMENTÁRIA"
         },
         {
             "co_curso": 5181,
-            "no_curso": "ARTES DO CORPO EM CENA"
+            "no_curso": "ARTES DO CORPO EM CENA",
+            "fredao_id": null
         },
         {
             "co_curso": 2759,
-            "no_curso": "ARTES DO ESPET\u00c1CULO"
+            "no_curso": "ARTES DO ESPETÁCULO",
+            "fredao_id": null
         },
         {
             "co_curso": 91,
-            "no_curso": "ARTES PL\u00c1STICAS"
+            "no_curso": "ARTES PLÁSTICAS",
+            "fredao_id": "ARTES PLÁSTICAS"
         },
         {
             "co_curso": 92,
-            "no_curso": "ARTES VISUAIS"
+            "no_curso": "ARTES VISUAIS",
+            "fredao_id": "ARTES VISUAIS"
         },
         {
             "co_curso": 4203,
-            "no_curso": "ARTES VISUAIS - ESCULTURA"
+            "no_curso": "ARTES VISUAIS - ESCULTURA",
+            "fredao_id": "ARTES VISUAIS - ESCULTURA"
         },
         {
             "co_curso": 4204,
-            "no_curso": "ARTES VISUAIS - GRAVURA"
+            "no_curso": "ARTES VISUAIS - GRAVURA",
+            "fredao_id": "ARTES VISUAIS - GRAVURA"
         },
         {
             "co_curso": 2672,
-            "no_curso": "ASTRONOMIA"
+            "no_curso": "ASTRONOMIA",
+            "fredao_id": "ASTRONOMIA"
         },
         {
             "co_curso": 5122,
-            "no_curso": "ATUA\u00c7\u00c3O C\u00caNICA"
+            "no_curso": "ATUAÇÃO CÊNICA",
+            "fredao_id": "ATUAÇÃO CÊNICA"
         },
         {
             "co_curso": 4721,
-            "no_curso": "AUDIOVISUAL"
+            "no_curso": "AUDIOVISUAL",
+            "fredao_id": "AUDIOVISUAL"
         },
         {
             "co_curso": 185,
-            "no_curso": "AUTOMA\u00c7\u00c3O INDUSTRIAL"
+            "no_curso": "AUTOMAÇÃO INDUSTRIAL",
+            "fredao_id": "AUTOMAÇÃO INDUSTRIAL"
         }
     ],
     "B": [
         {
             "co_curso": 7,
-            "no_curso": "BIBLIOTECONOMIA"
+            "no_curso": "BIBLIOTECONOMIA",
+            "fredao_id": "BIBLIOTECONOMIA"
         },
         {
             "co_curso": 2607,
-            "no_curso": "BIBLIOTECONOMIA E CI\u00caNCIA DA INFORMA\u00c7\u00c3O"
+            "no_curso": "BIBLIOTECONOMIA E CIÊNCIA DA INFORMAÇÃO",
+            "fredao_id": "BIBLIOTECONOMIA E CIÊNCIA DA INFORMAÇÃO"
         },
         {
             "co_curso": 2582,
-            "no_curso": "BIBLIOTECONOMIA E DOCUMENTA\u00c7\u00c3O"
+            "no_curso": "BIBLIOTECONOMIA E DOCUMENTAÇÃO",
+            "fredao_id": "BIBLIOTECONOMIA E DOCUMENTAÇÃO"
         },
         {
             "co_curso": 2583,
-            "no_curso": "BIBLIOTECONOMIA E GEST\u00c3O DE UNIDADES DE INFORMA\u00c7\u00c3O"
+            "no_curso": "BIBLIOTECONOMIA E GESTÃO DE UNIDADES DE INFORMAÇÃO",
+            "fredao_id": "BIBLIOTECONOMIA E GESTÃO DE UNIDADES DE INFORMAÇÃO"
         },
         {
             "co_curso": 5176,
-            "no_curso": "BIG DATA NO AGRONEG\u00d3CIO"
+            "no_curso": "BIG DATA NO AGRONEGÓCIO",
+            "fredao_id": "BIG DATA NO AGRONEGÓCIO"
         },
         {
             "co_curso": 2297,
-            "no_curso": "BIOLOGIA"
+            "no_curso": "BIOLOGIA",
+            "fredao_id": "BIOLOGIA"
         },
         {
             "co_curso": 8,
-            "no_curso": "BIOMEDICINA"
+            "no_curso": "BIOMEDICINA",
+            "fredao_id": "BIOMEDICINA"
         },
         {
             "co_curso": 2684,
-            "no_curso": "BIOQU\u00cdMICA"
+            "no_curso": "BIOQUÍMICA",
+            "fredao_id": "BIOQUÍMICA"
         },
         {
             "co_curso": 2298,
-            "no_curso": "BIOTECNOLOGIA"
+            "no_curso": "BIOTECNOLOGIA",
+            "fredao_id": "BIOTECNOLOGIA"
         }
     ],
     "C": [
         {
             "co_curso": 140,
-            "no_curso": "CAFEICULTURA"
+            "no_curso": "CAFEICULTURA",
+            "fredao_id": "CAFEICULTURA"
         },
         {
             "co_curso": 5120,
-            "no_curso": "CENOGRAFIA E INDUMENT\u00c1RIA"
+            "no_curso": "CENOGRAFIA E INDUMENTÁRIA",
+            "fredao_id": "CENOGRAFIA E INDUMENTÁRIA"
         },
         {
             "co_curso": 5424,
-            "no_curso": "CIBERSEGURAN\u00c7A"
+            "no_curso": "CIBERSEGURANÇA",
+            "fredao_id": "CIBERSEGURANÇA"
         },
         {
             "co_curso": 2692,
-            "no_curso": "CI\u00caNCIA AMBIENTAL"
+            "no_curso": "CIÊNCIA AMBIENTAL",
+            "fredao_id": "CIÊNCIA AMBIENTAL"
         },
         {
             "co_curso": 63,
-            "no_curso": "CI\u00caNCIA DA COMPUTA\u00c7\u00c3O"
+            "no_curso": "CIÊNCIA DA COMPUTAÇÃO",
+            "fredao_id": "CIÊNCIA DA COMPUTAÇÃO"
         },
         {
             "co_curso": 6001,
-            "no_curso": "CI\u00caNCIA DA COMPUTA\u00c7\u00c3O E SISTEMAS DE INFORMA\u00c7\u00c3O"
+            "no_curso": "CIÊNCIA DA COMPUTAÇÃO E SISTEMAS DE INFORMAÇÃO",
+            "fredao_id": "CIÊNCIA DA COMPUTAÇÃO E SISTEMAS DE INFORMAÇÃO"
         },
         {
             "co_curso": 1686,
-            "no_curso": "CI\u00caNCIA DA INFORMA\u00c7\u00c3O"
+            "no_curso": "CIÊNCIA DA INFORMAÇÃO",
+            "fredao_id": "CIÊNCIA DA INFORMAÇÃO"
         },
         {
             "co_curso": 4580,
-            "no_curso": "CI\u00caNCIA DA RELIGI\u00c3O"
+            "no_curso": "CIÊNCIA DA RELIGIÃO",
+            "fredao_id": "CIÊNCIA DA RELIGIÃO"
         },
         {
             "co_curso": 5175,
-            "no_curso": "CI\u00caNCIA DE DADOS"
+            "no_curso": "CIÊNCIA DE DADOS",
+            "fredao_id": "CIÊNCIA DE DADOS"
         },
         {
             "co_curso": 6141,
-            "no_curso": "CI\u00caNCIA DE DADOS APLICADA"
+            "no_curso": "CIÊNCIA DE DADOS APLICADA",
+            "fredao_id": "CIÊNCIA DE DADOS APLICADA"
         },
         {
             "co_curso": 6107,
-            "no_curso": "CI\u00caNCIA DE DADOS E ESTAT\u00cdSTICA"
+            "no_curso": "CIÊNCIA DE DADOS E ESTATÍSTICA",
+            "fredao_id": "CIÊNCIA DE DADOS E ESTATÍSTICA"
         },
         {
             "co_curso": 5173,
-            "no_curso": "CI\u00caNCIA DE DADOS E INTELIG\u00caNCIA ARTIFICIAL"
+            "no_curso": "CIÊNCIA DE DADOS E INTELIGÊNCIA ARTIFICIAL",
+            "fredao_id": "CIÊNCIA DE DADOS E INTELIGÊNCIA ARTIFICIAL"
         },
         {
             "co_curso": 5479,
-            "no_curso": "CI\u00caNCIA DE DADOS PARA NEG\u00d3CIOS"
+            "no_curso": "CIÊNCIA DE DADOS PARA NEGÓCIOS",
+            "fredao_id": "CIÊNCIA DE DADOS PARA NEGÓCIOS"
         },
         {
             "co_curso": 5644,
-            "no_curso": "CI\u00caNCIA DOS DADOS"
+            "no_curso": "CIÊNCIA DOS DADOS",
+            "fredao_id": "CIÊNCIA DOS DADOS"
         },
         {
             "co_curso": 2608,
-            "no_curso": "CI\u00caNCIA E TECNOLOGIA"
+            "no_curso": "CIÊNCIA E TECNOLOGIA",
+            "fredao_id": "CIêNCIA E TECNOLOGIA"
         },
         {
             "co_curso": 4790,
-            "no_curso": "CI\u00eaNCIA E TECNOLOGIA"
+            "no_curso": "CIêNCIA E TECNOLOGIA",
+            "fredao_id": "CIêNCIA E TECNOLOGIA"
         },
         {
             "co_curso": 2379,
-            "no_curso": "CI\u00caNCIA E TECNOLOGIA DE ALIMENTOS"
+            "no_curso": "CIÊNCIA E TECNOLOGIA DE ALIMENTOS",
+            "fredao_id": "CIÊNCIA E TECNOLOGIA DE ALIMENTOS"
         },
         {
             "co_curso": 2704,
-            "no_curso": "CI\u00caNCIA E TECNOLOGIA DE LATIC\u00cdNIOS"
+            "no_curso": "CIÊNCIA E TECNOLOGIA DE LATICÍNIOS",
+            "fredao_id": "CIÊNCIA E TECNOLOGIA DE LATICÍNIOS"
         },
         {
             "co_curso": 1727,
-            "no_curso": "CI\u00caNCIA ECON\u00d4MICA"
+            "no_curso": "CIÊNCIA ECONÔMICA",
+            "fredao_id": "CIÊNCIA ECONÔMICA"
         },
         {
             "co_curso": 2151,
-            "no_curso": "CI\u00caNCIA POL\u00cdTICA"
+            "no_curso": "CIÊNCIA POLÍTICA",
+            "fredao_id": "CIÊNCIA POLÍTICA"
         },
         {
             "co_curso": 3900,
-            "no_curso": "CI\u00caNCIA POL\u00cdTICA E SOCIOLOGIA - SOCIEDADE, ESTADO E POL\u00cdTICA NA AM\u00c9RICA LATINA"
+            "no_curso": "CIÊNCIA POLÍTICA E SOCIOLOGIA - SOCIEDADE, ESTADO E POLÍTICA NA AMÉRICA LATINA",
+            "fredao_id": "CIÊNCIA POLÍTICA E SOCIOLOGIA - SOCIEDADE, ESTADO E POLÍTICA NA AMÉRICA LATINA"
         },
         {
             "co_curso": 4380,
-            "no_curso": "CI\u00caNCIAS"
+            "no_curso": "CIÊNCIAS",
+            "fredao_id": "CIÊNCIAS"
         },
         {
             "co_curso": 3798,
-            "no_curso": "CI\u00caNCIAS - MATEM\u00c1TICA E F\u00cdSICA"
+            "no_curso": "CIÊNCIAS - MATEMÁTICA E FÍSICA",
+            "fredao_id": "CIÊNCIAS - MATEMÁTICA E FÍSICA"
         },
         {
             "co_curso": 3470,
-            "no_curso": "CI\u00caNCIAS - QU\u00cdMICA E BIOLOGIA"
+            "no_curso": "CIÊNCIAS - QUÍMICA E BIOLOGIA",
+            "fredao_id": "CIÊNCIAS - QUÍMICA E BIOLOGIA"
         },
         {
             "co_curso": 2323,
-            "no_curso": "CI\u00caNCIAS AGR\u00c1RIAS"
+            "no_curso": "CIÊNCIAS AGRÁRIAS",
+            "fredao_id": "CIÊNCIAS AGRÁRIAS"
         },
         {
             "co_curso": 3469,
-            "no_curso": "CI\u00caNCIAS AGR\u00c1RIAS E DO AMBIENTE"
+            "no_curso": "CIÊNCIAS AGRÁRIAS E DO AMBIENTE",
+            "fredao_id": "CIÊNCIAS AGRÁRIAS E DO AMBIENTE"
         },
         {
             "co_curso": 3009,
-            "no_curso": "CI\u00caNCIAS AGR\u00cdCOLAS"
+            "no_curso": "CIÊNCIAS AGRÍCOLAS",
+            "fredao_id": null
         },
         {
             "co_curso": 2620,
-            "no_curso": "CI\u00caNCIAS AMBIENTAIS"
+            "no_curso": "CIÊNCIAS AMBIENTAIS",
+            "fredao_id": "CIÊNCIAS AMBIENTAIS"
         },
         {
             "co_curso": 2706,
-            "no_curso": "CI\u00caNCIAS ATMOSF\u00c9RICAS"
+            "no_curso": "CIÊNCIAS ATMOSFÉRICAS",
+            "fredao_id": null
         },
         {
             "co_curso": 2319,
-            "no_curso": "CI\u00caNCIAS ATUARIAIS"
+            "no_curso": "CIÊNCIAS ATUARIAIS",
+            "fredao_id": "CIÊNCIAS ATUARIAIS"
         },
         {
             "co_curso": 9,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS "
+            "no_curso": "CIÊNCIAS BIOLÓGICAS ",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS "
         },
         {
             "co_curso": 5720,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS - BIODIVERSIDADE E CONSERVA\u00c7\u00c3O"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS - BIODIVERSIDADE E CONSERVAÇÃO",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS - BIODIVERSIDADE E CONSERVAÇÃO"
         },
         {
             "co_curso": 4164,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS - BIOLOGIA MARINHA"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS - BIOLOGIA MARINHA",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS - BIOLOGIA MARINHA"
         },
         {
             "co_curso": 5011,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS - BIOTECNOLOGIA E PRODU\u00c7\u00c3O"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS - BIOTECNOLOGIA E PRODUÇÃO",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS - BIOTECNOLOGIA E PRODUÇÃO"
         },
         {
             "co_curso": 3898,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS - ECOLOGIA E BIODIVERSIDADE"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS - ECOLOGIA E BIODIVERSIDADE",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS - ECOLOGIA E BIODIVERSIDADE"
         },
         {
             "co_curso": 5016,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS - \u00caNFASE EM CI\u00caNCIAS AMBIENTAIS"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS - ÊNFASE EM CIÊNCIAS AMBIENTAIS",
+            "fredao_id": null
         },
         {
             "co_curso": 5012,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS - GEST\u00c3O AMBIENTAL"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS - GESTÃO AMBIENTAL",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS - GESTÃO AMBIENTAL"
         },
         {
             "co_curso": 4596,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS - LICENCIATURA OU BACHARELADO"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS - LICENCIATURA OU BACHARELADO",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS - LICENCIATURA OU BACHARELADO"
         },
         {
             "co_curso": 3765,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS: BIOF\u00cdSICA"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS: BIOFÍSICA",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS: BIOFÍSICA"
         },
         {
             "co_curso": 4189,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS: BIOTECNOLOGIA"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS: BIOTECNOLOGIA",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS: BIOTECNOLOGIA"
         },
         {
             "co_curso": 3768,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS: MICROBIOLOGIA E IMUNOLOGIA"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS: MICROBIOLOGIA E IMUNOLOGIA",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS: MICROBIOLOGIA E IMUNOLOGIA"
         },
         {
             "co_curso": 3766,
-            "no_curso": "CI\u00caNCIAS BIOL\u00d3GICAS: MODALIDADE M\u00c9DICA"
+            "no_curso": "CIÊNCIAS BIOLÓGICAS: MODALIDADE MÉDICA",
+            "fredao_id": "CIÊNCIAS BIOLÓGICAS: MODALIDADE MÉDICA"
         },
         {
             "co_curso": 10,
-            "no_curso": "CI\u00caNCIAS CONT\u00c1BEIS"
+            "no_curso": "CIÊNCIAS CONTÁBEIS",
+            "fredao_id": "CIÊNCIAS CONTÁBEIS"
         },
         {
             "co_curso": 1486,
-            "no_curso": "CI\u00caNCIAS DA COMPUTA\u00c7\u00c3O"
+            "no_curso": "CIÊNCIAS DA COMPUTAÇÃO",
+            "fredao_id": "CIÊNCIAS DA COMPUTAÇÃO"
         },
         {
             "co_curso": 2590,
-            "no_curso": "CI\u00caNCIAS DA NATUREZA"
+            "no_curso": "CIÊNCIAS DA NATUREZA",
+            "fredao_id": "CIÊNCIAS DA NATUREZA"
         },
         {
             "co_curso": 4633,
-            "no_curso": "CI\u00eaNCIAS DA NATUREZA - BIOLOGIA, F\u00edSICA E QU\u00edMICA"
+            "no_curso": "CIêNCIAS DA NATUREZA - BIOLOGIA, FíSICA E QUíMICA",
+            "fredao_id": "CIêNCIAS DA NATUREZA - BIOLOGIA, FíSICA E QUíMICA"
         },
         {
             "co_curso": 2698,
-            "no_curso": "CI\u00caNCIAS DA RELIGI\u00c3O"
+            "no_curso": "CIÊNCIAS DA RELIGIÃO",
+            "fredao_id": "CIÊNCIAS DA RELIGIÃO"
         },
         {
             "co_curso": 4578,
-            "no_curso": "CI\u00caNCIAS DAS RELIGI\u00d5ES"
+            "no_curso": "CIÊNCIAS DAS RELIGIÕES",
+            "fredao_id": null
         },
         {
             "co_curso": 5074,
-            "no_curso": "CI\u00caNCIAS DO CONSUMO"
+            "no_curso": "CIÊNCIAS DO CONSUMO",
+            "fredao_id": "CIÊNCIAS DO CONSUMO"
         },
         {
             "co_curso": 2696,
-            "no_curso": "CI\u00caNCIAS DO ESTADO"
+            "no_curso": "CIÊNCIAS DO ESTADO",
+            "fredao_id": "CIÊNCIAS DO ESTADO"
         },
         {
             "co_curso": 11,
-            "no_curso": "CI\u00caNCIAS ECON\u00d4MICAS"
+            "no_curso": "CIÊNCIAS ECONÔMICAS",
+            "fredao_id": "CIÊNCIAS ECONÔMICAS"
         },
         {
             "co_curso": 3899,
-            "no_curso": "CI\u00caNCIAS ECON\u00d4MICAS - ECONOMIA, INTEGRA\u00c7\u00c3O E DESENVOLVIMENTO"
+            "no_curso": "CIÊNCIAS ECONÔMICAS - ECONOMIA, INTEGRAÇÃO E DESENVOLVIMENTO",
+            "fredao_id": "CIÊNCIAS ECONÔMICAS - ECONOMIA, INTEGRAÇÃO E DESENVOLVIMENTO"
         },
         {
             "co_curso": 2695,
-            "no_curso": "CI\u00caNCIAS EXATAS"
+            "no_curso": "CIÊNCIAS EXATAS",
+            "fredao_id": null
         },
         {
             "co_curso": 5090,
-            "no_curso": "CI\u00caNCIAS EXATAS - BI\/LI"
+            "no_curso": "CIÊNCIAS EXATAS - BI/LI",
+            "fredao_id": "CIÊNCIAS EXATAS - BI/LI"
         },
         {
             "co_curso": 5091,
-            "no_curso": "CI\u00caNCIAS EXATAS E TECNOL\u00d3GICAS - BI\/LI"
+            "no_curso": "CIÊNCIAS EXATAS E TECNOLÓGICAS - BI/LI",
+            "fredao_id": null
         },
         {
             "co_curso": 3884,
-            "no_curso": "CI\u00caNCIAS HUMANAS"
+            "no_curso": "CIÊNCIAS HUMANAS",
+            "fredao_id": "CIÊNCIAS HUMANAS"
         },
         {
             "co_curso": 4787,
-            "no_curso": "CI\u00caNCIAS HUMANAS - FILOSOFIA"
+            "no_curso": "CIÊNCIAS HUMANAS - FILOSOFIA",
+            "fredao_id": "CIÊNCIAS HUMANAS - FILOSOFIA"
         },
         {
             "co_curso": 4780,
-            "no_curso": "CI\u00caNCIAS HUMANAS - GEOGRAFIA"
+            "no_curso": "CIÊNCIAS HUMANAS - GEOGRAFIA",
+            "fredao_id": "CIÊNCIAS HUMANAS - GEOGRAFIA"
         },
         {
             "co_curso": 4779,
-            "no_curso": "CI\u00caNCIAS HUMANAS - HIST\u00d3RIA"
+            "no_curso": "CIÊNCIAS HUMANAS - HISTÓRIA",
+            "fredao_id": "CIÊNCIAS HUMANAS - HISTÓRIA"
         },
         {
             "co_curso": 4781,
-            "no_curso": "CI\u00caNCIAS HUMANAS - SOCIOLOGIA"
+            "no_curso": "CIÊNCIAS HUMANAS - SOCIOLOGIA",
+            "fredao_id": "CIÊNCIAS HUMANAS - SOCIOLOGIA"
         },
         {
             "co_curso": 2688,
-            "no_curso": "CI\u00caNCIAS JUR\u00cdDICAS E SOCIAIS"
+            "no_curso": "CIÊNCIAS JURÍDICAS E SOCIAIS",
+            "fredao_id": "CIÊNCIAS JURÍDICAS E SOCIAIS"
         },
         {
             "co_curso": 4744,
-            "no_curso": "CI\u00caNCIAS MATEM\u00c1TICAS E DA TERRA"
+            "no_curso": "CIÊNCIAS MATEMÁTICAS E DA TERRA",
+            "fredao_id": null
         },
         {
             "co_curso": 2296,
-            "no_curso": "CI\u00caNCIAS NATURAIS"
+            "no_curso": "CIÊNCIAS NATURAIS",
+            "fredao_id": "CIÊNCIAS NATURAIS"
         },
         {
             "co_curso": 2639,
-            "no_curso": "CI\u00caNCIAS NATURAIS - BIOLOGIA"
+            "no_curso": "CIÊNCIAS NATURAIS - BIOLOGIA",
+            "fredao_id": "CIÊNCIAS NATURAIS - BIOLOGIA"
         },
         {
             "co_curso": 4783,
-            "no_curso": "CI\u00eaNCIAS NATURAIS - F\u00edSICA"
+            "no_curso": "CIêNCIAS NATURAIS - FíSICA",
+            "fredao_id": "CIêNCIAS NATURAIS - FíSICA"
         },
         {
             "co_curso": 4782,
-            "no_curso": "CI\u00eaNCIAS NATURAIS - QU\u00edMICA"
+            "no_curso": "CIêNCIAS NATURAIS - QUíMICA",
+            "fredao_id": null
         },
         {
             "co_curso": 5075,
-            "no_curso": "CI\u00caNCIAS NATURAIS: HABILITA\u00c7\u00c3O EM F\u00cdSICA"
+            "no_curso": "CIÊNCIAS NATURAIS: HABILITAÇÃO EM FÍSICA",
+            "fredao_id": null
         },
         {
             "co_curso": 5076,
-            "no_curso": "CI\u00caNCIAS NATURAIS: HABILITA\u00c7\u00c3O EM QU\u00cdMICA"
+            "no_curso": "CIÊNCIAS NATURAIS: HABILITAÇÃO EM QUÍMICA",
+            "fredao_id": null
         },
         {
             "co_curso": 12,
-            "no_curso": "CI\u00caNCIAS SOCIAIS"
+            "no_curso": "CIÊNCIAS SOCIAIS",
+            "fredao_id": "CIÊNCIAS SOCIAIS"
         },
         {
             "co_curso": 4607,
-            "no_curso": "CI\u00caNCIAS SOCIAIS - CI\u00caNCIA POL\u00cdTICA"
+            "no_curso": "CIÊNCIAS SOCIAIS - CIÊNCIA POLÍTICA",
+            "fredao_id": null
         },
         {
             "co_curso": 4621,
-            "no_curso": "CI\u00caNCIAS SOCIAIS - LICENCIATURA OU BACHARELADO"
+            "no_curso": "CIÊNCIAS SOCIAIS - LICENCIATURA OU BACHARELADO",
+            "fredao_id": "CIÊNCIAS SOCIAIS - LICENCIATURA OU BACHARELADO"
         },
         {
             "co_curso": 4606,
-            "no_curso": "CI\u00eaNCIAS SOCIAIS - POL\u00edTICAS P\u00faBLICAS"
+            "no_curso": "CIêNCIAS SOCIAIS - POLíTICAS PúBLICAS",
+            "fredao_id": "CIêNCIAS SOCIAIS - POLíTICAS PúBLICAS"
         },
         {
             "co_curso": 3752,
-            "no_curso": "CI\u00caNCIAS SOCIOAMBIENTAIS"
+            "no_curso": "CIÊNCIAS SOCIOAMBIENTAIS",
+            "fredao_id": "CIÊNCIAS SOCIOAMBIENTAIS"
         },
         {
             "co_curso": 2462,
-            "no_curso": "CINEMA"
+            "no_curso": "CINEMA",
+            "fredao_id": "CINEMA"
         },
         {
             "co_curso": 2394,
-            "no_curso": "CINEMA DE ANIMA\u00c7\u00c3O"
+            "no_curso": "CINEMA DE ANIMAÇÃO",
+            "fredao_id": "CINEMA DE ANIMAÇÃO"
         },
         {
             "co_curso": 5622,
-            "no_curso": "CINEMA E ANIMA\u00c7\u00c3O"
+            "no_curso": "CINEMA E ANIMAÇÃO",
+            "fredao_id": "CINEMA E ANIMAÇÃO"
         },
         {
             "co_curso": 16,
-            "no_curso": "CINEMA E AUDIOVISUAL"
+            "no_curso": "CINEMA E AUDIOVISUAL",
+            "fredao_id": "CINEMA E AUDIOVISUAL"
         },
         {
             "co_curso": 159,
-            "no_curso": "COM\u00c9RCIO EXTERIOR"
+            "no_curso": "COMÉRCIO EXTERIOR",
+            "fredao_id": "COMÉRCIO EXTERIOR"
         },
         {
             "co_curso": 2306,
-            "no_curso": "COMPUTA\u00c7\u00c3O"
+            "no_curso": "COMPUTAÇÃO",
+            "fredao_id": "COMPUTAÇÃO"
         },
         {
             "co_curso": 53,
-            "no_curso": "COMPUTA\u00c7\u00c3O E INFORM\u00c1TICA"
+            "no_curso": "COMPUTAÇÃO E INFORMÁTICA",
+            "fredao_id": "COMPUTAÇÃO E INFORMÁTICA"
         },
         {
             "co_curso": 6126,
-            "no_curso": "COMPUTA\u00c7\u00c3O E INTELIG\u00caNCIA ARTIFICIAL"
+            "no_curso": "COMPUTAÇÃO E INTELIGÊNCIA ARTIFICIAL",
+            "fredao_id": "COMPUTAÇÃO E INTELIGÊNCIA ARTIFICIAL"
         },
         {
             "co_curso": 5583,
-            "no_curso": "COMUNICA\u00c7\u00c3O - PRODU\u00c7\u00c3O EM COMUNICA\u00c7\u00c3O E CULTURA"
+            "no_curso": "COMUNICAÇÃO - PRODUÇÃO EM COMUNICAÇÃO E CULTURA",
+            "fredao_id": "COMUNICAÇÃO - PRODUÇÃO EM COMUNICAÇÃO E CULTURA"
         },
         {
             "co_curso": 4362,
-            "no_curso": "COMUNICA\u00c7\u00c3O E MULTIMEIOS"
+            "no_curso": "COMUNICAÇÃO E MULTIMEIOS",
+            "fredao_id": "COMUNICAÇÃO E MULTIMEIOS"
         },
         {
             "co_curso": 4141,
-            "no_curso": "COMUNICA\u00c7\u00c3O EM M\u00cdDIAS DIGITAIS"
+            "no_curso": "COMUNICAÇÃO EM MÍDIAS DIGITAIS",
+            "fredao_id": "COMUNICAÇÃO EM MÍDIAS DIGITAIS"
         },
         {
             "co_curso": 147,
-            "no_curso": "COMUNICA\u00c7\u00c3O INSTITUCIONAL"
+            "no_curso": "COMUNICAÇÃO INSTITUCIONAL",
+            "fredao_id": "COMUNICAÇÃO INSTITUCIONAL"
         },
         {
             "co_curso": 6000,
-            "no_curso": "COMUNICA\u00c7\u00c3O INTEGRADA E M\u00cdDIAS DIGITAIS"
+            "no_curso": "COMUNICAÇÃO INTEGRADA E MÍDIAS DIGITAIS",
+            "fredao_id": "COMUNICAÇÃO INTEGRADA E MÍDIAS DIGITAIS"
         },
         {
             "co_curso": 4251,
-            "no_curso": "COMUNICA\u00e7\u00e3O ORGANIZACIONAL"
+            "no_curso": "COMUNICAçãO ORGANIZACIONAL",
+            "fredao_id": "COMUNICAçãO ORGANIZACIONAL"
         },
         {
             "co_curso": 17,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL"
+            "no_curso": "COMUNICAÇÃO SOCIAL",
+            "fredao_id": "COMUNICAÇÃO SOCIAL"
         },
         {
             "co_curso": 2251,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL  - RADIALISMO"
+            "no_curso": "COMUNICAÇÃO SOCIAL  - RADIALISMO",
+            "fredao_id": "COMUNICAÇÃO SOCIAL  - RADIALISMO"
         },
         {
             "co_curso": 4248,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL - AUDIOVISUAL"
+            "no_curso": "COMUNICAÇÃO SOCIAL - AUDIOVISUAL",
+            "fredao_id": "COMUNICAÇÃO SOCIAL - AUDIOVISUAL"
         },
         {
             "co_curso": 71,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL - JORNALISMO"
+            "no_curso": "COMUNICAÇÃO SOCIAL - JORNALISMO",
+            "fredao_id": "COMUNICAÇÃO SOCIAL - JORNALISMO"
         },
         {
             "co_curso": 4574,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL - PRODU\u00c7\u00c3O EDITORIAL"
+            "no_curso": "COMUNICAÇÃO SOCIAL - PRODUÇÃO EDITORIAL",
+            "fredao_id": "COMUNICAÇÃO SOCIAL - PRODUÇÃO EDITORIAL"
         },
         {
             "co_curso": 72,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL - PUBLICIDADE E PROPAGANDA"
+            "no_curso": "COMUNICAÇÃO SOCIAL - PUBLICIDADE E PROPAGANDA",
+            "fredao_id": "COMUNICAÇÃO SOCIAL - PUBLICIDADE E PROPAGANDA"
         },
         {
             "co_curso": 73,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL - R\u00c1DIO E TELEVIS\u00c3O"
+            "no_curso": "COMUNICAÇÃO SOCIAL - RÁDIO E TELEVISÃO",
+            "fredao_id": "COMUNICAÇÃO SOCIAL - RÁDIO E TELEVISÃO"
         },
         {
             "co_curso": 4921,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL - R\u00c1DIO, TV E INTERNET"
+            "no_curso": "COMUNICAÇÃO SOCIAL - RÁDIO, TV E INTERNET",
+            "fredao_id": "COMUNICAÇÃO SOCIAL - RÁDIO, TV E INTERNET"
         },
         {
             "co_curso": 74,
-            "no_curso": "COMUNICA\u00c7\u00c3O SOCIAL - RELA\u00c7\u00d5ES P\u00daBLICAS"
+            "no_curso": "COMUNICAÇÃO SOCIAL - RELAÇÕES PÚBLICAS",
+            "fredao_id": "COMUNICAÇÃO SOCIAL - RELAÇÕES PÚBLICAS"
         },
         {
             "co_curso": 4170,
-            "no_curso": "COMUNICA\u00c7\u00c3O VISUAL DESIGN"
+            "no_curso": "COMUNICAÇÃO VISUAL DESIGN",
+            "fredao_id": "COMUNICAÇÃO VISUAL DESIGN"
         },
         {
             "co_curso": 4186,
-            "no_curso": "CONSERVA\u00c7\u00c3O E RESTAURA\u00c7\u00c3O"
+            "no_curso": "CONSERVAÇÃO E RESTAURAÇÃO",
+            "fredao_id": "CONSERVAÇÃO E RESTAURAÇÃO"
         },
         {
             "co_curso": 3046,
-            "no_curso": "CONSERVA\u00c7\u00c3O E RESTAURA\u00c7\u00c3O DE BENS CULTURAIS M\u00d3VEIS"
+            "no_curso": "CONSERVAÇÃO E RESTAURAÇÃO DE BENS CULTURAIS MÓVEIS",
+            "fredao_id": "CONSERVAÇÃO E RESTAURAÇÃO DE BENS CULTURAIS MÓVEIS"
         },
         {
             "co_curso": 148,
-            "no_curso": "CONSERVA\u00c7\u00c3O E RESTAURO"
+            "no_curso": "CONSERVAÇÃO E RESTAURO",
+            "fredao_id": "CONSERVAÇÃO E RESTAURO"
         },
         {
             "co_curso": 2910,
-            "no_curso": "CONTROLADORIA E FINAN\u00c7AS"
+            "no_curso": "CONTROLADORIA E FINANÇAS",
+            "fredao_id": "CONTROLADORIA E FINANÇAS"
         },
         {
             "co_curso": 3136,
-            "no_curso": "COOPERATIVISMO"
+            "no_curso": "COOPERATIVISMO",
+            "fredao_id": "COOPERATIVISMO"
         }
     ],
     "D": [
         {
             "co_curso": 18,
-            "no_curso": "DAN\u00c7A"
+            "no_curso": "DANÇA",
+            "fredao_id": "DANÇA"
         },
         {
             "co_curso": 4148,
-            "no_curso": "DEFESA E GEST\u00c3O ESTRAT\u00c9GICA INTERNACIONAL"
+            "no_curso": "DEFESA E GESTÃO ESTRATÉGICA INTERNACIONAL",
+            "fredao_id": "DEFESA E GESTÃO ESTRATÉGICA INTERNACIONAL"
         },
         {
             "co_curso": 2392,
-            "no_curso": "DESENHO E PL\u00c1STICA"
+            "no_curso": "DESENHO E PLÁSTICA",
+            "fredao_id": "DESENHO E PLÁSTICA"
         },
         {
             "co_curso": 2246,
-            "no_curso": "DESENHO INDUSTRIAL"
+            "no_curso": "DESENHO INDUSTRIAL",
+            "fredao_id": "DESENHO INDUSTRIAL"
         },
         {
             "co_curso": 4628,
-            "no_curso": "DESENVOLVIMENTO RURAL E SEGURAN\u00e7A ALIMENTAR"
+            "no_curso": "DESENVOLVIMENTO RURAL E SEGURANçA ALIMENTAR",
+            "fredao_id": null
         },
         {
             "co_curso": 19,
-            "no_curso": "DESIGN"
+            "no_curso": "DESIGN",
+            "fredao_id": "DESIGN"
         },
         {
             "co_curso": 4736,
-            "no_curso": "DESIGN - MODA"
+            "no_curso": "DESIGN - MODA",
+            "fredao_id": "DESIGN - MODA"
         },
         {
             "co_curso": 3723,
-            "no_curso": "DESIGN DE AMBIENTES"
+            "no_curso": "DESIGN DE AMBIENTES",
+            "fredao_id": "DESIGN DE AMBIENTES"
         },
         {
             "co_curso": 149,
-            "no_curso": "DESIGN DE INTERIORES"
+            "no_curso": "DESIGN DE INTERIORES",
+            "fredao_id": "DESIGN DE INTERIORES"
         },
         {
             "co_curso": 5145,
-            "no_curso": "DESIGN DE JOGOS"
+            "no_curso": "DESIGN DE JOGOS",
+            "fredao_id": "DESIGN DE JOGOS"
         },
         {
             "co_curso": 150,
-            "no_curso": "DESIGN DE MODA"
+            "no_curso": "DESIGN DE MODA",
+            "fredao_id": "DESIGN DE MODA"
         },
         {
             "co_curso": 151,
-            "no_curso": "DESIGN DE PRODUTO"
+            "no_curso": "DESIGN DE PRODUTO",
+            "fredao_id": "DESIGN DE PRODUTO"
         },
         {
             "co_curso": 2461,
-            "no_curso": "DESIGN DIGITAL"
+            "no_curso": "DESIGN DIGITAL",
+            "fredao_id": "DESIGN DIGITAL"
         },
         {
             "co_curso": 5013,
-            "no_curso": "DESIGN EDUCACIONAL"
+            "no_curso": "DESIGN EDUCACIONAL",
+            "fredao_id": "DESIGN EDUCACIONAL"
         },
         {
             "co_curso": 152,
-            "no_curso": "DESIGN GR\u00c1FICO"
+            "no_curso": "DESIGN GRÁFICO",
+            "fredao_id": "DESIGN GRÁFICO"
         },
         {
             "co_curso": 5532,
-            "no_curso": "DESIGN GR\u00c1FICO E DIGITAL"
+            "no_curso": "DESIGN GRÁFICO E DIGITAL",
+            "fredao_id": "DESIGN GRÁFICO E DIGITAL"
         },
         {
             "co_curso": 4743,
-            "no_curso": "DESIGN INDUSTRIAL"
+            "no_curso": "DESIGN INDUSTRIAL",
+            "fredao_id": "DESIGN INDUSTRIAL"
         },
         {
             "co_curso": 3721,
-            "no_curso": "DESIGN VISUAL"
+            "no_curso": "DESIGN VISUAL",
+            "fredao_id": "DESIGN VISUAL"
         },
         {
             "co_curso": 4546,
-            "no_curso": "DIRE\u00c7\u00c3O DE ARTE"
+            "no_curso": "DIREÇÃO DE ARTE",
+            "fredao_id": "DIREÇÃO DE ARTE"
         },
         {
             "co_curso": 2368,
-            "no_curso": "DIRE\u00c7\u00c3O TEATRAL"
+            "no_curso": "DIREÇÃO TEATRAL",
+            "fredao_id": "DIREÇÃO TEATRAL"
         },
         {
             "co_curso": 20,
-            "no_curso": "DIREITO"
+            "no_curso": "DIREITO",
+            "fredao_id": "DIREITO"
         }
     ],
     "E": [
         {
             "co_curso": 2622,
-            "no_curso": "ECOLOGIA"
+            "no_curso": "ECOLOGIA",
+            "fredao_id": "ECOLOGIA"
         },
         {
             "co_curso": 4246,
-            "no_curso": "ECOLOGIA E AN\u00c1LISE AMBIENTAL"
+            "no_curso": "ECOLOGIA E ANÁLISE AMBIENTAL",
+            "fredao_id": null
         },
         {
             "co_curso": 4941,
-            "no_curso": "ECONOMIA ECOL\u00f3GICA"
+            "no_curso": "ECONOMIA ECOLóGICA",
+            "fredao_id": "ECONOMIA ECOLóGICA"
         },
         {
             "co_curso": 6061,
-            "no_curso": "EDUCA\u00c7\u00c3O DAS INF\u00c2NCIAS, LINGUAGENS E ARTES"
+            "no_curso": "EDUCAÇÃO DAS INFÂNCIAS, LINGUAGENS E ARTES",
+            "fredao_id": "EDUCAÇÃO DAS INFÂNCIAS, LINGUAGENS E ARTES"
         },
         {
             "co_curso": 2618,
-            "no_curso": "EDUCA\u00c7\u00c3O DO CAMPO"
+            "no_curso": "EDUCAÇÃO DO CAMPO",
+            "fredao_id": null
         },
         {
             "co_curso": 4813,
-            "no_curso": "EDUCA\u00c7\u00c3O DO CAMPO - CI\u00caNCIAS DA NATUREZA"
+            "no_curso": "EDUCAÇÃO DO CAMPO - CIÊNCIAS DA NATUREZA",
+            "fredao_id": null
         },
         {
             "co_curso": 4704,
-            "no_curso": "EDUCA\u00c7\u00c3O DO CAMPO - CI\u00caNCIAS HUMANAS E SOCIAIS"
+            "no_curso": "EDUCAÇÃO DO CAMPO - CIÊNCIAS HUMANAS E SOCIAIS",
+            "fredao_id": null
         },
         {
             "co_curso": 2814,
-            "no_curso": "EDUCA\u00c7\u00c3O ESPECIAL"
+            "no_curso": "EDUCAÇÃO ESPECIAL",
+            "fredao_id": "EDUCAÇÃO ESPECIAL"
         },
         {
             "co_curso": 21,
-            "no_curso": "EDUCA\u00c7\u00c3O F\u00cdSICA"
+            "no_curso": "EDUCAÇÃO FÍSICA",
+            "fredao_id": "EDUCAÇÃO FÍSICA"
         },
         {
             "co_curso": 2241,
-            "no_curso": "EDUCA\u00c7\u00c3O INFANTIL"
+            "no_curso": "EDUCAÇÃO INFANTIL",
+            "fredao_id": "EDUCAÇÃO INFANTIL"
         },
         {
             "co_curso": 3189,
-            "no_curso": "ELETROMEC\u00c2NICA"
+            "no_curso": "ELETROMECÂNICA",
+            "fredao_id": "ELETROMECÂNICA"
         },
         {
             "co_curso": 187,
-            "no_curso": "ELETR\u00d4NICA INDUSTRIAL"
+            "no_curso": "ELETRÔNICA INDUSTRIAL",
+            "fredao_id": "ELETRÔNICA INDUSTRIAL"
         },
         {
             "co_curso": 4747,
-            "no_curso": "ENERGIAS RENOV\u00c1VEIS"
+            "no_curso": "ENERGIAS RENOVÁVEIS",
+            "fredao_id": "ENERGIAS RENOVÁVEIS"
         },
         {
             "co_curso": 22,
-            "no_curso": "ENFERMAGEM"
+            "no_curso": "ENFERMAGEM",
+            "fredao_id": "ENFERMAGEM"
         },
         {
             "co_curso": 2302,
-            "no_curso": "ENFERMAGEM E OBSTETR\u00cdCIA"
+            "no_curso": "ENFERMAGEM E OBSTETRÍCIA",
+            "fredao_id": "ENFERMAGEM E OBSTETRÍCIA"
         },
         {
             "co_curso": 3284,
-            "no_curso": "ENGENHARIA AC\u00daSTICA"
+            "no_curso": "ENGENHARIA ACÚSTICA",
+            "fredao_id": "ENGENHARIA ACÚSTICA"
         },
         {
             "co_curso": 3285,
-            "no_curso": "ENGENHARIA AEROESPACIAL"
+            "no_curso": "ENGENHARIA AEROESPACIAL",
+            "fredao_id": "ENGENHARIA AEROESPACIAL"
         },
         {
             "co_curso": 77,
-            "no_curso": "ENGENHARIA AERON\u00c1UTICA"
+            "no_curso": "ENGENHARIA AERONÁUTICA",
+            "fredao_id": "ENGENHARIA AERONÁUTICA"
         },
         {
             "co_curso": 24,
-            "no_curso": "ENGENHARIA AGR\u00cdCOLA"
+            "no_curso": "ENGENHARIA AGRÍCOLA",
+            "fredao_id": "ENGENHARIA AGRÍCOLA"
         },
         {
             "co_curso": 2752,
-            "no_curso": "ENGENHARIA AGR\u00cdCOLA E AMBIENTAL"
+            "no_curso": "ENGENHARIA AGRÍCOLA E AMBIENTAL",
+            "fredao_id": "ENGENHARIA AGRÍCOLA E AMBIENTAL"
         },
         {
             "co_curso": 5390,
-            "no_curso": "ENGENHARIA AGROINDUSTRIAL"
+            "no_curso": "ENGENHARIA AGROINDUSTRIAL",
+            "fredao_id": null
         },
         {
             "co_curso": 3287,
-            "no_curso": "ENGENHARIA AGROINDUSTRIAL AGROQU\u00cdMICA"
+            "no_curso": "ENGENHARIA AGROINDUSTRIAL AGROQUÍMICA",
+            "fredao_id": null
         },
         {
             "co_curso": 3288,
-            "no_curso": "ENGENHARIA AGROINDUSTRIAL IND\u00daSTRIAS ALIMENT\u00cdCIAS"
+            "no_curso": "ENGENHARIA AGROINDUSTRIAL INDÚSTRIAS ALIMENTÍCIAS",
+            "fredao_id": null
         },
         {
             "co_curso": 4,
-            "no_curso": "ENGENHARIA AGRON\u00d4MICA"
+            "no_curso": "ENGENHARIA AGRONÔMICA",
+            "fredao_id": "ENGENHARIA AGRONÔMICA"
         },
         {
             "co_curso": 4236,
-            "no_curso": "ENGENHARIA AMBIENTAL"
+            "no_curso": "ENGENHARIA AMBIENTAL",
+            "fredao_id": "ENGENHARIA AMBIENTAL"
         },
         {
             "co_curso": 5212,
-            "no_curso": "ENGENHARIA AMBIENTAL E DA SUSTENTABILIDADE"
+            "no_curso": "ENGENHARIA AMBIENTAL E DA SUSTENTABILIDADE",
+            "fredao_id": "ENGENHARIA AMBIENTAL E DA SUSTENTABILIDADE"
         },
         {
             "co_curso": 3923,
-            "no_curso": "ENGENHARIA AMBIENTAL E ENERGIAS RENOV\u00c1VEIS"
+            "no_curso": "ENGENHARIA AMBIENTAL E ENERGIAS RENOVÁVEIS",
+            "fredao_id": "ENGENHARIA AMBIENTAL E ENERGIAS RENOVÁVEIS"
         },
         {
             "co_curso": 89,
-            "no_curso": "ENGENHARIA AMBIENTAL E SANIT\u00c1RIA"
+            "no_curso": "ENGENHARIA AMBIENTAL E SANITÁRIA",
+            "fredao_id": "ENGENHARIA AMBIENTAL E SANITÁRIA"
         },
         {
             "co_curso": 3291,
-            "no_curso": "ENGENHARIA AUTOMOTIVA"
+            "no_curso": "ENGENHARIA AUTOMOTIVA",
+            "fredao_id": "ENGENHARIA AUTOMOTIVA"
         },
         {
             "co_curso": 3293,
-            "no_curso": "ENGENHARIA BIOM\u00c9DICA"
+            "no_curso": "ENGENHARIA BIOMÉDICA",
+            "fredao_id": "ENGENHARIA BIOMÉDICA"
         },
         {
             "co_curso": 2764,
-            "no_curso": "ENGENHARIA BIOQU\u00cdMICA"
+            "no_curso": "ENGENHARIA BIOQUÍMICA",
+            "fredao_id": null
         },
         {
             "co_curso": 4198,
-            "no_curso": "ENGENHARIA CARTOGR\u00c1FICA E DE AGRIMENSURA"
+            "no_curso": "ENGENHARIA CARTOGRÁFICA E DE AGRIMENSURA",
+            "fredao_id": "ENGENHARIA CARTOGRÁFICA E DE AGRIMENSURA"
         },
         {
             "co_curso": 78,
-            "no_curso": "ENGENHARIA CIVIL"
+            "no_curso": "ENGENHARIA CIVIL",
+            "fredao_id": "ENGENHARIA CIVIL"
         },
         {
             "co_curso": 4031,
-            "no_curso": "ENGENHARIA CIVIL COSTEIRA E PORTU\u00c1RIA"
+            "no_curso": "ENGENHARIA CIVIL COSTEIRA E PORTUÁRIA",
+            "fredao_id": null
         },
         {
             "co_curso": 4866,
-            "no_curso": "ENGENHARIA CIVIL DA MOBILIDADE"
+            "no_curso": "ENGENHARIA CIVIL DA MOBILIDADE",
+            "fredao_id": "ENGENHARIA CIVIL DA MOBILIDADE"
         },
         {
             "co_curso": 3905,
-            "no_curso": "ENGENHARIA CIVIL DE INFRAESTRUTURA"
+            "no_curso": "ENGENHARIA CIVIL DE INFRAESTRUTURA",
+            "fredao_id": "ENGENHARIA CIVIL DE INFRAESTRUTURA"
         },
         {
             "co_curso": 3298,
-            "no_curso": "ENGENHARIA CIVIL EMPRESARIAL"
+            "no_curso": "ENGENHARIA CIVIL EMPRESARIAL",
+            "fredao_id": null
         },
         {
             "co_curso": 3507,
-            "no_curso": "ENGENHARIA COMPUTACIONAL"
+            "no_curso": "ENGENHARIA COMPUTACIONAL",
+            "fredao_id": "ENGENHARIA COMPUTACIONAL"
         },
         {
             "co_curso": 2217,
-            "no_curso": "ENGENHARIA DA COMPUTA\u00c7\u00c3O"
+            "no_curso": "ENGENHARIA DA COMPUTAÇÃO",
+            "fredao_id": "ENGENHARIA DA COMPUTAÇÃO"
         },
         {
             "co_curso": 6145,
-            "no_curso": "ENGENHARIA DA COMPUTA\u00c7\u00c3O E INTELIG\u00caNCIA ARTIFICIAL"
+            "no_curso": "ENGENHARIA DA COMPUTAÇÃO E INTELIGÊNCIA ARTIFICIAL",
+            "fredao_id": "ENGENHARIA DA COMPUTAÇÃO E INTELIGÊNCIA ARTIFICIAL"
         },
         {
             "co_curso": 3301,
-            "no_curso": "ENGENHARIA DA MOBILIDADE"
+            "no_curso": "ENGENHARIA DA MOBILIDADE",
+            "fredao_id": null
         },
         {
             "co_curso": 4150,
-            "no_curso": "ENGENHARIA DE AGRIMENSURA E CARTOGR\u00c1FICA"
+            "no_curso": "ENGENHARIA DE AGRIMENSURA E CARTOGRÁFICA",
+            "fredao_id": "ENGENHARIA DE AGRIMENSURA E CARTOGRÁFICA"
         },
         {
             "co_curso": 2333,
-            "no_curso": "ENGENHARIA DE AGRONEG\u00d3CIOS"
+            "no_curso": "ENGENHARIA DE AGRONEGÓCIOS",
+            "fredao_id": null
         },
         {
             "co_curso": 62,
-            "no_curso": "ENGENHARIA DE ALIMENTOS"
+            "no_curso": "ENGENHARIA DE ALIMENTOS",
+            "fredao_id": "ENGENHARIA DE ALIMENTOS"
         },
         {
             "co_curso": 2359,
-            "no_curso": "ENGENHARIA DE AQUICULTURA"
+            "no_curso": "ENGENHARIA DE AQUICULTURA",
+            "fredao_id": "ENGENHARIA DE AQUICULTURA"
         },
         {
             "co_curso": 3313,
-            "no_curso": "ENGENHARIA DE AUTOMA\u00c7\u00c3O"
+            "no_curso": "ENGENHARIA DE AUTOMAÇÃO",
+            "fredao_id": "ENGENHARIA DE AUTOMAÇÃO"
         },
         {
             "co_curso": 2576,
-            "no_curso": "ENGENHARIA DE AUTOMA\u00c7\u00c3O INDUSTRIAL"
+            "no_curso": "ENGENHARIA DE AUTOMAÇÃO INDUSTRIAL",
+            "fredao_id": null
         },
         {
             "co_curso": 3310,
-            "no_curso": "ENGENHARIA DE BIOPROCESSOS"
+            "no_curso": "ENGENHARIA DE BIOPROCESSOS",
+            "fredao_id": "ENGENHARIA DE BIOPROCESSOS"
         },
         {
             "co_curso": 2600,
-            "no_curso": "ENGENHARIA DE BIOPROCESSOS E BIOTECNOLOGIA"
+            "no_curso": "ENGENHARIA DE BIOPROCESSOS E BIOTECNOLOGIA",
+            "fredao_id": "ENGENHARIA DE BIOPROCESSOS E BIOTECNOLOGIA"
         },
         {
             "co_curso": 3318,
-            "no_curso": "ENGENHARIA DE BIOSSISTEMAS"
+            "no_curso": "ENGENHARIA DE BIOSSISTEMAS",
+            "fredao_id": "ENGENHARIA DE BIOSSISTEMAS"
         },
         {
             "co_curso": 4701,
-            "no_curso": "ENGENHARIA DE BIOTECNOLOGIA"
+            "no_curso": "ENGENHARIA DE BIOTECNOLOGIA",
+            "fredao_id": "ENGENHARIA DE BIOTECNOLOGIA"
         },
         {
             "co_curso": 4454,
-            "no_curso": "ENGENHARIA DE BIOTECNOLOGIA E BIOPROCESSOS"
+            "no_curso": "ENGENHARIA DE BIOTECNOLOGIA E BIOPROCESSOS",
+            "fredao_id": null
         },
         {
             "co_curso": 1823,
-            "no_curso": "ENGENHARIA DE COMPUTA\u00c7\u00c3O"
+            "no_curso": "ENGENHARIA DE COMPUTAÇÃO",
+            "fredao_id": "ENGENHARIA DE COMPUTAÇÃO"
         },
         {
             "co_curso": 6106,
-            "no_curso": "ENGENHARIA DE COMPUTA\u00c7\u00c3O COM INTELIG\u00caNCIA ARTIFICIAL APLICADA"
+            "no_curso": "ENGENHARIA DE COMPUTAÇÃO COM INTELIGÊNCIA ARTIFICIAL APLICADA",
+            "fredao_id": "ENGENHARIA DE COMPUTAÇÃO COM INTELIGÊNCIA ARTIFICIAL APLICADA"
         },
         {
             "co_curso": 2714,
-            "no_curso": "ENGENHARIA DE COMPUTA\u00c7\u00c3O E INFORMA\u00c7\u00c3O"
+            "no_curso": "ENGENHARIA DE COMPUTAÇÃO E INFORMAÇÃO",
+            "fredao_id": "ENGENHARIA DE COMPUTAÇÃO E INFORMAÇÃO"
         },
         {
             "co_curso": 83,
-            "no_curso": "ENGENHARIA DE CONTROLE E AUTOMA\u00c7\u00c3O"
+            "no_curso": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO",
+            "fredao_id": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO"
         },
         {
             "co_curso": 3373,
-            "no_curso": "ENGENHARIA DE CONTROLE E AUTOMA\u00c7\u00c3O DE PROCESSOS"
+            "no_curso": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO DE PROCESSOS",
+            "fredao_id": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO DE PROCESSOS"
         },
         {
             "co_curso": 3316,
-            "no_curso": "ENGENHARIA DE ENERGIA"
+            "no_curso": "ENGENHARIA DE ENERGIA",
+            "fredao_id": "ENGENHARIA DE ENERGIA"
         },
         {
             "co_curso": 4399,
-            "no_curso": "ENGENHARIA DE ENERGIAS"
+            "no_curso": "ENGENHARIA DE ENERGIAS",
+            "fredao_id": "ENGENHARIA DE ENERGIAS"
         },
         {
             "co_curso": 3901,
-            "no_curso": "ENGENHARIA DE ENERGIAS RENOV\u00c1VEIS"
+            "no_curso": "ENGENHARIA DE ENERGIAS RENOVÁVEIS",
+            "fredao_id": "ENGENHARIA DE ENERGIAS RENOVÁVEIS"
         },
         {
             "co_curso": 5019,
-            "no_curso": "ENGENHARIA DE GEST\u00c3O DE ENERGIA"
+            "no_curso": "ENGENHARIA DE GESTÃO DE ENERGIA",
+            "fredao_id": "ENGENHARIA DE GESTÃO DE ENERGIA"
         },
         {
             "co_curso": 79,
-            "no_curso": "ENGENHARIA DE MATERIAIS"
+            "no_curso": "ENGENHARIA DE MATERIAIS",
+            "fredao_id": "ENGENHARIA DE MATERIAIS"
         },
         {
             "co_curso": 3510,
-            "no_curso": "ENGENHARIA DE MECATR\u00d4NICA"
+            "no_curso": "ENGENHARIA DE MECATRÔNICA",
+            "fredao_id": "ENGENHARIA DE MECATRÔNICA"
         },
         {
             "co_curso": 81,
-            "no_curso": "ENGENHARIA DE MINAS"
+            "no_curso": "ENGENHARIA DE MINAS",
+            "fredao_id": "ENGENHARIA DE MINAS"
         },
         {
             "co_curso": 3511,
-            "no_curso": "ENGENHARIA DE MINAS E MEIO AMBIENTE"
+            "no_curso": "ENGENHARIA DE MINAS E MEIO AMBIENTE",
+            "fredao_id": "ENGENHARIA DE MINAS E MEIO AMBIENTE"
         },
         {
             "co_curso": 25,
-            "no_curso": "ENGENHARIA DE PESCA"
+            "no_curso": "ENGENHARIA DE PESCA",
+            "fredao_id": "ENGENHARIA DE PESCA"
         },
         {
             "co_curso": 2224,
-            "no_curso": "ENGENHARIA DE PETR\u00d3LEO"
+            "no_curso": "ENGENHARIA DE PETRÓLEO",
+            "fredao_id": "ENGENHARIA DE PETRÓLEO"
         },
         {
             "co_curso": 2236,
-            "no_curso": "ENGENHARIA DE PETR\u00d3LEO E G\u00c1S"
+            "no_curso": "ENGENHARIA DE PETRÓLEO E GÁS",
+            "fredao_id": "ENGENHARIA DE PETRÓLEO E GÁS"
         },
         {
             "co_curso": 1806,
-            "no_curso": "ENGENHARIA DE PRODU\u00c7\u00c3O"
+            "no_curso": "ENGENHARIA DE PRODUÇÃO",
+            "fredao_id": "ENGENHARIA DE PRODUÇÃO"
         },
         {
             "co_curso": 4694,
-            "no_curso": "ENGENHARIA DE PRODUCAO - HABILITACAO MECANICA"
+            "no_curso": "ENGENHARIA DE PRODUCAO - HABILITACAO MECANICA",
+            "fredao_id": "ENGENHARIA DE PRODUCAO - HABILITACAO MECANICA"
         },
         {
             "co_curso": 3300,
-            "no_curso": "ENGENHARIA DE PRODU\u00c7\u00c3O AGROINDUSTRIAL"
+            "no_curso": "ENGENHARIA DE PRODUÇÃO AGROINDUSTRIAL",
+            "fredao_id": "ENGENHARIA DE PRODUÇÃO AGROINDUSTRIAL"
         },
         {
             "co_curso": 3255,
-            "no_curso": "ENGENHARIA DE PRODU\u00c7\u00c3O CIVIL"
+            "no_curso": "ENGENHARIA DE PRODUÇÃO CIVIL",
+            "fredao_id": "ENGENHARIA DE PRODUÇÃO CIVIL"
         },
         {
             "co_curso": 3355,
-            "no_curso": "ENGENHARIA DE PRODU\u00c7\u00c3O E SISTEMAS"
+            "no_curso": "ENGENHARIA DE PRODUÇÃO E SISTEMAS",
+            "fredao_id": "ENGENHARIA DE PRODUÇÃO E SISTEMAS"
         },
         {
             "co_curso": 2245,
-            "no_curso": "ENGENHARIA DE PRODU\u00c7\u00c3O MEC\u00c2NICA"
+            "no_curso": "ENGENHARIA DE PRODUÇÃO MECÂNICA",
+            "fredao_id": null
         },
         {
             "co_curso": 3520,
-            "no_curso": "ENGENHARIA DE RECURSOS H\u00cdDRICOS E DO MEIO AMBIENTE"
+            "no_curso": "ENGENHARIA DE RECURSOS HÍDRICOS E DO MEIO AMBIENTE",
+            "fredao_id": "ENGENHARIA DE RECURSOS HÍDRICOS E DO MEIO AMBIENTE"
         },
         {
             "co_curso": 5300,
-            "no_curso": "ENGENHARIA DE ROB\u00d4S"
+            "no_curso": "ENGENHARIA DE ROBÔS",
+            "fredao_id": "ENGENHARIA DE ROBÔS"
         },
         {
             "co_curso": 3347,
-            "no_curso": "ENGENHARIA DE SA\u00daDE E SEGURAN\u00c7A"
+            "no_curso": "ENGENHARIA DE SAÚDE E SEGURANÇA",
+            "fredao_id": "ENGENHARIA DE SAÚDE E SEGURANÇA"
         },
         {
             "co_curso": 5020,
-            "no_curso": "ENGENHARIA DE SERVI\u00c7OS"
+            "no_curso": "ENGENHARIA DE SERVIÇOS",
+            "fredao_id": null
         },
         {
             "co_curso": 1768,
-            "no_curso": "ENGENHARIA DE SISTEMAS"
+            "no_curso": "ENGENHARIA DE SISTEMAS",
+            "fredao_id": "ENGENHARIA DE SISTEMAS"
         },
         {
             "co_curso": 3319,
-            "no_curso": "ENGENHARIA DE SOFTWARE"
+            "no_curso": "ENGENHARIA DE SOFTWARE",
+            "fredao_id": "ENGENHARIA DE SOFTWARE"
         },
         {
             "co_curso": 5114,
-            "no_curso": "ENGENHARIA DE TECNOLOGIA ASSISTIVA E ACESSIBILIDADE"
+            "no_curso": "ENGENHARIA DE TECNOLOGIA ASSISTIVA E ACESSIBILIDADE",
+            "fredao_id": null
         },
         {
             "co_curso": 2237,
-            "no_curso": "ENGENHARIA DE TELECOMUNICA\u00c7\u00d5ES"
+            "no_curso": "ENGENHARIA DE TELECOMUNICAÇÕES",
+            "fredao_id": "ENGENHARIA DE TELECOMUNICAÇÕES"
         },
         {
             "co_curso": 4699,
-            "no_curso": "ENGENHARIA DE TRANSPORTE E LOG\u00edSTICA"
+            "no_curso": "ENGENHARIA DE TRANSPORTE E LOGíSTICA",
+            "fredao_id": "ENGENHARIA DE TRANSPORTE E LOGíSTICA"
         },
         {
             "co_curso": 5365,
-            "no_curso": "ENGENHARIA DE TRANSPORTE E MOBILIDADE"
+            "no_curso": "ENGENHARIA DE TRANSPORTE E MOBILIDADE",
+            "fredao_id": "ENGENHARIA DE TRANSPORTE E MOBILIDADE"
         },
         {
             "co_curso": 1818,
-            "no_curso": "ENGENHARIA DE TRANSPORTES"
+            "no_curso": "ENGENHARIA DE TRANSPORTES",
+            "fredao_id": "ENGENHARIA DE TRANSPORTES"
         },
         {
             "co_curso": 4889,
-            "no_curso": "ENGENHARIA DE TRANSPORTES E LOG\u00edSTICA"
+            "no_curso": "ENGENHARIA DE TRANSPORTES E LOGíSTICA",
+            "fredao_id": "ENGENHARIA DE TRANSPORTES E LOGíSTICA"
         },
         {
             "co_curso": 84,
-            "no_curso": "ENGENHARIA EL\u00c9TRICA"
+            "no_curso": "ENGENHARIA ELÉTRICA",
+            "fredao_id": "ENGENHARIA ELÉTRICA"
         },
         {
             "co_curso": 4220,
-            "no_curso": "ENGENHARIA EL\u00c9TRICA - ELETR\u00d4NICA"
+            "no_curso": "ENGENHARIA ELÉTRICA - ELETRÔNICA",
+            "fredao_id": "ENGENHARIA ELÉTRICA - ELETRÔNICA"
         },
         {
             "co_curso": 4221,
-            "no_curso": "ENGENHARIA EL\u00c9TRICA - ELETROT\u00c9CNICA"
+            "no_curso": "ENGENHARIA ELÉTRICA - ELETROTÉCNICA",
+            "fredao_id": "ENGENHARIA ELÉTRICA - ELETROTÉCNICA"
         },
         {
             "co_curso": 4316,
-            "no_curso": "ENGENHARIA EL\u00c9TRICA - ENERGIA"
+            "no_curso": "ENGENHARIA ELÉTRICA - ENERGIA",
+            "fredao_id": "ENGENHARIA ELÉTRICA - ENERGIA"
         },
         {
             "co_curso": 4317,
-            "no_curso": "ENGENHARIA EL\u00c9TRICA - ROB\u00d3TICA E AUTOMA\u00c7\u00c3O INDUSTRIAL"
+            "no_curso": "ENGENHARIA ELÉTRICA - ROBÓTICA E AUTOMAÇÃO INDUSTRIAL",
+            "fredao_id": "ENGENHARIA ELÉTRICA - ROBÓTICA E AUTOMAÇÃO INDUSTRIAL"
         },
         {
             "co_curso": 4318,
-            "no_curso": "ENGENHARIA EL\u00c9TRICA - SISTEMAS DE POT\u00caNCIA"
+            "no_curso": "ENGENHARIA ELÉTRICA - SISTEMAS DE POTÊNCIA",
+            "fredao_id": "ENGENHARIA ELÉTRICA - SISTEMAS DE POTÊNCIA"
         },
         {
             "co_curso": 4319,
-            "no_curso": "ENGENHARIA EL\u00c9TRICA - SISTEMAS ELETR\u00d4NICOS"
+            "no_curso": "ENGENHARIA ELÉTRICA - SISTEMAS ELETRÔNICOS",
+            "fredao_id": "ENGENHARIA ELÉTRICA - SISTEMAS ELETRÔNICOS"
         },
         {
             "co_curso": 4219,
-            "no_curso": "ENGENHARIA EL\u00c9TRICA - TELECOMUNICA\u00c7\u00d5ES"
+            "no_curso": "ENGENHARIA ELÉTRICA - TELECOMUNICAÇÕES",
+            "fredao_id": "ENGENHARIA ELÉTRICA - TELECOMUNICAÇÕES"
         },
         {
             "co_curso": 2317,
-            "no_curso": "ENGENHARIA ELETR\u00d4NICA"
+            "no_curso": "ENGENHARIA ELETRÔNICA",
+            "fredao_id": "ENGENHARIA ELETRÔNICA"
         },
         {
             "co_curso": 2713,
-            "no_curso": "ENGENHARIA ELETR\u00d4NICA E DE COMPUTA\u00c7\u00c3O"
+            "no_curso": "ENGENHARIA ELETRÔNICA E DE COMPUTAÇÃO",
+            "fredao_id": "ENGENHARIA ELETRÔNICA E DE COMPUTAÇÃO"
         },
         {
             "co_curso": 3360,
-            "no_curso": "ENGENHARIA ELETR\u00d4NICA E DE TELECOMUNICA\u00c7\u00d5ES"
+            "no_curso": "ENGENHARIA ELETRÔNICA E DE TELECOMUNICAÇÕES",
+            "fredao_id": "ENGENHARIA ELETRÔNICA E DE TELECOMUNICAÇÕES"
         },
         {
             "co_curso": 6122,
-            "no_curso": "ENGENHARIA EM CIBERSEGURAN\u00c7A"
+            "no_curso": "ENGENHARIA EM CIBERSEGURANÇA",
+            "fredao_id": "ENGENHARIA EM CIBERSEGURANÇA"
         },
         {
             "co_curso": 4697,
-            "no_curso": "ENGENHARIA FERROVI\u00c1RIA E METROVI\u00c1RIA"
+            "no_curso": "ENGENHARIA FERROVIÁRIA E METROVIÁRIA",
+            "fredao_id": "ENGENHARIA FERROVIÁRIA E METROVIÁRIA"
         },
         {
             "co_curso": 6147,
-            "no_curso": "ENGENHARIA FINANCEIRA E  INOVA\u00c7\u00c3O DIGITAL"
+            "no_curso": "ENGENHARIA FINANCEIRA E  INOVAÇÃO DIGITAL",
+            "fredao_id": "ENGENHARIA FINANCEIRA E  INOVAÇÃO DIGITAL"
         },
         {
             "co_curso": 3364,
-            "no_curso": "ENGENHARIA F\u00cdSICA"
+            "no_curso": "ENGENHARIA FÍSICA",
+            "fredao_id": "ENGENHARIA FÍSICA"
         },
         {
             "co_curso": 26,
-            "no_curso": "ENGENHARIA FLORESTAL"
+            "no_curso": "ENGENHARIA FLORESTAL",
+            "fredao_id": "ENGENHARIA FLORESTAL"
         },
         {
             "co_curso": 3365,
-            "no_curso": "ENGENHARIA GEOL\u00d3GICA"
+            "no_curso": "ENGENHARIA GEOLÓGICA",
+            "fredao_id": "ENGENHARIA GEOLÓGICA"
         },
         {
             "co_curso": 3366,
-            "no_curso": "ENGENHARIA H\u00cdDRICA"
+            "no_curso": "ENGENHARIA HÍDRICA",
+            "fredao_id": "ENGENHARIA HÍDRICA"
         },
         {
             "co_curso": 3335,
-            "no_curso": "ENGENHARIA INDUSTRIAL EL\u00c9TRICA"
+            "no_curso": "ENGENHARIA INDUSTRIAL ELÉTRICA",
+            "fredao_id": "ENGENHARIA INDUSTRIAL ELÉTRICA"
         },
         {
             "co_curso": 3330,
-            "no_curso": "ENGENHARIA INDUSTRIAL MADEIREIRA"
+            "no_curso": "ENGENHARIA INDUSTRIAL MADEIREIRA",
+            "fredao_id": "ENGENHARIA INDUSTRIAL MADEIREIRA"
         },
         {
             "co_curso": 2318,
-            "no_curso": "ENGENHARIA INDUSTRIAL MEC\u00c2NICA"
+            "no_curso": "ENGENHARIA INDUSTRIAL MECÂNICA",
+            "fredao_id": "ENGENHARIA INDUSTRIAL MECÂNICA"
         },
         {
             "co_curso": 5280,
-            "no_curso": "ENGENHARIA MATEM\u00c1TICA"
+            "no_curso": "ENGENHARIA MATEMÁTICA",
+            "fredao_id": "ENGENHARIA MATEMÁTICA"
         },
         {
             "co_curso": 85,
-            "no_curso": "ENGENHARIA MEC\u00c2NICA"
+            "no_curso": "ENGENHARIA MECÂNICA",
+            "fredao_id": "ENGENHARIA MECÂNICA"
         },
         {
             "co_curso": 3526,
-            "no_curso": "ENGENHARIA MEC\u00c2NICA AERON\u00c1UTICA"
+            "no_curso": "ENGENHARIA MECÂNICA AERONÁUTICA",
+            "fredao_id": "ENGENHARIA MECÂNICA AERONÁUTICA"
         },
         {
             "co_curso": 3350,
-            "no_curso": "ENGENHARIA MEC\u00c2NICA EMPRESARIAL"
+            "no_curso": "ENGENHARIA MECÂNICA EMPRESARIAL",
+            "fredao_id": "ENGENHARIA MECÂNICA EMPRESARIAL"
         },
         {
             "co_curso": 4032,
-            "no_curso": "ENGENHARIA MEC\u00c2NICA NAVAL"
+            "no_curso": "ENGENHARIA MECÂNICA NAVAL",
+            "fredao_id": "ENGENHARIA MECÂNICA NAVAL"
         },
         {
             "co_curso": 2218,
-            "no_curso": "ENGENHARIA MECATR\u00d4NICA"
+            "no_curso": "ENGENHARIA MECATRÔNICA",
+            "fredao_id": "ENGENHARIA MECATRÔNICA"
         },
         {
             "co_curso": 80,
-            "no_curso": "ENGENHARIA METAL\u00daRGICA"
+            "no_curso": "ENGENHARIA METALÚRGICA",
+            "fredao_id": "ENGENHARIA METALÚRGICA"
         },
         {
             "co_curso": 5814,
-            "no_curso": "ENGENHARIA METAL\u00daRGICA E ENGENHARIA DE MATERIAIS"
+            "no_curso": "ENGENHARIA METALÚRGICA E ENGENHARIA DE MATERIAIS",
+            "fredao_id": "ENGENHARIA METALÚRGICA E ENGENHARIA DE MATERIAIS"
         },
         {
             "co_curso": 6027,
-            "no_curso": "ENGENHARIA METEOROL\u00d3GICA"
+            "no_curso": "ENGENHARIA METEOROLÓGICA",
+            "fredao_id": null
         },
         {
             "co_curso": 87,
-            "no_curso": "ENGENHARIA NAVAL"
+            "no_curso": "ENGENHARIA NAVAL",
+            "fredao_id": "ENGENHARIA NAVAL"
         },
         {
             "co_curso": 3348,
-            "no_curso": "ENGENHARIA NAVAL E OCE\u00c2NICA"
+            "no_curso": "ENGENHARIA NAVAL E OCEÂNICA",
+            "fredao_id": "ENGENHARIA NAVAL E OCEÂNICA"
         },
         {
             "co_curso": 4187,
-            "no_curso": "ENGENHARIA NUCLEAR"
+            "no_curso": "ENGENHARIA NUCLEAR",
+            "fredao_id": "ENGENHARIA NUCLEAR"
         },
         {
             "co_curso": 88,
-            "no_curso": "ENGENHARIA QU\u00cdMICA"
+            "no_curso": "ENGENHARIA QUÍMICA",
+            "fredao_id": "ENGENHARIA QUÍMICA"
         },
         {
             "co_curso": 3346,
-            "no_curso": "ENGENHARIA SANITARIA E AMBIENTAL"
+            "no_curso": "ENGENHARIA SANITARIA E AMBIENTAL",
+            "fredao_id": "ENGENHARIA SANITARIA E AMBIENTAL"
         },
         {
             "co_curso": 4661,
-            "no_curso": "ENGENHARIA SANIT\u00c1RIA E AMBIENTAL"
+            "no_curso": "ENGENHARIA SANITÁRIA E AMBIENTAL",
+            "fredao_id": "ENGENHARIA SANITÁRIA E AMBIENTAL"
         },
         {
             "co_curso": 86,
-            "no_curso": "ENGENHARIA T\u00caXTIL"
+            "no_curso": "ENGENHARIA TÊXTIL",
+            "fredao_id": "ENGENHARIA TÊXTIL"
         },
         {
             "co_curso": 1781,
-            "no_curso": "ENGENHARIA URBANA"
+            "no_curso": "ENGENHARIA URBANA",
+            "fredao_id": null
         },
         {
             "co_curso": 4249,
-            "no_curso": "ENOLOGIA"
+            "no_curso": "ENOLOGIA",
+            "fredao_id": null
         },
         {
             "co_curso": 4054,
-            "no_curso": "ESCRITA CRIATIVA"
+            "no_curso": "ESCRITA CRIATIVA",
+            "fredao_id": "ESCRITA CRIATIVA"
         },
         {
             "co_curso": 55,
-            "no_curso": "ESTAT\u00cdSTICA"
+            "no_curso": "ESTATÍSTICA",
+            "fredao_id": "ESTATÍSTICA"
         },
         {
             "co_curso": 5385,
-            "no_curso": "ESTAT\u00cdSTICA E CI\u00caNCIA DE DADOS"
+            "no_curso": "ESTATÍSTICA E CIÊNCIA DE DADOS",
+            "fredao_id": "ESTATÍSTICA E CIÊNCIA DE DADOS"
         },
         {
             "co_curso": 5035,
-            "no_curso": "EST\u00c9TICA E COSM\u00c9TICA"
+            "no_curso": "ESTÉTICA E COSMÉTICA",
+            "fredao_id": "ESTÉTICA E COSMÉTICA"
         },
         {
             "co_curso": 4867,
-            "no_curso": "EST\u00c9TICA E TEORIA DO TEATRO"
+            "no_curso": "ESTÉTICA E TEORIA DO TEATRO",
+            "fredao_id": "ESTÉTICA E TEORIA DO TEATRO"
         },
         {
             "co_curso": 175,
-            "no_curso": "ESTRADAS"
+            "no_curso": "ESTRADAS",
+            "fredao_id": "ESTRADAS"
         },
         {
             "co_curso": 4045,
-            "no_curso": "ESTUDO DE G\u00caNERO E DIVERSIDADE"
+            "no_curso": "ESTUDO DE GÊNERO E DIVERSIDADE",
+            "fredao_id": null
         },
         {
             "co_curso": 4046,
-            "no_curso": "ESTUDOS DE M\u00cdDIA"
+            "no_curso": "ESTUDOS DE MÍDIA",
+            "fredao_id": "ESTUDOS DE MÍDIA"
         },
         {
             "co_curso": 4597,
-            "no_curso": "EXPRESS\u00c3O GR\u00c1FICA"
+            "no_curso": "EXPRESSÃO GRÁFICA",
+            "fredao_id": "EXPRESSÃO GRÁFICA"
         }
     ],
     "F": [
         {
             "co_curso": 189,
-            "no_curso": "FABRICA\u00c7\u00c3O MEC\u00c2NICA"
+            "no_curso": "FABRICAÇÃO MECÂNICA",
+            "fredao_id": "FABRICAÇÃO MECÂNICA"
         },
         {
             "co_curso": 27,
-            "no_curso": "FARM\u00c1CIA"
+            "no_curso": "FARMÁCIA",
+            "fredao_id": "FARMÁCIA"
         },
         {
             "co_curso": 28,
-            "no_curso": "FILOSOFIA"
+            "no_curso": "FILOSOFIA",
+            "fredao_id": "FILOSOFIA"
         },
         {
             "co_curso": 2571,
-            "no_curso": "FINAN\u00c7AS"
+            "no_curso": "FINANÇAS",
+            "fredao_id": "FINANÇAS"
         },
         {
             "co_curso": 29,
-            "no_curso": "F\u00cdSICA"
+            "no_curso": "FÍSICA",
+            "fredao_id": "FÍSICA"
         },
         {
             "co_curso": 4015,
-            "no_curso": "F\u00cdSICA DE MATERIAIS"
+            "no_curso": "FÍSICA DE MATERIAIS",
+            "fredao_id": "FÍSICA DE MATERIAIS"
         },
         {
             "co_curso": 3004,
-            "no_curso": "F\u00cdSICA M\u00c9DICA"
+            "no_curso": "FÍSICA MÉDICA",
+            "fredao_id": "FÍSICA MÉDICA"
         },
         {
             "co_curso": 30,
-            "no_curso": "FISIOTERAPIA"
+            "no_curso": "FISIOTERAPIA",
+            "fredao_id": "FISIOTERAPIA"
         },
         {
             "co_curso": 31,
-            "no_curso": "FONOAUDIOLOGIA"
+            "no_curso": "FONOAUDIOLOGIA",
+            "fredao_id": "FONOAUDIOLOGIA"
         },
         {
             "co_curso": 4339,
-            "no_curso": "FRUTICULTURA"
+            "no_curso": "FRUTICULTURA",
+            "fredao_id": null
         }
     ],
     "G": [
         {
             "co_curso": 223,
-            "no_curso": "GASTRONOMIA"
+            "no_curso": "GASTRONOMIA",
+            "fredao_id": "GASTRONOMIA"
         },
         {
             "co_curso": 4043,
-            "no_curso": "GEMOLOGIA"
+            "no_curso": "GEMOLOGIA",
+            "fredao_id": null
         },
         {
             "co_curso": 3922,
-            "no_curso": "GEOFISICA"
+            "no_curso": "GEOFISICA",
+            "fredao_id": "GEOFISICA"
         },
         {
             "co_curso": 33,
-            "no_curso": "GEOGRAFIA"
+            "no_curso": "GEOGRAFIA",
+            "fredao_id": "GEOGRAFIA"
         },
         {
             "co_curso": 4624,
-            "no_curso": "GEOGRAFIA - LICENCIATURA OU BACHARELADO"
+            "no_curso": "GEOGRAFIA - LICENCIATURA OU BACHARELADO",
+            "fredao_id": "GEOGRAFIA - LICENCIATURA OU BACHARELADO"
         },
         {
             "co_curso": 56,
-            "no_curso": "GEOLOGIA"
+            "no_curso": "GEOLOGIA",
+            "fredao_id": "GEOLOGIA"
         },
         {
             "co_curso": 176,
-            "no_curso": "GEOPROCESSAMENTO"
+            "no_curso": "GEOPROCESSAMENTO",
+            "fredao_id": null
         },
         {
             "co_curso": 3933,
-            "no_curso": "GERONTOLOGIA"
+            "no_curso": "GERONTOLOGIA",
+            "fredao_id": "GERONTOLOGIA"
         },
         {
             "co_curso": 227,
-            "no_curso": "GEST\u00c3O AMBIENTAL"
+            "no_curso": "GESTÃO AMBIENTAL",
+            "fredao_id": "GESTÃO AMBIENTAL"
         },
         {
             "co_curso": 160,
-            "no_curso": "GEST\u00c3O COMERCIAL"
+            "no_curso": "GESTÃO COMERCIAL",
+            "fredao_id": "GESTÃO COMERCIAL"
         },
         {
             "co_curso": 1688,
-            "no_curso": "GEST\u00c3O DA INFORMA\u00c7\u00c3O"
+            "no_curso": "GESTÃO DA INFORMAÇÃO",
+            "fredao_id": "GESTÃO DA INFORMAÇÃO"
         },
         {
             "co_curso": 190,
-            "no_curso": "GEST\u00c3O DA PRODU\u00c7\u00c3O INDUSTRIAL"
+            "no_curso": "GESTÃO DA PRODUÇÃO INDUSTRIAL",
+            "fredao_id": "GESTÃO DA PRODUÇÃO INDUSTRIAL"
         },
         {
             "co_curso": 161,
-            "no_curso": "GEST\u00c3O DA QUALIDADE"
+            "no_curso": "GESTÃO DA QUALIDADE",
+            "fredao_id": "GESTÃO DA QUALIDADE"
         },
         {
             "co_curso": 213,
-            "no_curso": "GEST\u00c3O DA TECNOLOGIA DA INFORMA\u00c7\u00c3O"
+            "no_curso": "GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+            "fredao_id": "GESTÃO DA TECNOLOGIA DA INFORMAÇÃO"
         },
         {
             "co_curso": 2301,
-            "no_curso": "GEST\u00c3O DE AGRONEG\u00d3CIOS"
+            "no_curso": "GESTÃO DE AGRONEGÓCIOS",
+            "fredao_id": "GESTÃO DE AGRONEGÓCIOS"
         },
         {
             "co_curso": 162,
-            "no_curso": "GEST\u00c3O DE COOPERATIVAS"
+            "no_curso": "GESTÃO DE COOPERATIVAS",
+            "fredao_id": "GESTÃO DE COOPERATIVAS"
         },
         {
             "co_curso": 5377,
-            "no_curso": "GEST\u00c3O DE DADOS"
+            "no_curso": "GESTÃO DE DADOS",
+            "fredao_id": "GESTÃO DE DADOS"
         },
         {
             "co_curso": 2878,
-            "no_curso": "GEST\u00c3O DE EVENTOS"
+            "no_curso": "GESTÃO DE EVENTOS",
+            "fredao_id": "GESTÃO DE EVENTOS"
         },
         {
             "co_curso": 169,
-            "no_curso": "GEST\u00c3O DE NEG\u00d3CIOS IMOBILI\u00c1RIOS"
+            "no_curso": "GESTÃO DE NEGÓCIOS IMOBILIÁRIOS",
+            "fredao_id": "GESTÃO DE NEGÓCIOS IMOBILIÁRIOS"
         },
         {
             "co_curso": 2744,
-            "no_curso": "GEST\u00c3O DE POL\u00cdTICAS P\u00daBLICAS"
+            "no_curso": "GESTÃO DE POLÍTICAS PÚBLICAS",
+            "fredao_id": "GESTÃO DE POLÍTICAS PÚBLICAS"
         },
         {
             "co_curso": 163,
-            "no_curso": "GEST\u00c3O DE RECURSOS HUMANOS"
+            "no_curso": "GESTÃO DE RECURSOS HUMANOS",
+            "fredao_id": "GESTÃO DE RECURSOS HUMANOS"
         },
         {
             "co_curso": 3529,
-            "no_curso": "GEST\u00c3O DE SERVI\u00c7OS DE SA\u00daDE"
+            "no_curso": "GESTÃO DE SERVIÇOS DE SAÚDE",
+            "fredao_id": "GESTÃO DE SERVIÇOS DE SAÚDE"
         },
         {
             "co_curso": 4825,
-            "no_curso": "GEST\u00c3O DE SERVI\u00c7OS JUR\u00cdDICOS E NOTARIAIS"
+            "no_curso": "GESTÃO DE SERVIÇOS JURÍDICOS E NOTARIAIS",
+            "fredao_id": "GESTÃO DE SERVIÇOS JURÍDICOS E NOTARIAIS"
         },
         {
             "co_curso": 224,
-            "no_curso": "GEST\u00c3O DE TURISMO"
+            "no_curso": "GESTÃO DE TURISMO",
+            "fredao_id": "GESTÃO DE TURISMO"
         },
         {
             "co_curso": 225,
-            "no_curso": "GEST\u00c3O DESPORTIVA E DE LAZER"
+            "no_curso": "GESTÃO DESPORTIVA E DE LAZER",
+            "fredao_id": "GESTÃO DESPORTIVA E DE LAZER"
         },
         {
             "co_curso": 2204,
-            "no_curso": "GEST\u00c3O DO AGRONEG\u00d3CIO"
+            "no_curso": "GESTÃO DO AGRONEGÓCIO",
+            "fredao_id": "GESTÃO DO AGRONEGÓCIO"
         },
         {
             "co_curso": 3931,
-            "no_curso": "Gest\u00e3o e An\u00e1lise Ambiental"
+            "no_curso": "Gestão e Análise Ambiental",
+            "fredao_id": "Gestão e Análise Ambiental"
         },
         {
             "co_curso": 2044,
-            "no_curso": "GEST\u00c3O E DESENVOLVIMENTO REGIONAL"
+            "no_curso": "GESTÃO E DESENVOLVIMENTO REGIONAL",
+            "fredao_id": "GESTÃO E DESENVOLVIMENTO REGIONAL"
         },
         {
             "co_curso": 4041,
-            "no_curso": "GEST\u00c3O E EMPREENDEDORISMO"
+            "no_curso": "GESTÃO E EMPREENDEDORISMO",
+            "fredao_id": "GESTÃO E EMPREENDEDORISMO"
         },
         {
             "co_curso": 2556,
-            "no_curso": "GEST\u00c3O EM SA\u00daDE"
+            "no_curso": "GESTÃO EM SAÚDE",
+            "fredao_id": "GESTÃO EM SAÚDE"
         },
         {
             "co_curso": 228,
-            "no_curso": "GEST\u00c3O HOSPITALAR"
+            "no_curso": "GESTÃO HOSPITALAR",
+            "fredao_id": "GESTÃO HOSPITALAR"
         },
         {
             "co_curso": 166,
-            "no_curso": "GEST\u00c3O P\u00daBLICA"
+            "no_curso": "GESTÃO PÚBLICA",
+            "fredao_id": "GESTÃO PÚBLICA"
         },
         {
             "co_curso": 4749,
-            "no_curso": "GEST\u00c3O P\u00daBLICA E DESENVOLVIMENTO REGIONAL"
+            "no_curso": "GESTÃO PÚBLICA E DESENVOLVIMENTO REGIONAL",
+            "fredao_id": "GESTÃO PÚBLICA E DESENVOLVIMENTO REGIONAL"
         },
         {
             "co_curso": 5517,
-            "no_curso": "GEST\u00c3O P\u00daBLICA E SOCIAL"
+            "no_curso": "GESTÃO PÚBLICA E SOCIAL",
+            "fredao_id": "GESTÃO PÚBLICA E SOCIAL"
         },
         {
             "co_curso": 4147,
-            "no_curso": "GEST\u00c3O P\u00daBLICA PARA O DESENVOLVIMENTO ECON\u00d4MICO E SOCIAL"
+            "no_curso": "GESTÃO PÚBLICA PARA O DESENVOLVIMENTO ECONÔMICO E SOCIAL",
+            "fredao_id": "GESTÃO PÚBLICA PARA O DESENVOLVIMENTO ECONÔMICO E SOCIAL"
         }
     ],
     "H": [
         {
             "co_curso": 34,
-            "no_curso": "HIST\u00d3RIA"
+            "no_curso": "HISTÓRIA",
+            "fredao_id": "HISTÓRIA"
         },
         {
             "co_curso": 4630,
-            "no_curso": "HIST\u00f3RIA - AM\u00e9RICA LATINA"
+            "no_curso": "HISTóRIA - AMéRICA LATINA",
+            "fredao_id": null
         },
         {
             "co_curso": 4625,
-            "no_curso": "HIST\u00d3RIA - LICENCIATURA OU BACHARELADO"
+            "no_curso": "HISTÓRIA - LICENCIATURA OU BACHARELADO",
+            "fredao_id": "HISTÓRIA - LICENCIATURA OU BACHARELADO"
         },
         {
             "co_curso": 4260,
-            "no_curso": "HIST\u00f3RIA - MEM\u00f3RIA E IMAGEM"
+            "no_curso": "HISTóRIA - MEMóRIA E IMAGEM",
+            "fredao_id": "HISTóRIA - MEMóRIA E IMAGEM"
         },
         {
             "co_curso": 2376,
-            "no_curso": "HIST\u00d3RIA DA ARTE"
+            "no_curso": "HISTÓRIA DA ARTE",
+            "fredao_id": "HISTÓRIA DA ARTE"
         },
         {
             "co_curso": 141,
-            "no_curso": "HORTICULTURA"
+            "no_curso": "HORTICULTURA",
+            "fredao_id": null
         },
         {
             "co_curso": 226,
-            "no_curso": "HOTELARIA"
+            "no_curso": "HOTELARIA",
+            "fredao_id": "HOTELARIA"
         },
         {
             "co_curso": 5094,
-            "no_curso": "HUMANIDADES - BI\/LI"
+            "no_curso": "HUMANIDADES - BI/LI",
+            "fredao_id": "HUMANIDADES - BI/LI"
         }
     ],
     "I": [
         {
             "co_curso": 3932,
-            "no_curso": "IMAGEM E SOM"
+            "no_curso": "IMAGEM E SOM",
+            "fredao_id": "IMAGEM E SOM"
         },
         {
             "co_curso": 1493,
-            "no_curso": "INFORM\u00c1TICA  "
+            "no_curso": "INFORMÁTICA  ",
+            "fredao_id": "INFORMÁTICA  "
         },
         {
             "co_curso": 2434,
-            "no_curso": "INFORM\u00c1TICA BIOM\u00c9DICA"
+            "no_curso": "INFORMÁTICA BIOMÉDICA",
+            "fredao_id": "INFORMÁTICA BIOMÉDICA"
         },
         {
             "co_curso": 1317,
-            "no_curso": "INFORM\u00c1TICA EM SA\u00daDE"
+            "no_curso": "INFORMÁTICA EM SAÚDE",
+            "fredao_id": "INFORMÁTICA EM SAÚDE"
         },
         {
             "co_curso": 5240,
-            "no_curso": "INTELIG\u00caNCIA ARTIFICIAL"
+            "no_curso": "INTELIGÊNCIA ARTIFICIAL",
+            "fredao_id": "INTELIGÊNCIA ARTIFICIAL"
         },
         {
             "co_curso": 5770,
-            "no_curso": "INTELIG\u00caNCIA ARTIFICIAL E CI\u00caNCIA DE DADOS"
+            "no_curso": "INTELIGÊNCIA ARTIFICIAL E CIÊNCIA DE DADOS",
+            "fredao_id": "INTELIGÊNCIA ARTIFICIAL E CIÊNCIA DE DADOS"
         },
         {
             "co_curso": 5809,
-            "no_curso": "INTELIG\u00caNCIA ARTIFICIAL E ENGENHARIA DE SOFTWARE"
+            "no_curso": "INTELIGÊNCIA ARTIFICIAL E ENGENHARIA DE SOFTWARE",
+            "fredao_id": "INTELIGÊNCIA ARTIFICIAL E ENGENHARIA DE SOFTWARE"
         },
         {
             "co_curso": 4862,
-            "no_curso": "INTERDISCIPLINAR EM ARTES"
+            "no_curso": "INTERDISCIPLINAR EM ARTES",
+            "fredao_id": "INTERDISCIPLINAR EM ARTES"
         },
         {
             "co_curso": 4910,
-            "no_curso": "INTERDISCIPLINAR EM ARTES E SUAS TECNOLOGIAS"
+            "no_curso": "INTERDISCIPLINAR EM ARTES E SUAS TECNOLOGIAS",
+            "fredao_id": null
         },
         {
             "co_curso": 4565,
-            "no_curso": "INTERDISCIPLINAR EM BIOSSISTEMAS"
+            "no_curso": "INTERDISCIPLINAR EM BIOSSISTEMAS",
+            "fredao_id": null
         },
         {
             "co_curso": 5092,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIA E ECONOMIA - BI\/LI"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIA E ECONOMIA - BI/LI",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIA E ECONOMIA - BI/LI"
         },
         {
             "co_curso": 2740,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIA E TECNOLOGIA"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIA E TECNOLOGIA",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIA E TECNOLOGIA"
         },
         {
             "co_curso": 4609,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIA E TECNOLOGIA DO MAR - BI\/LI"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIA E TECNOLOGIA DO MAR - BI/LI",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIA E TECNOLOGIA DO MAR - BI/LI"
         },
         {
             "co_curso": 5253,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIA, TECNOLOGIA E INOVA\u00c7\u00c3O"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIA, TECNOLOGIA E INOVAÇÃO",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIA, TECNOLOGIA E INOVAÇÃO"
         },
         {
             "co_curso": 4911,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIAS"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIAS",
+            "fredao_id": null
         },
         {
             "co_curso": 5113,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIAS AMBIENTAIS"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIAS AMBIENTAIS",
+            "fredao_id": null
         },
         {
             "co_curso": 4906,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIAS DA NATUREZA E SUAS TECNOLOGIAS"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+            "fredao_id": null
         },
         {
             "co_curso": 5104,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIAS E HUMANIDADES"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIAS E HUMANIDADES",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIAS E HUMANIDADES"
         },
         {
             "co_curso": 5088,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIAS HUMANAS - BI\/LI"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIAS HUMANAS - BI/LI",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIAS HUMANAS - BI/LI"
         },
         {
             "co_curso": 4907,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIAS HUMANAS E SOCIAIS E SUAS TECNOLOGIAS"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIAS HUMANAS E SOCIAIS E SUAS TECNOLOGIAS",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIAS HUMANAS E SOCIAIS E SUAS TECNOLOGIAS"
         },
         {
             "co_curso": 5704,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIAS NATURAIS"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIAS NATURAIS",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIAS NATURAIS"
         },
         {
             "co_curso": 5376,
-            "no_curso": "INTERDISCIPLINAR EM CI\u00caNCIAS NATURAIS E EXATAS"
+            "no_curso": "INTERDISCIPLINAR EM CIÊNCIAS NATURAIS E EXATAS",
+            "fredao_id": "INTERDISCIPLINAR EM CIÊNCIAS NATURAIS E EXATAS"
         },
         {
             "co_curso": 4859,
-            "no_curso": "INTERDISCIPLINAR EM CULTURA, LINGUAGENS E TECNOLOGIAS APLICADAS"
+            "no_curso": "INTERDISCIPLINAR EM CULTURA, LINGUAGENS E TECNOLOGIAS APLICADAS",
+            "fredao_id": null
         },
         {
             "co_curso": 4857,
-            "no_curso": "INTERDISCIPLINAR EM EDUCA\u00c7\u00c3O DO CAMPO: CI\u00caNCIAS DA NATUREZA"
+            "no_curso": "INTERDISCIPLINAR EM EDUCAÇÃO DO CAMPO: CIÊNCIAS DA NATUREZA",
+            "fredao_id": null
         },
         {
             "co_curso": 3999,
-            "no_curso": "INTERDISCIPLINAR EM EDUCA\u00c7\u00c3O NO CAMPO"
+            "no_curso": "INTERDISCIPLINAR EM EDUCAÇÃO NO CAMPO",
+            "fredao_id": "INTERDISCIPLINAR EM EDUCAÇÃO NO CAMPO"
         },
         {
             "co_curso": 4858,
-            "no_curso": "INTERDISCIPLINAR EM ENERGIA E SUSTENTABILIDADE"
+            "no_curso": "INTERDISCIPLINAR EM ENERGIA E SUSTENTABILIDADE",
+            "fredao_id": null
         },
         {
             "co_curso": 4966,
-            "no_curso": "INTERDISCIPLINAR EM ESTUDOS AFRICANOS E AFRO-BRASILEIROS"
+            "no_curso": "INTERDISCIPLINAR EM ESTUDOS AFRICANOS E AFRO-BRASILEIROS",
+            "fredao_id": "INTERDISCIPLINAR EM ESTUDOS AFRICANOS E AFRO-BRASILEIROS"
         },
         {
             "co_curso": 4259,
-            "no_curso": "INTERDISCIPLINAR EM HUMANIDADES"
+            "no_curso": "INTERDISCIPLINAR EM HUMANIDADES",
+            "fredao_id": "INTERDISCIPLINAR EM HUMANIDADES"
         },
         {
             "co_curso": 5589,
-            "no_curso": "INTERDISCIPLINAR EM INOVA\u00c7\u00c3O, CI\u00caNCIA E TECNOLOGIA"
+            "no_curso": "INTERDISCIPLINAR EM INOVAÇÃO, CIÊNCIA E TECNOLOGIA",
+            "fredao_id": "INTERDISCIPLINAR EM INOVAÇÃO, CIÊNCIA E TECNOLOGIA"
         },
         {
             "co_curso": 6120,
-            "no_curso": "INTERDISCIPLINAR EM INTELIG\u00caNCIA ARTIFICIAL"
+            "no_curso": "INTERDISCIPLINAR EM INTELIGÊNCIA ARTIFICIAL",
+            "fredao_id": "INTERDISCIPLINAR EM INTELIGÊNCIA ARTIFICIAL"
         },
         {
             "co_curso": 5544,
-            "no_curso": "INTERDISCIPLINAR EM LINGUAGENS E SUAS TECNOLOGIAS"
+            "no_curso": "INTERDISCIPLINAR EM LINGUAGENS E SUAS TECNOLOGIAS",
+            "fredao_id": null
         },
         {
             "co_curso": 4909,
-            "no_curso": "INTERDISCIPLINAR EM MATEM\u00c1TICA E COMPUTA\u00c7\u00c3O E SUAS TECNOLOGIAS"
+            "no_curso": "INTERDISCIPLINAR EM MATEMÁTICA E COMPUTAÇÃO E SUAS TECNOLOGIAS",
+            "fredao_id": null
         },
         {
             "co_curso": 5027,
-            "no_curso": "INTERDISCIPLINAR EM SA\u00daDE"
+            "no_curso": "INTERDISCIPLINAR EM SAÚDE",
+            "fredao_id": "INTERDISCIPLINAR EM SAÚDE"
         },
         {
             "co_curso": 5109,
-            "no_curso": "INTERDISCIPLINAR EM TECNOLOGIA DA INFORMA\u00c7\u00c3O - BI\/LI"
+            "no_curso": "INTERDISCIPLINAR EM TECNOLOGIA DA INFORMAÇÃO - BI/LI",
+            "fredao_id": "INTERDISCIPLINAR EM TECNOLOGIA DA INFORMAÇÃO - BI/LI"
         }
     ],
     "J": [
         {
             "co_curso": 215,
-            "no_curso": "JOGOS DIGITAIS"
+            "no_curso": "JOGOS DIGITAIS",
+            "fredao_id": "JOGOS DIGITAIS"
         },
         {
             "co_curso": 1689,
-            "no_curso": "JORNALISMO"
+            "no_curso": "JORNALISMO",
+            "fredao_id": "JORNALISMO"
         },
         {
             "co_curso": 4194,
-            "no_curso": "JORNALISMO EM MULTIMEIOS"
+            "no_curso": "JORNALISMO EM MULTIMEIOS",
+            "fredao_id": "JORNALISMO EM MULTIMEIOS"
         }
     ],
     "K": [],
     "L": [
         {
             "co_curso": 191,
-            "no_curso": "LATIC\u00cdNIOS"
+            "no_curso": "LATICÍNIOS",
+            "fredao_id": null
         },
         {
             "co_curso": 35,
-            "no_curso": "LETRAS"
+            "no_curso": "LETRAS",
+            "fredao_id": "LETRAS"
         },
         {
             "co_curso": 5382,
-            "no_curso": "LETRAS  - INGL\u00caS E LITERATURAS DA L\u00cdNGUA INGLESA"
+            "no_curso": "LETRAS  - INGLÊS E LITERATURAS DA LÍNGUA INGLESA",
+            "fredao_id": "LETRAS  - INGLÊS E LITERATURAS DA LÍNGUA INGLESA"
         },
         {
             "co_curso": 2221,
-            "no_curso": "LETRAS - ALEM\u00c3O"
+            "no_curso": "LETRAS - ALEMÃO",
+            "fredao_id": "LETRAS - ALEMÃO"
         },
         {
             "co_curso": 2223,
-            "no_curso": "LETRAS - ESPANHOL"
+            "no_curso": "LETRAS - ESPANHOL",
+            "fredao_id": "LETRAS - ESPANHOL"
         },
         {
             "co_curso": 4144,
-            "no_curso": "LETRAS - ESPANHOL E LITERATURA HISP\u00e2NICA"
+            "no_curso": "LETRAS - ESPANHOL E LITERATURA HISPâNICA",
+            "fredao_id": null
         },
         {
             "co_curso": 5180,
-            "no_curso": "LETRAS - ESPANHOL E LITERATURAS DE L\u00cdNGUA ESPANHOLA"
+            "no_curso": "LETRAS - ESPANHOL E LITERATURAS DE LÍNGUA ESPANHOLA",
+            "fredao_id": null
         },
         {
             "co_curso": 4935,
-            "no_curso": "LETRAS - ESPANHOL E PORTUGU\u00caS COMO L\u00cdNGUAS ESTRANGEIRAS"
+            "no_curso": "LETRAS - ESPANHOL E PORTUGUÊS COMO LÍNGUAS ESTRANGEIRAS",
+            "fredao_id": "LETRAS - ESPANHOL E PORTUGUÊS COMO LÍNGUAS ESTRANGEIRAS"
         },
         {
             "co_curso": 4590,
-            "no_curso": "LETRAS - ESTUDOS LITER\u00c1RIOS"
+            "no_curso": "LETRAS - ESTUDOS LITERÁRIOS",
+            "fredao_id": "LETRAS - ESTUDOS LITERÁRIOS"
         },
         {
             "co_curso": 2225,
-            "no_curso": "LETRAS - FRANC\u00caS"
+            "no_curso": "LETRAS - FRANCÊS",
+            "fredao_id": "LETRAS - FRANCÊS"
         },
         {
             "co_curso": 5474,
-            "no_curso": "LETRAS - FRANC\u00caS E LITERATURAS DE L\u00cdNGUA FRANCESA"
+            "no_curso": "LETRAS - FRANCÊS E LITERATURAS DE LÍNGUA FRANCESA",
+            "fredao_id": "LETRAS - FRANCÊS E LITERATURAS DE LÍNGUA FRANCESA"
         },
         {
             "co_curso": 2234,
-            "no_curso": "LETRAS - GREGO"
+            "no_curso": "LETRAS - GREGO",
+            "fredao_id": "LETRAS - GREGO"
         },
         {
             "co_curso": 2220,
-            "no_curso": "LETRAS - INGL\u00caS"
+            "no_curso": "LETRAS - INGLÊS",
+            "fredao_id": "LETRAS - INGLÊS"
         },
         {
             "co_curso": 2228,
-            "no_curso": "LETRAS - ITALIANO"
+            "no_curso": "LETRAS - ITALIANO",
+            "fredao_id": "LETRAS - ITALIANO"
         },
         {
             "co_curso": 2231,
-            "no_curso": "LETRAS - JAPON\u00caS"
+            "no_curso": "LETRAS - JAPONÊS",
+            "fredao_id": "LETRAS - JAPONÊS"
         },
         {
             "co_curso": 2230,
-            "no_curso": "LETRAS - LATIM"
+            "no_curso": "LETRAS - LATIM",
+            "fredao_id": null
         },
         {
             "co_curso": 4556,
-            "no_curso": "LETRAS - LETRAS CL\u00e1SSICAS (GREGO E LATIM)"
+            "no_curso": "LETRAS - LETRAS CLáSSICAS (GREGO E LATIM)",
+            "fredao_id": null
         },
         {
             "co_curso": 3965,
-            "no_curso": "LETRAS - LIBRAS"
+            "no_curso": "LETRAS - LIBRAS",
+            "fredao_id": "LETRAS - LIBRAS"
         },
         {
             "co_curso": 4735,
-            "no_curso": "LETRAS - LIBRAS\/L\u00cdNGUA ESTRANGEIRA"
+            "no_curso": "LETRAS - LIBRAS/LÍNGUA ESTRANGEIRA",
+            "fredao_id": null
         },
         {
             "co_curso": 4890,
-            "no_curso": "LETRAS - L\u00cdNGUA E LITERATURA ESPANHOLA"
+            "no_curso": "LETRAS - LÍNGUA E LITERATURA ESPANHOLA",
+            "fredao_id": "LETRAS - LÍNGUA E LITERATURA ESPANHOLA"
         },
         {
             "co_curso": 4892,
-            "no_curso": "LETRAS - L\u00cdNGUA E LITERATURA FRANCESA"
+            "no_curso": "LETRAS - LÍNGUA E LITERATURA FRANCESA",
+            "fredao_id": "LETRAS - LÍNGUA E LITERATURA FRANCESA"
         },
         {
             "co_curso": 4891,
-            "no_curso": "LETRAS - L\u00cdNGUA E LITERATURA INGLESA"
+            "no_curso": "LETRAS - LÍNGUA E LITERATURA INGLESA",
+            "fredao_id": "LETRAS - LÍNGUA E LITERATURA INGLESA"
         },
         {
             "co_curso": 4893,
-            "no_curso": "LETRAS - L\u00cdNGUA E LITERATURA JAPONESA"
+            "no_curso": "LETRAS - LÍNGUA E LITERATURA JAPONESA",
+            "fredao_id": "LETRAS - LÍNGUA E LITERATURA JAPONESA"
         },
         {
             "co_curso": 4722,
-            "no_curso": "LETRAS - L\u00cdNGUA E LITERATURA PORTUGUESA"
+            "no_curso": "LETRAS - LÍNGUA E LITERATURA PORTUGUESA",
+            "fredao_id": "LETRAS - LÍNGUA E LITERATURA PORTUGUESA"
         },
         {
             "co_curso": 5715,
-            "no_curso": "LETRAS - L\u00cdNGUA E LITERATURA PORTUGUESA E L\u00cdNGUA E LITERATURA ESPANHOLA"
+            "no_curso": "LETRAS - LÍNGUA E LITERATURA PORTUGUESA E LÍNGUA E LITERATURA ESPANHOLA",
+            "fredao_id": "LETRAS - LÍNGUA E LITERATURA PORTUGUESA E LÍNGUA E LITERATURA ESPANHOLA"
         },
         {
             "co_curso": 5700,
-            "no_curso": "LETRAS - L\u00cdNGUA E LITERATURA PORTUGUESA E L\u00cdNGUA E LITERATURA INGLESA"
+            "no_curso": "LETRAS - LÍNGUA E LITERATURA PORTUGUESA E LÍNGUA E LITERATURA INGLESA",
+            "fredao_id": "LETRAS - LÍNGUA E LITERATURA PORTUGUESA E LÍNGUA E LITERATURA INGLESA"
         },
         {
             "co_curso": 4239,
-            "no_curso": "LETRAS - L\u00edNGUA E LITERATURAS DE L\u00edNGUA INGLESA"
+            "no_curso": "LETRAS - LíNGUA E LITERATURAS DE LíNGUA INGLESA",
+            "fredao_id": null
         },
         {
             "co_curso": 4552,
-            "no_curso": "LETRAS - LINGUA ESPANHOLA"
+            "no_curso": "LETRAS - LINGUA ESPANHOLA",
+            "fredao_id": "LETRAS - LINGUA ESPANHOLA"
         },
         {
             "co_curso": 4368,
-            "no_curso": "LETRAS - L\u00edNGUA ESPANHOLA E LITERATURA"
+            "no_curso": "LETRAS - LíNGUA ESPANHOLA E LITERATURA",
+            "fredao_id": "LETRAS - LíNGUA ESPANHOLA E LITERATURA"
         },
         {
             "co_curso": 5594,
-            "no_curso": "LETRAS - L\u00cdNGUA ESPANHOLA E LITERATURA ESPANHOLA E HISPANO-AMERICANA"
+            "no_curso": "LETRAS - LÍNGUA ESPANHOLA E LITERATURA ESPANHOLA E HISPANO-AMERICANA",
+            "fredao_id": "LETRAS - LÍNGUA ESPANHOLA E LITERATURA ESPANHOLA E HISPANO-AMERICANA"
         },
         {
             "co_curso": 4016,
-            "no_curso": "LETRAS - L\u00cdNGUA ESTRANGEIRA"
+            "no_curso": "LETRAS - LÍNGUA ESTRANGEIRA",
+            "fredao_id": null
         },
         {
             "co_curso": 4367,
-            "no_curso": "LETRAS - L\u00edNGUA FRANCESA E LITERATURA"
+            "no_curso": "LETRAS - LíNGUA FRANCESA E LITERATURA",
+            "fredao_id": null
         },
         {
             "co_curso": 4789,
-            "no_curso": "LETRAS - L\u00edNGUA INGLESA"
+            "no_curso": "LETRAS - LíNGUA INGLESA",
+            "fredao_id": "LETRAS - LíNGUA INGLESA"
         },
         {
             "co_curso": 4295,
-            "no_curso": "LETRAS - L\u00edNGUA INGLESA E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS - LíNGUA INGLESA E RESPECTIVAS LITERATURAS",
+            "fredao_id": "LETRAS - LíNGUA INGLESA E RESPECTIVAS LITERATURAS"
         },
         {
             "co_curso": 5217,
-            "no_curso": "LETRAS - L\u00cdNGUA INGLESA E SUAS LITERATURAS"
+            "no_curso": "LETRAS - LÍNGUA INGLESA E SUAS LITERATURAS",
+            "fredao_id": "LETRAS - LÍNGUA INGLESA E SUAS LITERATURAS"
         },
         {
             "co_curso": 94,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA"
         },
         {
             "co_curso": 4830,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA COM DOM\u00cdNIO DE LIBRAS"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA COM DOMÍNIO DE LIBRAS",
+            "fredao_id": null
         },
         {
             "co_curso": 3967,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E LIBRAS"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E LIBRAS",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E LIBRAS"
         },
         {
             "co_curso": 5975,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E L\u00cdNGUA ESPANHOLA E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA ESPANHOLA E RESPECTIVAS LITERATURAS",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA ESPANHOLA E RESPECTIVAS LITERATURAS"
         },
         {
             "co_curso": 5393,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E L\u00cdNGUA FRANCESA"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA FRANCESA",
+            "fredao_id": null
         },
         {
             "co_curso": 5652,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E L\u00cdNGUA INGLESA"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA INGLESA",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA INGLESA"
         },
         {
             "co_curso": 4870,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E L\u00cdNGUA INGLESA E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA INGLESA E RESPECTIVAS LITERATURAS",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA INGLESA E RESPECTIVAS LITERATURAS"
         },
         {
             "co_curso": 5976,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E L\u00cdNGUA ITALIANA E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA ITALIANA E RESPECTIVAS LITERATURAS",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E LÍNGUA ITALIANA E RESPECTIVAS LITERATURAS"
         },
         {
             "co_curso": 4240,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E LITERATURAS DE L\u00edNGUA PORTUGUESA"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E LITERATURAS DE LíNGUA PORTUGUESA",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E LITERATURAS DE LíNGUA PORTUGUESA"
         },
         {
             "co_curso": 5593,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E RESPECTIVA LITERATURA"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E RESPECTIVA LITERATURA",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E RESPECTIVA LITERATURA"
         },
         {
             "co_curso": 5995,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E RESPECTIVAS LITERATURAS E L\u00cdNGUA ESPANHOLA"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E RESPECTIVAS LITERATURAS E LÍNGUA ESPANHOLA",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E RESPECTIVAS LITERATURAS E LÍNGUA ESPANHOLA"
         },
         {
             "co_curso": 5970,
-            "no_curso": "LETRAS - L\u00cdNGUA PORTUGUESA E RESPECTIVAS LITERATURAS E L\u00cdNGUA INGLESA"
+            "no_curso": "LETRAS - LÍNGUA PORTUGUESA E RESPECTIVAS LITERATURAS E LÍNGUA INGLESA",
+            "fredao_id": "LETRAS - LÍNGUA PORTUGUESA E RESPECTIVAS LITERATURAS E LÍNGUA INGLESA"
         },
         {
             "co_curso": 4732,
-            "no_curso": "LETRAS - L\u00cdNGUAS ADICIONAIS INGL\u00caS, ESPANHOL E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS - LÍNGUAS ADICIONAIS INGLÊS, ESPANHOL E RESPECTIVAS LITERATURAS",
+            "fredao_id": null
         },
         {
             "co_curso": 2222,
-            "no_curso": "LETRAS - PORTUGU\u00caS"
+            "no_curso": "LETRAS - PORTUGUÊS",
+            "fredao_id": "LETRAS - PORTUGUÊS"
         },
         {
             "co_curso": 4853,
-            "no_curso": "LETRAS - PORTUGU\u00caS DO BRASIL COMO SEGUNDA L\u00cdNGUA"
+            "no_curso": "LETRAS - PORTUGUÊS DO BRASIL COMO SEGUNDA LÍNGUA",
+            "fredao_id": "LETRAS - PORTUGUÊS DO BRASIL COMO SEGUNDA LÍNGUA"
         },
         {
             "co_curso": 3804,
-            "no_curso": "LETRAS - PORTUGU\u00caS E ALEM\u00c3O"
+            "no_curso": "LETRAS - PORTUGUÊS E ALEMÃO",
+            "fredao_id": "LETRAS - PORTUGUÊS E ALEMÃO"
         },
         {
             "co_curso": 4172,
-            "no_curso": "LETRAS - PORTUGU\u00caS E \u00c1RABE"
+            "no_curso": "LETRAS - PORTUGUÊS E ÁRABE",
+            "fredao_id": null
         },
         {
             "co_curso": 3887,
-            "no_curso": "LETRAS - PORTUGU\u00caS E ESPANHOL"
+            "no_curso": "LETRAS - PORTUGUÊS E ESPANHOL",
+            "fredao_id": "LETRAS - PORTUGUÊS E ESPANHOL"
         },
         {
             "co_curso": 5615,
-            "no_curso": "LETRAS - PORTUGU\u00caS E ESPANHOL OU ALEM\u00c3O OU GREGO OU LATIM"
+            "no_curso": "LETRAS - PORTUGUÊS E ESPANHOL OU ALEMÃO OU GREGO OU LATIM",
+            "fredao_id": "LETRAS - PORTUGUÊS E ESPANHOL OU ALEMÃO OU GREGO OU LATIM"
         },
         {
             "co_curso": 3888,
-            "no_curso": "LETRAS - PORTUGU\u00caS E FRANC\u00caS"
+            "no_curso": "LETRAS - PORTUGUÊS E FRANCÊS",
+            "fredao_id": "LETRAS - PORTUGUÊS E FRANCÊS"
         },
         {
             "co_curso": 3802,
-            "no_curso": "LETRAS - PORTUGU\u00caS E GREGO"
+            "no_curso": "LETRAS - PORTUGUÊS E GREGO",
+            "fredao_id": "LETRAS - PORTUGUÊS E GREGO"
         },
         {
             "co_curso": 4177,
-            "no_curso": "LETRAS - PORTUGU\u00caS E HEBRAICO"
+            "no_curso": "LETRAS - PORTUGUÊS E HEBRAICO",
+            "fredao_id": "LETRAS - PORTUGUÊS E HEBRAICO"
         },
         {
             "co_curso": 3911,
-            "no_curso": "LETRAS - PORTUGU\u00caS E INGL\u00caS"
+            "no_curso": "LETRAS - PORTUGUÊS E INGLÊS",
+            "fredao_id": "LETRAS - PORTUGUÊS E INGLÊS"
         },
         {
             "co_curso": 4338,
-            "no_curso": "LETRAS - PORTUGU\u00caS E INGL\u00caS E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS - PORTUGUÊS E INGLÊS E RESPECTIVAS LITERATURAS",
+            "fredao_id": "LETRAS - PORTUGUÊS E INGLÊS E RESPECTIVAS LITERATURAS"
         },
         {
             "co_curso": 3811,
-            "no_curso": "LETRAS - PORTUGU\u00caS E ITALIANO"
+            "no_curso": "LETRAS - PORTUGUÊS E ITALIANO",
+            "fredao_id": "LETRAS - PORTUGUÊS E ITALIANO"
         },
         {
             "co_curso": 4180,
-            "no_curso": "LETRAS - PORTUGU\u00caS E JAPON\u00caS"
+            "no_curso": "LETRAS - PORTUGUÊS E JAPONÊS",
+            "fredao_id": "LETRAS - PORTUGUÊS E JAPONÊS"
         },
         {
             "co_curso": 3803,
-            "no_curso": "LETRAS - PORTUGU\u00caS E LATIM"
+            "no_curso": "LETRAS - PORTUGUÊS E LATIM",
+            "fredao_id": null
         },
         {
             "co_curso": 3736,
-            "no_curso": "LETRAS - PORTUGU\u00caS E LITERATURAS"
+            "no_curso": "LETRAS - PORTUGUÊS E LITERATURAS",
+            "fredao_id": "LETRAS - PORTUGUÊS E LITERATURAS"
         },
         {
             "co_curso": 4152,
-            "no_curso": "LETRAS - PORTUGU\u00caS E LITERATURAS DA L\u00cdNGUA PORTUGUESA"
+            "no_curso": "LETRAS - PORTUGUÊS E LITERATURAS DA LÍNGUA PORTUGUESA",
+            "fredao_id": "LETRAS - PORTUGUÊS E LITERATURAS DA LÍNGUA PORTUGUESA"
         },
         {
             "co_curso": 4156,
-            "no_curso": "LETRAS - PORTUGU\u00caS E LITERATURAS DE L\u00cdNGUA PORTUGUESA"
+            "no_curso": "LETRAS - PORTUGUÊS E LITERATURAS DE LÍNGUA PORTUGUESA",
+            "fredao_id": "LETRAS - PORTUGUÊS E LITERATURAS DE LÍNGUA PORTUGUESA"
         },
         {
             "co_curso": 4182,
-            "no_curso": "LETRAS - PORTUGU\u00caS E RUSSO"
+            "no_curso": "LETRAS - PORTUGUÊS E RUSSO",
+            "fredao_id": "LETRAS - PORTUGUÊS E RUSSO"
         },
         {
             "co_curso": 5621,
-            "no_curso": "LETRAS - PORTUGU\u00caS-INGL\u00caS"
+            "no_curso": "LETRAS - PORTUGUÊS-INGLÊS",
+            "fredao_id": "LETRAS - PORTUGUÊS-INGLÊS"
         },
         {
             "co_curso": 3915,
-            "no_curso": "LETRAS - REDA\u00c7\u00c3O E REVIS\u00c3O DE TEXTOS"
+            "no_curso": "LETRAS - REDAÇÃO E REVISÃO DE TEXTOS",
+            "fredao_id": null
         },
         {
             "co_curso": 3602,
-            "no_curso": "LETRAS - TRADU\u00c7\u00c3O"
+            "no_curso": "LETRAS - TRADUÇÃO",
+            "fredao_id": "LETRAS - TRADUÇÃO"
         },
         {
             "co_curso": 4254,
-            "no_curso": "LETRAS - TRADU\u00c7\u00c3O ESPANHOL"
+            "no_curso": "LETRAS - TRADUÇÃO ESPANHOL",
+            "fredao_id": "LETRAS - TRADUÇÃO ESPANHOL"
         },
         {
             "co_curso": 3912,
-            "no_curso": "LETRAS - TRADU\u00c7\u00c3O ESPANHOL - PORTUGU\u00caS"
+            "no_curso": "LETRAS - TRADUÇÃO ESPANHOL - PORTUGUÊS",
+            "fredao_id": null
         },
         {
             "co_curso": 4854,
-            "no_curso": "LETRAS - TRADU\u00c7\u00c3O FRANC\u00caS"
+            "no_curso": "LETRAS - TRADUÇÃO FRANCÊS",
+            "fredao_id": "LETRAS - TRADUÇÃO FRANCÊS"
         },
         {
             "co_curso": 3914,
-            "no_curso": "LETRAS - TRADU\u00c7\u00c3O INGL\u00caS - PORTUGU\u00caS"
+            "no_curso": "LETRAS - TRADUÇÃO INGLÊS - PORTUGUÊS",
+            "fredao_id": null
         },
         {
             "co_curso": 5671,
-            "no_curso": "LETRAS LIBRAS\/LITERATURA SURDA"
+            "no_curso": "LETRAS LIBRAS/LITERATURA SURDA",
+            "fredao_id": "LETRAS LIBRAS/LITERATURA SURDA"
         },
         {
             "co_curso": 6094,
-            "no_curso": "LETRAS L\u00cdNGUA CHINESA - PORTUGUESA E LITERATURAS"
+            "no_curso": "LETRAS LÍNGUA CHINESA - PORTUGUESA E LITERATURAS",
+            "fredao_id": null
         },
         {
             "co_curso": 5010,
-            "no_curso": "LETRAS MODERNAS - PORTUGU\u00caS\/INGL\u00caS E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS MODERNAS - PORTUGUÊS/INGLÊS E RESPECTIVAS LITERATURAS",
+            "fredao_id": "LETRAS MODERNAS - PORTUGUÊS/INGLÊS E RESPECTIVAS LITERATURAS"
         },
         {
             "co_curso": 3733,
-            "no_curso": "LETRAS PORTUGU\u00caS E ESPANHOL E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS PORTUGUÊS E ESPANHOL E RESPECTIVAS LITERATURAS",
+            "fredao_id": null
         },
         {
             "co_curso": 3735,
-            "no_curso": "LETRAS PORTUGU\u00caS E FRANC\u00caS"
+            "no_curso": "LETRAS PORTUGUÊS E FRANCÊS",
+            "fredao_id": "LETRAS PORTUGUÊS E FRANCÊS"
         },
         {
             "co_curso": 3734,
-            "no_curso": "LETRAS PORTUGU\u00caS E INGL\u00caS"
+            "no_curso": "LETRAS PORTUGUÊS E INGLÊS",
+            "fredao_id": "LETRAS PORTUGUÊS E INGLÊS"
         },
         {
             "co_curso": 4098,
-            "no_curso": "LETRAS VERN\u00c1CULAS - PORTUGU\u00caS E RESPECTIVAS LITERATURAS"
+            "no_curso": "LETRAS VERNÁCULAS - PORTUGUÊS E RESPECTIVAS LITERATURAS",
+            "fredao_id": "LETRAS VERNÁCULAS - PORTUGUÊS E RESPECTIVAS LITERATURAS"
         },
         {
             "co_curso": 5078,
-            "no_curso": "LETRAS: ESPANHOL"
+            "no_curso": "LETRAS: ESPANHOL",
+            "fredao_id": null
         },
         {
             "co_curso": 5079,
-            "no_curso": "LETRAS: ESTUDOS LITER\u00c1RIOS"
+            "no_curso": "LETRAS: ESTUDOS LITERÁRIOS",
+            "fredao_id": "LETRAS: ESTUDOS LITERÁRIOS"
         },
         {
             "co_curso": 5080,
-            "no_curso": "LETRAS: FRANC\u00caS"
+            "no_curso": "LETRAS: FRANCÊS",
+            "fredao_id": "LETRAS: FRANCÊS"
         },
         {
             "co_curso": 5081,
-            "no_curso": "LETRAS: INGL\u00caS"
+            "no_curso": "LETRAS: INGLÊS",
+            "fredao_id": "LETRAS: INGLÊS"
         },
         {
             "co_curso": 5150,
-            "no_curso": "LETRAS: LIBRAS"
+            "no_curso": "LETRAS: LIBRAS",
+            "fredao_id": "LETRAS: LIBRAS"
         },
         {
             "co_curso": 3805,
-            "no_curso": "LETRAS: LINGU\u00cdSTICA"
+            "no_curso": "LETRAS: LINGUÍSTICA",
+            "fredao_id": "LETRAS: LINGUÍSTICA"
         },
         {
             "co_curso": 5082,
-            "no_curso": "LETRAS: PORTUGU\u00caS"
+            "no_curso": "LETRAS: PORTUGUÊS",
+            "fredao_id": "LETRAS: PORTUGUÊS"
         },
         {
             "co_curso": 4932,
-            "no_curso": "LETRAS: TRADU\u00c7\u00c3O E INTERPRETA\u00c7\u00c3O EM LIBRAS\/PORTUGU\u00caS"
+            "no_curso": "LETRAS: TRADUÇÃO E INTERPRETAÇÃO EM LIBRAS/PORTUGUÊS",
+            "fredao_id": "LETRAS: TRADUÇÃO E INTERPRETAÇÃO EM LIBRAS/PORTUGUÊS"
         },
         {
             "co_curso": 3737,
-            "no_curso": "L\u00cdNGUA E LITERATURAS DA L\u00cdNGUA INGLESA"
+            "no_curso": "LÍNGUA E LITERATURAS DA LÍNGUA INGLESA",
+            "fredao_id": "LÍNGUA E LITERATURAS DA LÍNGUA INGLESA"
         },
         {
             "co_curso": 3731,
-            "no_curso": "L\u00cdNGUA PORTUGUESA E RESPECTIVAS LITERATURAS"
+            "no_curso": "LÍNGUA PORTUGUESA E RESPECTIVAS LITERATURAS",
+            "fredao_id": "LÍNGUA PORTUGUESA E RESPECTIVAS LITERATURAS"
         },
         {
             "co_curso": 4784,
-            "no_curso": "LINGUAGENS E C\u00f3DIGOS - L\u00edNGUA PORTUGUESA"
+            "no_curso": "LINGUAGENS E CóDIGOS - LíNGUA PORTUGUESA",
+            "fredao_id": "LINGUAGENS E CóDIGOS - LíNGUA PORTUGUESA"
         },
         {
             "co_curso": 4786,
-            "no_curso": "LINGUAGENS E C\u00d3DIGOS - M\u00daSICA"
+            "no_curso": "LINGUAGENS E CÓDIGOS - MÚSICA",
+            "fredao_id": null
         },
         {
             "co_curso": 5597,
-            "no_curso": "L\u00cdNGUAS ESTRANGEIRAS APLICADAS AO MULTILINGUISMO E \u00c0 SOCIEDADE DA INFORMA\u00c7\u00c3O"
+            "no_curso": "LÍNGUAS ESTRANGEIRAS APLICADAS AO MULTILINGUISMO E À SOCIEDADE DA INFORMAÇÃO",
+            "fredao_id": "LÍNGUAS ESTRANGEIRAS APLICADAS AO MULTILINGUISMO E À SOCIEDADE DA INFORMAÇÃO"
         },
         {
             "co_curso": 3244,
-            "no_curso": "L\u00cdNGUAS ESTRANGEIRAS APLICADAS \u00c0S NEGOCIA\u00c7\u00d5ES INTERNACIONAIS"
+            "no_curso": "LÍNGUAS ESTRANGEIRAS APLICADAS ÀS NEGOCIAÇÕES INTERNACIONAIS",
+            "fredao_id": "LíNGUAS ESTRANGEIRAS APLICADAS àS NEGOCIAçõES INTERNACIONAIS   "
         },
         {
             "co_curso": 4579,
-            "no_curso": "L\u00edNGUAS ESTRANGEIRAS APLICADAS \u00e0S NEGOCIA\u00e7\u00f5ES INTERNACIONAIS   "
+            "no_curso": "LíNGUAS ESTRANGEIRAS APLICADAS àS NEGOCIAçõES INTERNACIONAIS   ",
+            "fredao_id": "LíNGUAS ESTRANGEIRAS APLICADAS àS NEGOCIAçõES INTERNACIONAIS   "
         },
         {
             "co_curso": 3930,
-            "no_curso": "Lingu\u00edstica"
+            "no_curso": "Linguística",
+            "fredao_id": "Linguística"
         },
         {
             "co_curso": 167,
-            "no_curso": "LOG\u00cdSTICA"
+            "no_curso": "LOGÍSTICA",
+            "fredao_id": "LOGÍSTICA"
         },
         {
             "co_curso": 4725,
-            "no_curso": "LUTERIA"
+            "no_curso": "LUTERIA",
+            "fredao_id": "LUTERIA"
         }
     ],
     "M": [
         {
             "co_curso": 193,
-            "no_curso": "MANUTEN\u00c7\u00c3O INDUSTRIAL"
+            "no_curso": "MANUTENÇÃO INDUSTRIAL",
+            "fredao_id": null
         },
         {
             "co_curso": 168,
-            "no_curso": "MARKETING"
+            "no_curso": "MARKETING",
+            "fredao_id": "MARKETING"
         },
         {
             "co_curso": 36,
-            "no_curso": "MATEM\u00c1TICA"
+            "no_curso": "MATEMÁTICA",
+            "fredao_id": "MATEMÁTICA"
         },
         {
             "co_curso": 4161,
-            "no_curso": "MATEM\u00c1TICA - LICENCIATURA OU BACHARELADO"
+            "no_curso": "MATEMÁTICA - LICENCIATURA OU BACHARELADO",
+            "fredao_id": "MATEMÁTICA - LICENCIATURA OU BACHARELADO"
         },
         {
             "co_curso": 3374,
-            "no_curso": "MATEM\u00c1TICA APLICADA"
+            "no_curso": "MATEMÁTICA APLICADA",
+            "fredao_id": "MATEMÁTICA APLICADA"
         },
         {
             "co_curso": 3682,
-            "no_curso": "MATEM\u00c1TICA APLICADA E COMPUTACIONAL"
+            "no_curso": "MATEMÁTICA APLICADA E COMPUTACIONAL",
+            "fredao_id": "MATEMÁTICA APLICADA E COMPUTACIONAL"
         },
         {
             "co_curso": 3917,
-            "no_curso": "MATEM\u00c1TICA COMPUTACIONAL"
+            "no_curso": "MATEMÁTICA COMPUTACIONAL",
+            "fredao_id": "MATEMÁTICA COMPUTACIONAL"
         },
         {
             "co_curso": 4039,
-            "no_curso": "MATEM\u00c1TICA INDUSTRIAL"
+            "no_curso": "MATEMÁTICA INDUSTRIAL",
+            "fredao_id": "MATEMÁTICA INDUSTRIAL"
         },
         {
             "co_curso": 5539,
-            "no_curso": "MATEM\u00c1TICA PURA E APLICADA"
+            "no_curso": "MATEMÁTICA PURA E APLICADA",
+            "fredao_id": "MATEMÁTICA PURA E APLICADA"
         },
         {
             "co_curso": 5817,
-            "no_curso": "MATEM\u00c1TICA TECNOL\u00d3GICA"
+            "no_curso": "MATEMÁTICA TECNOLÓGICA",
+            "fredao_id": null
         },
         {
             "co_curso": 194,
-            "no_curso": "MECATR\u00d4NICA INDUSTRIAL"
+            "no_curso": "MECATRÔNICA INDUSTRIAL",
+            "fredao_id": "MECATRÔNICA INDUSTRIAL"
         },
         {
             "co_curso": 5574,
-            "no_curso": "MEDIA\u00c7\u00c3O CULTURAL - ARTES E LETRAS"
+            "no_curso": "MEDIAÇÃO CULTURAL - ARTES E LETRAS",
+            "fredao_id": null
         },
         {
             "co_curso": 37,
-            "no_curso": "MEDICINA"
+            "no_curso": "MEDICINA",
+            "fredao_id": "MEDICINA"
         },
         {
             "co_curso": 38,
-            "no_curso": "MEDICINA VETERIN\u00c1RIA"
+            "no_curso": "MEDICINA VETERINÁRIA",
+            "fredao_id": "MEDICINA VETERINÁRIA"
         },
         {
             "co_curso": 57,
-            "no_curso": "METEOROLOGIA"
+            "no_curso": "METEOROLOGIA",
+            "fredao_id": "METEOROLOGIA"
         },
         {
             "co_curso": 5448,
-            "no_curso": "M\u00cdDIA E TECNOLOGIA"
+            "no_curso": "MÍDIA E TECNOLOGIA",
+            "fredao_id": "MÍDIA E TECNOLOGIA"
         },
         {
             "co_curso": 5222,
-            "no_curso": "M\u00cdDIAS DIGITAIS"
+            "no_curso": "MÍDIAS DIGITAIS",
+            "fredao_id": "MÍDIAS DIGITAIS"
         },
         {
             "co_curso": 4946,
-            "no_curso": "M\u00cdDIAS SOCIAIS DIGITAIS"
+            "no_curso": "MÍDIAS SOCIAIS DIGITAIS",
+            "fredao_id": "MÍDIAS SOCIAIS DIGITAIS"
         },
         {
             "co_curso": 75,
-            "no_curso": "MODA"
+            "no_curso": "MODA",
+            "fredao_id": "MODA"
         },
         {
             "co_curso": 2753,
-            "no_curso": "MODA, DESIGN E ESTILISMO"
+            "no_curso": "MODA, DESIGN E ESTILISMO",
+            "fredao_id": "MODA, DESIGN E ESTILISMO"
         },
         {
             "co_curso": 39,
-            "no_curso": "MUSEOLOGIA"
+            "no_curso": "MUSEOLOGIA",
+            "fredao_id": "MUSEOLOGIA"
         },
         {
             "co_curso": 40,
-            "no_curso": "M\u00daSICA"
+            "no_curso": "MÚSICA",
+            "fredao_id": "MÚSICA"
         },
         {
             "co_curso": 3969,
-            "no_curso": "M\u00daSICA - CANTO"
+            "no_curso": "MÚSICA - CANTO",
+            "fredao_id": "MúSICA - CANTO"
         },
         {
             "co_curso": 4211,
-            "no_curso": "M\u00faSICA - CANTO"
+            "no_curso": "MúSICA - CANTO",
+            "fredao_id": "MúSICA - CANTO"
         },
         {
             "co_curso": 4601,
-            "no_curso": "M\u00faSICA - CI\u00eaNCIAS MUSICAIS"
+            "no_curso": "MúSICA - CIêNCIAS MUSICAIS",
+            "fredao_id": null
         },
         {
             "co_curso": 3971,
-            "no_curso": "M\u00daSICA - COMPOSI\u00c7\u00c3O"
+            "no_curso": "MÚSICA - COMPOSIÇÃO",
+            "fredao_id": "MÚSICA - COMPOSIÇÃO"
         },
         {
             "co_curso": 5751,
-            "no_curso": "M\u00daSICA - CORDAS FRICCIONADAS"
+            "no_curso": "MÚSICA - CORDAS FRICCIONADAS",
+            "fredao_id": "MÚSICA - CORDAS FRICCIONADAS"
         },
         {
             "co_curso": 4261,
-            "no_curso": "M\u00daSICA - EDUCA\u00c7\u00c3O MUSICAL"
+            "no_curso": "MÚSICA - EDUCAÇÃO MUSICAL",
+            "fredao_id": null
         },
         {
             "co_curso": 4309,
-            "no_curso": "M\u00daSICA - FLAUTA TRANSVERSAL"
+            "no_curso": "MÚSICA - FLAUTA TRANSVERSAL",
+            "fredao_id": "MÚSICA - FLAUTA TRANSVERSAL"
         },
         {
             "co_curso": 4667,
-            "no_curso": "M\u00daSICA - M\u00daSICA POPULAR BRASILEIRA"
+            "no_curso": "MÚSICA - MÚSICA POPULAR BRASILEIRA",
+            "fredao_id": "MÚSICA - MÚSICA POPULAR BRASILEIRA"
         },
         {
             "co_curso": 3983,
-            "no_curso": "M\u00daSICA - PIANO"
+            "no_curso": "MÚSICA - PIANO",
+            "fredao_id": "MÚSICA - PIANO"
         },
         {
             "co_curso": 3984,
-            "no_curso": "M\u00daSICA - REG\u00caNCIA"
+            "no_curso": "MÚSICA - REGÊNCIA",
+            "fredao_id": null
         },
         {
             "co_curso": 3986,
-            "no_curso": "M\u00daSICA - SOPROS"
+            "no_curso": "MÚSICA - SOPROS",
+            "fredao_id": "MÚSICA - SOPROS"
         },
         {
             "co_curso": 4313,
-            "no_curso": "M\u00daSICA - VIOL\u00c3O"
+            "no_curso": "MÚSICA - VIOLÃO",
+            "fredao_id": "MÚSICA - VIOLÃO"
         },
         {
             "co_curso": 4314,
-            "no_curso": "M\u00daSICA - VIOLINO"
+            "no_curso": "MÚSICA - VIOLINO",
+            "fredao_id": "MÚSICA - VIOLINO"
         },
         {
             "co_curso": 4101,
-            "no_curso": "M\u00daSICA COM HABILITA\u00c7\u00c3O EM LICENCIATURA EM EDUCA\u00c7\u00c3O MUSICAL"
+            "no_curso": "MÚSICA COM HABILITAÇÃO EM LICENCIATURA EM EDUCAÇÃO MUSICAL",
+            "fredao_id": "MÚSICA COM HABILITAÇÃO EM LICENCIATURA EM EDUCAÇÃO MUSICAL"
         },
         {
             "co_curso": 2771,
-            "no_curso": "M\u00daSICA POPULAR"
+            "no_curso": "MÚSICA POPULAR",
+            "fredao_id": null
         },
         {
             "co_curso": 3909,
-            "no_curso": "MUSICOTERAPIA"
+            "no_curso": "MUSICOTERAPIA",
+            "fredao_id": "MUSICOTERAPIA"
         }
     ],
     "N": [
         {
             "co_curso": 4185,
-            "no_curso": "NANOTECNOLOGIA"
+            "no_curso": "NANOTECNOLOGIA",
+            "fredao_id": "NANOTECNOLOGIA"
         },
         {
             "co_curso": 6104,
-            "no_curso": "NANOTECNOLOGIA E INOVA\u00c7\u00c3O COMPUTACIONAL"
+            "no_curso": "NANOTECNOLOGIA E INOVAÇÃO COMPUTACIONAL",
+            "fredao_id": "NANOTECNOLOGIA E INOVAÇÃO COMPUTACIONAL"
         },
         {
             "co_curso": 41,
-            "no_curso": "NUTRI\u00c7\u00c3O"
+            "no_curso": "NUTRIÇÃO",
+            "fredao_id": "NUTRIÇÃO"
         }
     ],
     "O": [
         {
             "co_curso": 58,
-            "no_curso": "OCEANOGRAFIA"
+            "no_curso": "OCEANOGRAFIA",
+            "fredao_id": "OCEANOGRAFIA"
         },
         {
             "co_curso": 4029,
-            "no_curso": "OCEANOLOGIA"
+            "no_curso": "OCEANOLOGIA",
+            "fredao_id": "OCEANOLOGIA"
         },
         {
             "co_curso": 42,
-            "no_curso": "ODONTOLOGIA"
+            "no_curso": "ODONTOLOGIA",
+            "fredao_id": "ODONTOLOGIA"
         },
         {
             "co_curso": 233,
-            "no_curso": "OFT\u00c1LMICA"
+            "no_curso": "OFTÁLMICA",
+            "fredao_id": null
         }
     ],
     "P": [
         {
             "co_curso": 4938,
-            "no_curso": "PAISAGISMO"
+            "no_curso": "PAISAGISMO",
+            "fredao_id": "PAISAGISMO"
         },
         {
             "co_curso": 43,
-            "no_curso": "PEDAGOGIA"
+            "no_curso": "PEDAGOGIA",
+            "fredao_id": "PEDAGOGIA"
         },
         {
             "co_curso": 4564,
-            "no_curso": "PEDAGOGIA - EDUCA\u00e7\u00e3O DO CAMPO"
+            "no_curso": "PEDAGOGIA - EDUCAçãO DO CAMPO",
+            "fredao_id": null
         },
         {
             "co_curso": 4724,
-            "no_curso": "PEDAGOGIA - EDUCA\u00c7\u00c3O INFANTIL E ANOS INICIAIS DO ENSINO FUNDAMENTAL"
+            "no_curso": "PEDAGOGIA - EDUCAÇÃO INFANTIL E ANOS INICIAIS DO ENSINO FUNDAMENTAL",
+            "fredao_id": "PEDAGOGIA - EDUCAÇÃO INFANTIL E ANOS INICIAIS DO ENSINO FUNDAMENTAL"
         },
         {
             "co_curso": 4954,
-            "no_curso": "PEDAGOGIA BIL\u00cdNGUE"
+            "no_curso": "PEDAGOGIA BILÍNGUE",
+            "fredao_id": "PEDAGOGIA BILÍNGUE"
         },
         {
             "co_curso": 5068,
-            "no_curso": "PEDAGOGIA BILINGUE  - LIBRAS\/PORTUGU\u00caS"
+            "no_curso": "PEDAGOGIA BILINGUE  - LIBRAS/PORTUGUÊS",
+            "fredao_id": "PEDAGOGIA BILINGUE  - LIBRAS/PORTUGUÊS"
         },
         {
             "co_curso": 2390,
-            "no_curso": "PINTURA"
+            "no_curso": "PINTURA",
+            "fredao_id": "PINTURA"
         },
         {
             "co_curso": 5111,
-            "no_curso": "POL\u00cdTICA E GEST\u00c3O CULTURAL"
+            "no_curso": "POLÍTICA E GESTÃO CULTURAL",
+            "fredao_id": null
         },
         {
             "co_curso": 4258,
-            "no_curso": "POL\u00cdTICAS P\u00daBLICAS"
+            "no_curso": "POLÍTICAS PÚBLICAS",
+            "fredao_id": "POLÍTICAS PÚBLICAS"
         },
         {
             "co_curso": 5985,
-            "no_curso": "POL\u00cdTICAS P\u00daBLICAS E GEST\u00c3O SOCIAL"
+            "no_curso": "POLÍTICAS PÚBLICAS E GESTÃO SOCIAL",
+            "fredao_id": "POLÍTICAS PÚBLICAS E GESTÃO SOCIAL"
         },
         {
             "co_curso": 170,
-            "no_curso": "PROCESSOS GERENCIAIS"
+            "no_curso": "PROCESSOS GERENCIAIS",
+            "fredao_id": "PROCESSOS GERENCIAIS"
         },
         {
             "co_curso": 200,
-            "no_curso": "PROCESSOS METAL\u00daRGICOS"
+            "no_curso": "PROCESSOS METALÚRGICOS",
+            "fredao_id": null
         },
         {
             "co_curso": 199,
-            "no_curso": "PROCESSOS QU\u00cdMICOS"
+            "no_curso": "PROCESSOS QUÍMICOS",
+            "fredao_id": "PROCESSOS QUÍMICOS"
         },
         {
             "co_curso": 237,
-            "no_curso": "PRODU\u00c7\u00c3O CULTURAL"
+            "no_curso": "PRODUÇÃO CULTURAL",
+            "fredao_id": "PRODUÇÃO CULTURAL"
         },
         {
             "co_curso": 5000,
-            "no_curso": "PRODU\u00c7\u00c3O DE CACAU E CHOCOLATE"
+            "no_curso": "PRODUÇÃO DE CACAU E CHOCOLATE",
+            "fredao_id": "PRODUÇÃO DE CACAU E CHOCOLATE"
         },
         {
             "co_curso": 144,
-            "no_curso": "PRODU\u00c7\u00c3O DE GR\u00c3OS"
+            "no_curso": "PRODUÇÃO DE GRÃOS",
+            "fredao_id": "PRODUÇÃO DE GRÃOS"
         },
         {
             "co_curso": 4605,
-            "no_curso": "PRODU\u00c7\u00c3O E POL\u00cdTICA CULTURAL"
+            "no_curso": "PRODUÇÃO E POLÍTICA CULTURAL",
+            "fredao_id": null
         },
         {
             "co_curso": 156,
-            "no_curso": "PRODU\u00c7\u00c3O FONOGR\u00c1FICA"
+            "no_curso": "PRODUÇÃO FONOGRÁFICA",
+            "fredao_id": "PRODUÇÃO FONOGRÁFICA"
         },
         {
             "co_curso": 157,
-            "no_curso": "PRODU\u00c7\u00c3O MULTIM\u00cdDIA"
+            "no_curso": "PRODUÇÃO MULTIMÍDIA",
+            "fredao_id": "PRODUÇÃO MULTIMÍDIA"
         },
         {
             "co_curso": 5112,
-            "no_curso": "PRODU\u00c7\u00c3O MUSICAL"
+            "no_curso": "PRODUÇÃO MUSICAL",
+            "fredao_id": "PRODUÇÃO MUSICAL"
         },
         {
             "co_curso": 158,
-            "no_curso": "PRODU\u00c7\u00c3O PUBLICIT\u00c1RIA"
+            "no_curso": "PRODUÇÃO PUBLICITÁRIA",
+            "fredao_id": "PRODUÇÃO PUBLICITÁRIA"
         },
         {
             "co_curso": 206,
-            "no_curso": "PRODU\u00c7\u00c3O SUCROALCOOLEIRA"
+            "no_curso": "PRODUÇÃO SUCROALCOOLEIRA",
+            "fredao_id": null
         },
         {
             "co_curso": 44,
-            "no_curso": "PSICOLOGIA"
+            "no_curso": "PSICOLOGIA",
+            "fredao_id": "PSICOLOGIA"
         },
         {
             "co_curso": 2847,
-            "no_curso": "PSICOPEDAGOGIA"
+            "no_curso": "PSICOPEDAGOGIA",
+            "fredao_id": "PSICOPEDAGOGIA"
         },
         {
             "co_curso": 2445,
-            "no_curso": "PUBLICIDADE E PROPAGANDA"
+            "no_curso": "PUBLICIDADE E PROPAGANDA",
+            "fredao_id": "PUBLICIDADE E PROPAGANDA"
         }
     ],
     "Q": [
         {
             "co_curso": 45,
-            "no_curso": "QU\u00cdMICA"
+            "no_curso": "QUÍMICA",
+            "fredao_id": "QUÍMICA"
         },
         {
             "co_curso": 5394,
-            "no_curso": "QU\u00cdMICA - ATRIBUI\u00c7\u00d4ES TECNOL\u00d3GICAS"
+            "no_curso": "QUÍMICA - ATRIBUIÇÔES TECNOLÓGICAS",
+            "fredao_id": "QUÍMICA - ATRIBUIÇÔES TECNOLÓGICAS"
         },
         {
             "co_curso": 4634,
-            "no_curso": "QU\u00cdMICA - LICENCIATURA OU BACHARELADO"
+            "no_curso": "QUÍMICA - LICENCIATURA OU BACHARELADO",
+            "fredao_id": "QUÍMICA - LICENCIATURA OU BACHARELADO"
         },
         {
             "co_curso": 3608,
-            "no_curso": "QU\u00cdMICA AMBIENTAL"
+            "no_curso": "QUÍMICA AMBIENTAL",
+            "fredao_id": "QUÍMICA AMBIENTAL"
         },
         {
             "co_curso": 2343,
-            "no_curso": "QU\u00cdMICA DE ALIMENTOS"
+            "no_curso": "QUÍMICA DE ALIMENTOS",
+            "fredao_id": null
         },
         {
             "co_curso": 4027,
-            "no_curso": "QU\u00cdMICA DO PETR\u00d3LEO"
+            "no_curso": "QUÍMICA DO PETRÓLEO",
+            "fredao_id": null
         },
         {
             "co_curso": 2250,
-            "no_curso": "QU\u00cdMICA INDUSTRIAL"
+            "no_curso": "QUÍMICA INDUSTRIAL",
+            "fredao_id": "QUÍMICA INDUSTRIAL"
         },
         {
             "co_curso": 4956,
-            "no_curso": "QU\u00cdMICA MEDICINAL"
+            "no_curso": "QUÍMICA MEDICINAL",
+            "fredao_id": "QUÍMICA MEDICINAL"
         },
         {
             "co_curso": 3806,
-            "no_curso": "QU\u00cdMICA TECNOL\u00d3GICA"
+            "no_curso": "QUÍMICA TECNOLÓGICA",
+            "fredao_id": "QUÍMICA TECNOLÓGICA"
         },
         {
             "co_curso": 5816,
-            "no_curso": "QU\u00cdMICA TECNOL\u00d3GICA E AGROQU\u00cdMICA"
+            "no_curso": "QUÍMICA TECNOLÓGICA E AGROQUÍMICA",
+            "fredao_id": null
         },
         {
             "co_curso": 4255,
-            "no_curso": "QU\u00cdMICA TECNOL\u00d3GICA E INDUSTRIAL"
+            "no_curso": "QUÍMICA TECNOLÓGICA E INDUSTRIAL",
+            "fredao_id": "QUÍMICA TECNOLÓGICA E INDUSTRIAL"
         }
     ],
     "R": [
         {
             "co_curso": 2448,
-            "no_curso": "RADIALISMO"
+            "no_curso": "RADIALISMO",
+            "fredao_id": "RADIALISMO"
         },
         {
             "co_curso": 3949,
-            "no_curso": "R\u00c1DIO, TV E INTERNET"
+            "no_curso": "RÁDIO, TV E INTERNET",
+            "fredao_id": "RÁDIO, TV E INTERNET"
         },
         {
             "co_curso": 229,
-            "no_curso": "RADIOLOGIA"
+            "no_curso": "RADIOLOGIA",
+            "fredao_id": "RADIOLOGIA"
         },
         {
             "co_curso": 216,
-            "no_curso": "REDES DE COMPUTADORES"
+            "no_curso": "REDES DE COMPUTADORES",
+            "fredao_id": "REDES DE COMPUTADORES"
         },
         {
             "co_curso": 3807,
-            "no_curso": "RELA\u00c7\u00d5ES ECON\u00d4MICAS INTERNACIONAIS"
+            "no_curso": "RELAÇÕES ECONÔMICAS INTERNACIONAIS",
+            "fredao_id": "RELAÇÕES ECONÔMICAS INTERNACIONAIS"
         },
         {
             "co_curso": 69,
-            "no_curso": "RELA\u00c7\u00d5ES INTERNACIONAIS"
+            "no_curso": "RELAÇÕES INTERNACIONAIS",
+            "fredao_id": "RELAÇÕES INTERNACIONAIS"
         },
         {
             "co_curso": 3904,
-            "no_curso": "RELA\u00c7\u00d5ES INTERNACIONAIS E INTEGRA\u00c7\u00c3O"
+            "no_curso": "RELAÇÕES INTERNACIONAIS E INTEGRAÇÃO",
+            "fredao_id": "RELAÇÕES INTERNACIONAIS E INTEGRAÇÃO"
         },
         {
             "co_curso": 2449,
-            "no_curso": "RELA\u00c7\u00d5ES P\u00daBLICAS"
+            "no_curso": "RELAÇÕES PÚBLICAS",
+            "fredao_id": "RELAÇÕES PÚBLICAS"
         }
     ],
     "S": [
         {
             "co_curso": 230,
-            "no_curso": "SANEAMENTO AMBIENTAL"
+            "no_curso": "SANEAMENTO AMBIENTAL",
+            "fredao_id": "SANEAMENTO AMBIENTAL"
         },
         {
             "co_curso": 1466,
-            "no_curso": "SA\u00daDE COLETIVA"
+            "no_curso": "SAÚDE COLETIVA",
+            "fredao_id": "SAÚDE COLETIVA"
         },
         {
             "co_curso": 171,
-            "no_curso": "SECRETARIADO"
+            "no_curso": "SECRETARIADO",
+            "fredao_id": "SECRETARIADO"
         },
         {
             "co_curso": 46,
-            "no_curso": "SECRETARIADO EXECUTIVO"
+            "no_curso": "SECRETARIADO EXECUTIVO",
+            "fredao_id": "SECRETARIADO EXECUTIVO"
         },
         {
             "co_curso": 2314,
-            "no_curso": "SECRETARIADO EXECUTIVO - BIL\u00cdNGUE"
+            "no_curso": "SECRETARIADO EXECUTIVO - BILÍNGUE",
+            "fredao_id": null
         },
         {
             "co_curso": 2315,
-            "no_curso": "SECRETARIADO EXECUTIVO TRIL\u00cdNGUE"
+            "no_curso": "SECRETARIADO EXECUTIVO TRILÍNGUE",
+            "fredao_id": "SECRETARIADO EXECUTIVO TRILÍNGUE"
         },
         {
             "co_curso": 5713,
-            "no_curso": "SEGURAN\u00c7A CIBERN\u00c9TICA"
+            "no_curso": "SEGURANÇA CIBERNÉTICA",
+            "fredao_id": "SEGURANÇA CIBERNÉTICA"
         },
         {
             "co_curso": 218,
-            "no_curso": "SEGURAN\u00c7A DA INFORMA\u00c7\u00c3O"
+            "no_curso": "SEGURANÇA DA INFORMAÇÃO",
+            "fredao_id": "SEGURANÇA DA INFORMAÇÃO"
         },
         {
             "co_curso": 3654,
-            "no_curso": "SEGURAN\u00c7A P\u00daBLICA"
+            "no_curso": "SEGURANÇA PÚBLICA",
+            "fredao_id": "SEGURANÇA PÚBLICA"
         },
         {
             "co_curso": 47,
-            "no_curso": "SERVI\u00c7O SOCIAL"
+            "no_curso": "SERVIÇO SOCIAL",
+            "fredao_id": "SERVIÇO SOCIAL"
         },
         {
             "co_curso": 59,
-            "no_curso": "SISTEMA DE INFORMA\u00c7\u00c3O"
+            "no_curso": "SISTEMA DE INFORMAÇÃO",
+            "fredao_id": "SISTEMA DE INFORMAÇÃO"
         },
         {
             "co_curso": 232,
-            "no_curso": "SISTEMAS BIOM\u00c9DICOS"
+            "no_curso": "SISTEMAS BIOMÉDICOS",
+            "fredao_id": "SISTEMAS BIOMÉDICOS"
         },
         {
             "co_curso": 2605,
-            "no_curso": "SISTEMAS DE COMPUTA\u00c7\u00c3O"
+            "no_curso": "SISTEMAS DE COMPUTAÇÃO",
+            "fredao_id": "SISTEMAS DE COMPUTAÇÃO"
         },
         {
             "co_curso": 3134,
-            "no_curso": "SISTEMAS DE ENERGIA"
+            "no_curso": "SISTEMAS DE ENERGIA",
+            "fredao_id": null
         },
         {
             "co_curso": 3755,
-            "no_curso": "SISTEMAS DE INFORMA\u00c7\u00c3O"
+            "no_curso": "SISTEMAS DE INFORMAÇÃO",
+            "fredao_id": "SISTEMAS DE INFORMAÇÃO"
         },
         {
             "co_curso": 219,
-            "no_curso": "SISTEMAS DE TELECOMUNICA\u00c7\u00d5ES"
+            "no_curso": "SISTEMAS DE TELECOMUNICAÇÕES",
+            "fredao_id": "SISTEMAS DE TELECOMUNICAÇÕES"
         },
         {
             "co_curso": 4230,
-            "no_curso": "SISTEMAS E M\u00cdDIAS DIGITAIS"
+            "no_curso": "SISTEMAS E MÍDIAS DIGITAIS",
+            "fredao_id": "SISTEMAS E MÍDIAS DIGITAIS"
         },
         {
             "co_curso": 209,
-            "no_curso": "SISTEMAS EL\u00c9TRICOS"
+            "no_curso": "SISTEMAS ELÉTRICOS",
+            "fredao_id": "SISTEMAS ELÉTRICOS"
         },
         {
             "co_curso": 4728,
-            "no_curso": "SISTEMAS EMBARCADOS"
+            "no_curso": "SISTEMAS EMBARCADOS",
+            "fredao_id": "SISTEMAS EMBARCADOS"
         },
         {
             "co_curso": 220,
-            "no_curso": "SISTEMAS PARA INTERNET"
+            "no_curso": "SISTEMAS PARA INTERNET",
+            "fredao_id": "SISTEMAS PARA INTERNET"
         },
         {
             "co_curso": 15,
-            "no_curso": "SOCIOLOGIA"
+            "no_curso": "SOCIOLOGIA",
+            "fredao_id": null
         },
         {
             "co_curso": 5179,
-            "no_curso": "SOM, IMAGEM E MOVIMENTO"
+            "no_curso": "SOM, IMAGEM E MOVIMENTO",
+            "fredao_id": null
         }
     ],
     "T": [
         {
             "co_curso": 48,
-            "no_curso": "TEATRO"
+            "no_curso": "TEATRO",
+            "fredao_id": "TEATRO"
         },
         {
             "co_curso": 2508,
-            "no_curso": "TECNOLOGIA DA INFORMA\u00c7\u00c3O"
+            "no_curso": "TECNOLOGIA DA INFORMAÇÃO",
+            "fredao_id": "TECNOLOGIA DA INFORMAÇÃO"
         },
         {
             "co_curso": 3097,
-            "no_curso": "TECNOLOGIAS DA INFORMA\u00c7\u00c3O E COMUNICA\u00c7\u00c3O"
+            "no_curso": "TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO",
+            "fredao_id": "TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO"
         },
         {
             "co_curso": 221,
-            "no_curso": "TELEM\u00c1TICA"
+            "no_curso": "TELEMÁTICA",
+            "fredao_id": "TELEMÁTICA"
         },
         {
             "co_curso": 4188,
-            "no_curso": "TEORIA DA DAN\u00c7A"
+            "no_curso": "TEORIA DA DANÇA",
+            "fredao_id": null
         },
         {
             "co_curso": 4733,
-            "no_curso": "TEORIA, CR\u00cdTICA E HIST\u00d3RIA DA ARTE"
+            "no_curso": "TEORIA, CRÍTICA E HISTÓRIA DA ARTE",
+            "fredao_id": "TEORIA, CRÍTICA E HISTÓRIA DA ARTE"
         },
         {
             "co_curso": 49,
-            "no_curso": "TERAPIA OCUPACIONAL"
+            "no_curso": "TERAPIA OCUPACIONAL",
+            "fredao_id": "TERAPIA OCUPACIONAL"
         },
         {
             "co_curso": 5971,
-            "no_curso": "TOXICOLOGIA"
+            "no_curso": "TOXICOLOGIA",
+            "fredao_id": "TOXICOLOGIA"
         },
         {
             "co_curso": 3528,
-            "no_curso": "TRADU\u00c7\u00c3O"
+            "no_curso": "TRADUÇÃO",
+            "fredao_id": null
         },
         {
             "co_curso": 4927,
-            "no_curso": "TRADU\u00c7\u00c3O E INTERPRETA\u00c7\u00c3O EM L\u00cdNGUA BRASILEIRA DE SINAIS - LIBRAS\/L\u00cdNGUA PORTUGUESA"
+            "no_curso": "TRADUÇÃO E INTERPRETAÇÃO EM LÍNGUA BRASILEIRA DE SINAIS - LIBRAS/LÍNGUA PORTUGUESA",
+            "fredao_id": "TRADUÇÃO E INTERPRETAÇÃO EM LÍNGUA BRASILEIRA DE SINAIS - LIBRAS/LÍNGUA PORTUGUESA"
         },
         {
             "co_curso": 6093,
-            "no_curso": "TRADU\u00c7\u00c3O E INTERPRETA\u00c7\u00c3O EM L\u00cdNGUA CHINESA"
+            "no_curso": "TRADUÇÃO E INTERPRETAÇÃO EM LÍNGUA CHINESA",
+            "fredao_id": "TRADUÇÃO E INTERPRETAÇÃO EM LÍNGUA CHINESA"
         },
         {
             "co_curso": 50,
-            "no_curso": "TURISMO"
+            "no_curso": "TURISMO",
+            "fredao_id": "TURISMO"
         },
         {
             "co_curso": 2262,
-            "no_curso": "TURISMO E HOTELARIA"
+            "no_curso": "TURISMO E HOTELARIA",
+            "fredao_id": "TURISMO E HOTELARIA"
         },
         {
             "co_curso": 5254,
-            "no_curso": "TURISMO E NEG\u00d3CIOS"
+            "no_curso": "TURISMO E NEGÓCIOS",
+            "fredao_id": null
         },
         {
             "co_curso": 4914,
-            "no_curso": "TURISMO PATRIMONIAL E SOCIOAMBIENTAL"
+            "no_curso": "TURISMO PATRIMONIAL E SOCIOAMBIENTAL",
+            "fredao_id": null
         }
     ],
     "U": [
         {
             "co_curso": 3394,
-            "no_curso": "URBANISMO"
+            "no_curso": "URBANISMO",
+            "fredao_id": "URBANISMO"
         }
     ],
     "V": [
         {
             "co_curso": 210,
-            "no_curso": "VITICULTURA E ENOLOGIA"
+            "no_curso": "VITICULTURA E ENOLOGIA",
+            "fredao_id": "VITICULTURA E ENOLOGIA"
         }
     ],
     "W": [],
@@ -2696,7 +3358,8 @@
     "Z": [
         {
             "co_curso": 51,
-            "no_curso": "ZOOTECNIA"
+            "no_curso": "ZOOTECNIA",
+            "fredao_id": "ZOOTECNIA"
         }
     ]
 }
