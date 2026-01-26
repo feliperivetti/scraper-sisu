@@ -5,7 +5,7 @@ from repository import SisuRepository
 from providers.fredao_provider import FredaoProvider
 
 # --- UI CONFIGURATION ---
-st.set_page_config(page_title="SISU Analytics Pro", layout="wide", page_icon="📊")
+st.set_page_config(page_title="SISU Analytics", layout="wide", page_icon="📊")
 
 def get_unified_data(selected_ids, selected_names_map, repository, provider):
     """
@@ -82,7 +82,7 @@ def get_unified_data(selected_ids, selected_names_map, repository, provider):
 
 def main():
     # --- HEADER ---
-    st.title("📊 SISU Aggregator & Analytics")
+    st.title("📊 Visualização de Dados do SISU")
     st.caption("Estratégia Híbrida: SQLite (Top 17) + API Fredão (Sob Demanda)")
 
     repo = SisuRepository()
