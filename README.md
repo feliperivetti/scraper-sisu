@@ -1,50 +1,44 @@
 # 🎓 SISU Daily Sync - Monitoramento de Notas de Corte
 
-Este projeto é uma ferramenta de automação e engenharia de dados projetada para monitorar, coletar e armazenar o histórico das notas de corte do SISU. Ele foca nos cursos mais concorridos, construindo uma base de dados histórica robusta para análise de tendências.
-
-## 🌐 Dashboard Online
-Acesse a visualização dos dados em tempo real:  
-🚀 **[https://scraper-sisu.streamlit.app](https://scraper-sisu.streamlit.app)**
+Este projeto evoluiu de um script simples para auxiliar no monitoramento de cursos específicos, como Psicologia, para uma plataforma de engenharia de dados robusta. Ele utiliza uma arquitetura moderna para coletar, tratar e visualizar o histórico das notas de corte do SISU 2026, garantindo integridade mesmo diante de instabilidades nos dados oficiais.
 
 ## 🏗️ Arquitetura e Padrões de Projeto
-O sistema foi desenvolvido seguindo padrões de engenharia de software para garantir escalabilidade e manutenção:
 
-* **Padrão MVC (Model-View-Controller):**
-    * **Model:** Representação dos dados (vagas e modalidades).
-    * **View:** Interface interativa desenvolvida em Streamlit.
-    * **Controller:** Orquestração da lógica de negócio e paralelismo.
-* **Camada DAL (Data Access Layer):** Implementada via `SisuRepository`, isolando completamente a lógica de persistência de arquivos (CSV/JSON/TXT) das regras de negócio.
-* **Injeção de Dependência:** Facilitando a troca de provedores de dados (APIs) sem afetar o fluxo principal.
+O sistema segue o padrão MVC (Model-View-Controller) e foi refatorado para suportar persistência relacional e consumo híbrido de dados:
 
-## 🚀 Diferenciais Técnicos
+- **Model**: Gerenciamento de dados com SQLite, garantindo consultas muito mais rápidas que a abordagem anterior baseada em CSV.
+- **View**: Dashboard analítico desenvolvido em Streamlit com visualizações dinâmicas via Plotly.
+- **Controller**: Orquestração de busca híbrida (Local DB + Live API) e lógica de paralelismo.
+- **Camada DAL (Data Access Layer)**: Isolamento total da lógica de persistência no SisuRepository.
 
-* **Alta Performance (Parallel Threading):** Implementação de `ThreadPoolExecutor` no Controller para realizar a coleta de múltiplas faculdades simultaneamente, reduzindo o tempo de execução em mais de 90%.
-* **Sessões Persistentes:** Uso de `requests.Session` com **Connection Pooling**, permitindo o reuso de conexões TCP (Keep-Alive) e reduzindo a latência nas requisições ao servidor do MEC.
-* **Resiliência a Fuso Horário:** Configurado com `zoneinfo` para operar rigorosamente no fuso de **Brasília (UTC-3)**, garantindo a integridade do histórico mesmo quando executado em servidores internacionais (GitHub/Streamlit).
-* **Histórico Incremental Inteligente:** O sistema identifica se os dados do dia já foram coletados e utiliza uma lógica de *Skip* para evitar redundância e desperdício de recursos.
+## 🚀 Diferenciais Técnicos e Evolução
+
+- **Estratégia Híbrida (Lazy Loading)**: O sistema prioriza a consulta ao banco local para os 17 cursos prioritários. Caso o usuário selecione um curso fora do cache, o app realiza uma busca On-Demand via API Especialista (Professor Fredão).
+- **Normalização de Dados**: Tratamento rigoroso de strings (Uppercase/Strip) e uso de Composite Keys (Universidade + Cidade + Curso) para evitar colisões e erros em gráficos de séries temporais.
+- **Automação com GitHub Actions**: Workflow configurado para realizar o sync diário, processar os dados e persistir as atualizações no repositório automaticamente.
 
 ## 📂 Estrutura do Projeto
-
-```text
+```
 .
 ├── data/
-│   ├── history/     # CSVs com histórico incremental (uma coluna por dia)
-│   ├── mappings/    # JSONs de mapeamento de IDs de cursos
-│   └── reports/     # Relatórios TXT formatados do último ciclo de sync
+│   ├── sisu_data.db     # Banco de dados SQLite (Histórico consolidado)
+│   ├── mappings/        # JSONs de mapeamento de IDs (MEC vs Especialista)
+│   └── reports/         # Relatórios legados em TXT para consulta rápida
 └── src/
-    ├── providers/    # Provedores de dados (Consumo de APIs externas)
-    ├── controller.py # Cérebro do projeto (MVC - Controller)
-    ├── repository.py # Camada de persistência (DAL)
-    └── cron_sync.py  # Script de automação e rotinas em lote
-    └── app.py        # Dashboard Streamlit (MVC - View)
+    ├── providers/       # Abstração de APIs (MEC e Provedores Externos)
+    ├── repository.py    # DAL - Operações de banco e carregamento de JSON
+    ├── controller.py    # Lógica de negócio e coordenação de threads
+    └── app.py           # Interface Streamlit (Filtros dinâmicos e Gráficos)
 ```
 
-## 🤖 Automação e Hospedagem
+## 📊 Visualização Avançada
 
-* **Execução:** O projeto utiliza **GitHub Actions** para rodar o processo de coleta automaticamente todos os dias. O workflow realiza o setup, executa a sincronização e faz o commit automático dos novos dados para o repositório.
-* **Hospedagem:** O dashboard de visualização está hospedado no **Streamlit Cloud**, integrado diretamente ao repositório para atualizações contínuas.
+O dashboard foi projetado para oferecer clareza máxima na tomada de decisão:
 
----
+- **Filtros Cascata**: Seleção de UF que filtra automaticamente as instituições disponíveis.
+- **Gráficos de Tendência**: Visualização das 5 opções mais acessíveis, com eixos categóricos travados no cronograma oficial (20/01 a 23/01).
+- **Tabela Pivotada**: Visão multidimensional incluindo Curso, Universidade, Cidade e UF.
 
-### 📝 Notas de Desenvolvimento
-O projeto foi otimizado para respeitar limites de taxa (Rate Limiting) da API oficial, utilizando um pool de no máximo 10 conexões simultâneas, garantindo a coleta sem risco de bloqueio de IP.
+## 📝 Notas de Desenvolvimento
+
+Originalmente concebido para gerar relatórios simples em .txt, o projeto foi expandido para praticar conceitos avançados de Python, SQL e Engenharia de Software.

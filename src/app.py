@@ -140,7 +140,7 @@ def main():
             columns='date', 
             values='score'
         ).reset_index()
-        st.dataframe(df_table.fillna("-"), use_container_width=True)
+        st.dataframe(df_table.fillna("-"), width='stretch')
 
         st.divider()
         st.subheader("📈 Evolução Temporal (Top 5 Menores Notas)")
@@ -174,7 +174,7 @@ def main():
                 margin=dict(l=10, r=10, t=40, b=10)
             )
             
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
         else:
             st.info("Ajuste os filtros acima para visualizar o gráfico de evolução.")
     else:
